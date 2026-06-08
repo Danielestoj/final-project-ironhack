@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Dados de Golpe",
+    "descripcion": "1d8 por nivel de bardo.",
+    "tipo": "equipo"
+  },
+  {
+    "nombre": "Puntos de golpe a nivel 1",
+    "descripcion": "8 + tu modificador por",
+    "tipo": "equipo"
+  },
+  {
+    "nombre": "Puntos de golpe a niveles superiores",
+    "descripcion": "1d8 (o 5) +",
+    "tipo": "equipo"
+  },
+  {
+    "nombre": "Armadura",
+    "descripcion": "armaduras ligeras.",
+    "tipo": "equipo"
+  },
+  {
+    "nombre": "Armas",
+    "descripcion": "armas sencillas, ballestas de mano, espadas",
+    "tipo": "equipo"
+  },
+  {
+    "nombre": "Herramientas",
+    "descripcion": "tres instrumentos musicales de",
+    "tipo": "equipo"
+  },
+  {
+    "nombre": "Tiradas de salvación",
+    "descripcion": "Destreza, Carisma.",
+    "tipo": "equipo"
+  },
+  {
+    "nombre": "Habilidades",
+    "descripcion": "escoge tres cualesquiera.",
+    "tipo": "equipo"
+  }
+]

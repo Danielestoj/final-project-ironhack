@@ -1,0 +1,681 @@
+[
+  {
+    "nombre": "Guerrero",
+    "tipo": "clase",
+    "descripcion": "Especialista en combate físico. Competente en armaduras, escudos y armas marciales. Ventaja: versatilidad y resistencia. Dado de golpe: d10. Habilidad principal: Fuerza o Destreza.",
+    "dado_golpe": "d10.",
+    "habilidad_principal": "Fuerza o Destreza"
+  },
+  {
+    "nombre": "Mago",
+    "tipo": "clase",
+    "descripcion": "Usuario de magia arcana. Gran repertorio de hechizos pero físicamente frágil. Dado de golpe: d6. Habilidad principal: Inteligencia. Empieza con 6 hechizos de nivel 1 en su grimorio.",
+    "dado_golpe": "d6.",
+    "habilidad_principal": "Inteligencia"
+  },
+  {
+    "nombre": "Pícaro",
+    "tipo": "clase",
+    "descripcion": "Experto en sigilo, trampas y ataques precisos. Ataque furtivo (1d6 por nivel). Dado de golpe: d8. Habilidad principal: Destreza. Ideal para exploración e infiltración.",
+    "dado_golpe": "d8.",
+    "habilidad_principal": "Destreza"
+  },
+  {
+    "nombre": "Clérigo",
+    "tipo": "clase",
+    "descripcion": "Canaliza poder divino. Puede curar, repeler muertos vivientes y proteger aliados. Dado de golpe: d8. Habilidad principal: Sabiduría. Dominio divino que otorga habilidades adicionales.",
+    "dado_golpe": "d8.",
+    "habilidad_principal": "Sabiduría"
+  },
+  {
+    "nombre": "Bárbaro",
+    "tipo": "clase",
+    "descripcion": "Guerrero salvaje que entra en furia. Resistencia a daño físico durante la furia. Dado de golpe: d12. Habilidad principal: Fuerza. Ventaja en Fuerza y salvaciones durante la furia.",
+    "dado_golpe": "d12.",
+    "habilidad_principal": "Fuerza"
+  },
+  {
+    "nombre": "Explorador",
+    "tipo": "clase",
+    "descripcion": "Cazador experimentado con magia natural. Dado de golpe: d10. Habilidades principales: Destreza, Sabiduría. Competente con arcos y armas marciales.",
+    "dado_golpe": "d10.",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Paladín",
+    "tipo": "clase",
+    "descripcion": "Guerrero sagrado con juramento divino. Dado de golpe: d10. Habilidad principal: Fuerza, Carisma. Puede curar e imponer manos.",
+    "dado_golpe": "d10.",
+    "habilidad_principal": "Fuerza, Carisma"
+  },
+  {
+    "nombre": "Druida",
+    "tipo": "clase",
+    "descripcion": "Guardián de la naturaleza con forma salvaje. Dado de golpe: d8. Habilidad principal: Sabiduría. Puede transformarse en animales.",
+    "dado_golpe": "d8.",
+    "habilidad_principal": "Sabiduría"
+  },
+  {
+    "nombre": "Humano",
+    "tipo": "raza",
+    "descripcion": "Versátil. +1 a todas las habilidades. Ideal para cualquier clase.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Elfo",
+    "tipo": "raza",
+    "descripcion": "+2 Destreza. Visión en la oscuridad. Inmune a dormir. Ventaja contra hechizos.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Enano",
+    "tipo": "raza",
+    "descripcion": "+2 Constitución. Visión en la oscuridad. Resistencia al veneno. Competente en armas enanas.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Mediano",
+    "tipo": "raza",
+    "descripcion": "+2 Destreza. Pequeño. Suertudo (repetición de 1s). Valiente (ventaja contra miedo).",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Semielfo",
+    "tipo": "raza",
+    "descripcion": "+2 Carisma, +1 a dos habilidades. Visión en la oscuridad. Ventaja contra hechizos.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Semiorco",
+    "tipo": "raza",
+    "descripcion": "+2 Fuerza, +1 Constitución. Visión en la oscuridad. Aguante (1 vez/día, 1 PG al caer a 0).",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Gnomo",
+    "tipo": "raza",
+    "descripcion": "+2 Inteligencia. Pequeño. Visión en la oscuridad. Astucia gnoma (ventaja en Sabiduría contra magia).",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Tiefling",
+    "tipo": "raza",
+    "descripcion": "+2 Carisma, +1 Inteligencia. Visión en la oscuridad. Resistencia al fuego. Hechizos infernales.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Dados de Golpe",
+    "tipo": "raza",
+    "descripcion": "1d8 por nivel de brujo.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Puntos de golpe a nivel 1",
+    "tipo": "raza",
+    "descripcion": "8 + tu modificador por",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Puntos de golpe a niveles superiores",
+    "tipo": "raza",
+    "descripcion": "1d8 (o 5) +",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Armadura",
+    "tipo": "raza",
+    "descripcion": "armaduras ligeras.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Armas",
+    "tipo": "raza",
+    "descripcion": "armas sencillas.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Tiradas de salvación",
+    "tipo": "raza",
+    "descripcion": "Sabiduría, Carisma.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Habilidades",
+    "tipo": "raza",
+    "descripcion": "escoge dos de entre Conocimiento",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Dados de Golpe",
+    "tipo": "raza",
+    "descripcion": "1d8 por nivel de clérigo.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Puntos de golpe a nivel 1",
+    "tipo": "raza",
+    "descripcion": "8 + tu modificador por",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Puntos de golpe a niveles superiores",
+    "tipo": "raza",
+    "descripcion": "1d8 (o 5) +",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Armadura",
+    "tipo": "raza",
+    "descripcion": "armaduras ligeras y medias, escudos.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Armas",
+    "tipo": "raza",
+    "descripcion": "armas sencillas.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Tiradas de salvación",
+    "tipo": "raza",
+    "descripcion": "Sabiduría, Carisma.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Habilidades",
+    "tipo": "raza",
+    "descripcion": "escoge dos de entre Historia, Medicina,",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Dados de Golpe",
+    "tipo": "raza",
+    "descripcion": "1d8 por nivel de druida.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Puntos de golpe a nivel 1",
+    "tipo": "raza",
+    "descripcion": "8 + tu modificador",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Puntos de golpe a niveles superiores",
+    "tipo": "raza",
+    "descripcion": "1d8 (o 5) +",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Armadura",
+    "tipo": "raza",
+    "descripcion": "armaduras ligeras y medias, escudos",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Armas",
+    "tipo": "raza",
+    "descripcion": "bastones, cimitarras, dagas, dardos, garrotes,",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Herramientas",
+    "tipo": "raza",
+    "descripcion": "útiles de herborista.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Tiradas de salvación",
+    "tipo": "raza",
+    "descripcion": "Inteligencia, Sabiduría.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Habilidades",
+    "tipo": "raza",
+    "descripcion": "escoge dos de entre Conocimiento",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Dados de Golpe",
+    "tipo": "raza",
+    "descripcion": "1d10 por nivel de explorador.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Puntos de golpe a nivel 1",
+    "tipo": "raza",
+    "descripcion": "10 + tu modificador",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Puntos de golpe a niveles superiores",
+    "tipo": "raza",
+    "descripcion": "1d10 (o 6) +",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Armadura",
+    "tipo": "raza",
+    "descripcion": "armaduras ligeras y medias, escudos.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Armas",
+    "tipo": "raza",
+    "descripcion": "armas sencillas y marciales.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Tiradas de salvación",
+    "tipo": "raza",
+    "descripcion": "Fuerza, Destreza.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Habilidades",
+    "tipo": "raza",
+    "descripcion": "escoge tres de entre Atletismo,",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Dados de Golpe",
+    "tipo": "raza",
+    "descripcion": "1d10 por nivel de guerrero.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Puntos de golpe a nivel 1",
+    "tipo": "raza",
+    "descripcion": "10 + tu modificador por",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Puntos de golpe a niveles superiores",
+    "tipo": "raza",
+    "descripcion": "1d10 (o 6) +",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Armadura",
+    "tipo": "raza",
+    "descripcion": "todas las armaduras y escudos.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Armas",
+    "tipo": "raza",
+    "descripcion": "armas sencillas y marciales.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Tiradas de salvación",
+    "tipo": "raza",
+    "descripcion": "Fuerza, Constitución.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Habilidades",
+    "tipo": "raza",
+    "descripcion": "escoge dos de entre Acrobacias,",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Dados de Golpe",
+    "tipo": "raza",
+    "descripcion": "1d6 por nivel de mago.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Puntos de golpe a nivel 1",
+    "tipo": "raza",
+    "descripcion": "6 + tu modificador por",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Puntos de golpe a niveles superiores",
+    "tipo": "raza",
+    "descripcion": "1d6 (o 4) +",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Armas",
+    "tipo": "raza",
+    "descripcion": "ballestas ligeras, bastones, dagas, dardos",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Tiradas de salvación",
+    "tipo": "raza",
+    "descripcion": "Inteligencia, Sabiduría.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Habilidades",
+    "tipo": "raza",
+    "descripcion": "escoge dos de entre Conocimiento",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Dados de Golpe",
+    "tipo": "raza",
+    "descripcion": "1d8 por nivel de monje.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Puntos de golpe a nivel 1",
+    "tipo": "raza",
+    "descripcion": "8 + tu modificador por",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Puntos de golpe a niveles superiores",
+    "tipo": "raza",
+    "descripcion": "1d8 (o 5) +",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Armas",
+    "tipo": "raza",
+    "descripcion": "armas sencillas, espadas cortas.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Herramientas",
+    "tipo": "raza",
+    "descripcion": "escoge un tipo de herramientas",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Tiradas de salvación",
+    "tipo": "raza",
+    "descripcion": "Fuerza, Destreza.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Habilidades",
+    "tipo": "raza",
+    "descripcion": "escoge dos de entre Acrobacias,",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Dados de Golpe",
+    "tipo": "raza",
+    "descripcion": "1d10 por nivel de paladín.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Puntos de golpe a nivel 1",
+    "tipo": "raza",
+    "descripcion": "10 + tu modificador por",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Puntos de golpe a niveles superiores",
+    "tipo": "raza",
+    "descripcion": "1d10 (o 6) +",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Armadura",
+    "tipo": "raza",
+    "descripcion": "todas las armaduras y escudos.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Armas",
+    "tipo": "raza",
+    "descripcion": "armas sencillas y marciales.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Tiradas de salvación",
+    "tipo": "raza",
+    "descripcion": "Sabiduría, Carisma.",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Habilidades",
+    "tipo": "raza",
+    "descripcion": "escoge dos de entre Atletismo,",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "O tienes inspiración o no",
+    "tipo": "raza",
+    "descripcion": "no puedes acumular",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Destreza tienen habilidades asociadas",
+    "tipo": "raza",
+    "descripcion": "Acrobacias,",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Componentes",
+    "tipo": "raza",
+    "descripcion": "V, S, M (aceites y ungüentos raros",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Duración",
+    "tipo": "raza",
+    "descripcion": "Instantáneo",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Componentes",
+    "tipo": "raza",
+    "descripcion": "V, S, M (una rueda de plegarias",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Alcance",
+    "tipo": "raza",
+    "descripcion": "Lanzador (línea de 30 m)",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Componentes",
+    "tipo": "raza",
+    "descripcion": "V, S, M (un poco de pelaje y una vara",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Duración",
+    "tipo": "raza",
+    "descripcion": "Instantáneo",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Componentes",
+    "tipo": "raza",
+    "descripcion": "V, S, M (un poco de pelaje, tres",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Duración",
+    "tipo": "raza",
+    "descripcion": "Instantáneo",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Habilidades",
+    "tipo": "raza",
+    "descripcion": "Medicina +4, Religión +2",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Sentidos",
+    "tipo": "raza",
+    "descripcion": "Percepción pasiva 12",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Idiomas",
+    "tipo": "raza",
+    "descripcion": "uno cualquiera (normalmente común)",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Desafío",
+    "tipo": "raza",
+    "descripcion": "1/4 (50 PX)",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Trucos (a voluntad)",
+    "tipo": "raza",
+    "descripcion": "llama sagrada, luz, taumaturgia",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Nivel 1 (3 espacios)",
+    "tipo": "raza",
+    "descripcion": "bendición, curar heridas, santuario",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Garrote. Ataque con arma cuerpo a cuerpo",
+    "tipo": "raza",
+    "descripcion": "+2 a impactar,",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Clase de Armadura",
+    "tipo": "raza",
+    "descripcion": "12 (15 con armadura de mago)",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Puntos de golpe",
+    "tipo": "raza",
+    "descripcion": "99 (18d8 + 18)",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Tiradas de salvación",
+    "tipo": "raza",
+    "descripcion": "Int +9, Sab +6",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Habilidades",
+    "tipo": "raza",
+    "descripcion": "Conocimiento Arcano +13, Historia +13",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Resistencia a daño",
+    "tipo": "raza",
+    "descripcion": "daño de conjuros; contundente,",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Sentidos",
+    "tipo": "raza",
+    "descripcion": "Percepción pasiva 12",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Idiomas",
+    "tipo": "raza",
+    "descripcion": "seis cualesquiera",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  },
+  {
+    "nombre": "Desafío",
+    "tipo": "raza",
+    "descripcion": "12 (8400 PX)",
+    "dado_golpe": "",
+    "habilidad_principal": ""
+  }
+]

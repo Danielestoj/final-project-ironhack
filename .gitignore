@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+*.egg-info/
+dist/
+
+# Backend
+backend/chroma_db/
+backend/.env
+backend/*.sqlite3
+backend/docs/processing_log.json
+backend/docs/Processed/
+backend/docs/Pending/*.pdf
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store

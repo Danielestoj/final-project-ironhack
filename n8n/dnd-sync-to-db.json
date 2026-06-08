@@ -1,0 +1,51 @@
+{
+  "name": "D&D Sync to DB",
+  "nodes": [
+    {
+      "id": "webhook-trigger",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {
+        "path": "dnd-sync",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "webhookId": "dnd-sync"
+    },
+    {
+      "id": "sync-to-db",
+      "name": "Sync to DB",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [460, 300],
+      "parameters": {
+        "url": "http://127.0.0.1:8000/api/pdf/sync-to-db",
+        "method": "POST",
+        "sendBody": false,
+        "options": {}
+      }
+    },
+    {
+      "id": "done",
+      "name": "Done",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [660, 300],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [[{ "node": "Sync to DB", "type": "main", "index": 0 }]]
+    },
+    "Sync to DB": {
+      "main": [[{ "node": "Done", "type": "main", "index": 0 }]]
+    }
+  },
+  "pinData": {},
+  "versionId": "1.0.0",
+  "active": true,
+  "settings": {}
+}

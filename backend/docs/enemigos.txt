@@ -1,0 +1,844 @@
+Título: Bestiario Básico de Enemigos Comunes
+
+Goblin: Humanoide pequeño, verde, astuto y cobarde. Ataca en grupo. Prefiere trampas al combate directo. CA 15, PG 7 (2d6), Velocidad 30. Ataque: Espada corta (+4, 1d6+2) o Arco corto (+4, 1d6+2). Habilidades: Acción astuta (Esprintar/Retirarse/Esconderse como acción bonus).
+
+Lobo Huargo: Bestia grande y feroz, montura de goblins. Gran velocidad y mordisco poderoso. CA 13, PG 37 (5d10+10), Velocidad 50. Ataque: Mordisco (+5, 2d6+3) y derribo (CD 13 Fuerza). Ventaja en rastreo por olfato.
+
+Esqueleto Animado: Restos óseos reanimados por nigromancia. Inmune a veneno y cansancio. Resistente a armas perforantes. CA 13, PG 13 (2d8+4), Velocidad 30. Ataque: Espada corta (+4, 1d6+2) o Arco corto (+4, 1d6+2). Vulnerable a contundente y radiante.
+
+Bandido Humano: Criminal oportunista que vive del robo. Se rinde si la batalla se vuelve en su contra. CA 12, PG 11 (2d8+2), Velocidad 30. Ataque: Cimitarra (+3, 1d6+1) o Ballesta ligera (+3, 1d8+1).
+
+Slime Verde: Masa gelatinosa que disuelve metal. Sigilosa en techos. CA 8, PG 15 (2d10+4), Velocidad 15. Disuelve armaduras y armas de metal al contacto.
+
+Murciélago Gigante: Bestia voladora que ataca en cuevas. CA 13, PG 22 (4d10), Velocidad 10, vuelo 60. Ataque: Mordisco (+4, 1d8+2). Sentido de la vista a ciegas 60 pies.
+
+Zombi: Muerto viviente lento pero resistente. CA 8, PG 22 (3d8+9), Velocidad 20. Ataque: Puñetazo (+3, 1d6+1). Fortaleza de los no-muertos: si el daño lo deja a 0 PG, tira CD 5, si pasa no muere.
+
+Oso Café: Bestia grande y poderosa. CA 11, PG 34 (4d10+12), Velocidad 40. Ataque: Zarpa (+5, 1d8+4) y Mordisco (+5, 1d6+4). Si golpea con ambas zarpas, agarra y causa 2d6+4 por desgarrar.
+
+
+## Fuente: SRD_CC_v5.1_ES
+
+Documento de referencia del sistema 5.1. 103
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+ Debajo se muestran los tipos de daño, acompa-
+ñados por ejemplos que pueden ayudar a tu GM 
+a asignar el tipo de daño adecuado a un efecto nuevo. 
+ Ácido. El aliento corrosivo de un dragón negro 
+y las enzimas disolventes que secreta un pudin 
+negro causan daño de ácido. 
+ Contundente. Los golpes de objetos romos, como 
+martillos, las caídas o los aplastamientos causan 
+daño contundente. 
+ Cortante. Las espadas, las hachas y las garras 
+de los monstruos causan daño cortante. 
+ Frío. El frío infernal que irradia de la lanza de un 
+diablo gélido o el aliento de un dragón blanco causan 
+daño de frío. 
+ Fuego. El fuego que exhalan los dragones rojos 
+y las llamas que crean muchos conjuros causan daño 
+de fuego. 
+ Fuerza. La fuerza es energía mágica en forma pura 
+enfocada a provocar daño. La mayoría de los efectos 
+que causan daño de fuerza son conjuros, como arma 
+espiritual o proyectil mágico. 
+ Necrótico. El daño necrótico que causan ciertos 
+muertos vivientes y conjuros como toque helado 
+agosta la materia e incluso el alma. 
+ Perforante. Los ataques que perforan o empalan, 
+como los de las lanzas o los mordiscos de los 
+monstruos, causan daño perforante. 
+ Psíquico. Las habilidades mentales, como 
+la descarga psiónica de un azotamentes, causan 
+daño psíquico. 
+ Radiante. El daño radiante que causan el 
+conjuro golpe flamígero de un clérigo o las armas 
+aniquiladoras de un ángel abrasa la piel como 
+el fuego y sobrecarga el espíritu de energía. 
+ Relámpago. Un conjuro relámpago o el aliento de 
+un dragón azul causan daño de relámpago. 
+ Trueno. Un estallido sonoro ensordecedor, como 
+el efecto del conjuro ola atronadora, causa daño de 
+trueno. 
+ Veneno. Los aguijones venenosos y el gas toxico 
+del aliento de un dragón verde causan daño de 
+veneno. 
+Resistencia y vulnerabilidad al daño 
+Algunas criaturas y algunos objetos son excepcional-
+mente difíciles o inusualmente fáciles de dañar con 
+ciertos tipos de daño. 
+ Si una criatura o un objeto cuenta con resistencia 
+a un tipo de daño, el daño de dicho tipo se reduce 
+a la mitad cuando le afecta. Por contra, si posee 
+vulnerabilidad a un tipo de daño, el daño de ese 
+tipo se duplica. 
+ La resistencia y la vulnerabilidad se aplican 
+después del resto de modificadores al daño. Por 
+ejemplo, una criatura resistente al daño contundente 
+sufre un ataque que inflige 25 puntos de este tipo 
+de daño. Además, dicha criatura está dentro de un 
+aura mágica que reduce todo el daño recibido en 5. 
+Por tanto, primero se resta 5 a esos 25 de daño 
+y después se divide el resultado por la mitad, por 
+lo que la criatura recibe finalmente 10 de daño. 
+ Si existen varias resistencias o vulnerabilidades 
+que afectan al mismo tipo de daño, estas solo 
+cuentan como una. Por ejemplo, si una criatura 
+tiene resistencia al daño de fuego y también posee 
+resistencia a todo el daño no mágico, el daño de un 
+fuego no mágico causado a dicha criatura se reducirá 
+a la mitad, no a un cuarto. 
+Curación 
+El daño no es permanente, a no ser que cause la 
+muerte, e incluso esta se puede revertir con magia 
+lo bastante poderosa. Descansar permite a una 
+criatura recuperar sus puntos de golpe y los efectos 
+mágicos como el conjuro curar heridas o una poción 
+de curación pueden eliminar daño en un instante. 
+ Si se cura a una criatura del modo que sea, 
+los puntos de golpe recuperados se añaden a sus 
+puntos de golpe actuales. Eso sí, los puntos de golpe 
+actuales nunca pueden superar los puntos de golpe 
+máximos: los que se recuperen más allá de este valor 
+se pierden. Por ejemplo, un druida cura 8 puntos de 
+golpe a un explorador. Si dicho explorador tiene 
+14 puntos de golpe actuales y sus puntos de golpe 
+máximos son 20, solo recuperará 6 puntos de golpe 
+gracias a la curación del druida, en lugar de 8. 
+ Una criatura que ha muerto no puede recuperar 
+puntos de golpe hasta que se la haga volver a la vida 
+mediante magia (como con el conjuro revivir). 
+ 
+Llegar a 0 puntos de golpe 
+Cuando tus puntos de golpe caen a 0, quedas 
+inconsciente o mueres, como se explica en los 
+apartados siguientes. 
+Muerte instantánea 
+Una cantidad de daño considerable puede matarte 
+al instante. Si el daño reduce a 0 tus puntos de golpe 
+y sigue quedando daño por asignar, morirás si el 
+daño restante es mayor o igual a tus puntos de golpe 
+máximos. 
+ Por ejemplo, a una clériga con 12 puntos de 
+golpe máximos le quedan 6 puntos de golpe en este
+
+Documento de referencia del sistema 5.1. 231
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+criatura ilusoria y puedas verla, podrás emplear 
+una acción para moverla mágicamente a cualquier 
+lugar situado a 9 m o menos de la carta. Cualquier 
+interacción física con la criatura ilusoria revelará 
+que se trata de una ilusión, ya que los objetos 
+la atravesarán. Si alguien utiliza una acción para 
+inspeccionar a la criatura visualmente, se percatará 
+de que es una ilusión si supera una prueba de 
+Inteligencia (Investigación) con CD 15. La criatura 
+se mostrará translúcida en ese caso. 
+ La ilusión durará hasta que se disipe o hasta que 
+alguien mueva la carta. Cuando la ilusión concluya, 
+la imagen de la carta desaparecerá y esa carta no se 
+podrá volver a usar. 
+Naipe 
+Ilusión 
+As de corazones 
+Dragón rojo 
+Rey de corazones 
+Caballero y cuatro guardias 
+Reina de corazones 
+Súcubo o íncubo 
+Jota de corazones 
+Druida 
+Diez de corazones 
+Gigante de las nubes 
+Nueve de corazones 
+Ettin 
+Ocho de corazones 
+Osgo 
+Dos de corazones 
+Goblin 
+As de diamantes 
+Contemplador 
+Rey de diamantes 
+Archimago y aprendiz de mago 
+Reina de diamantes 
+Saga de la noche 
+Jota de diamantes 
+Asesino 
+Diez de diamantes 
+Gigante de fuego 
+Nueve de diamantes 
+Ogro mago 
+Ocho de diamantes 
+Gnoll 
+Dos de diamantes 
+Kobold 
+As de picas 
+Liche 
+Rey de picas 
+Sacerdote y dos acólitos 
+Reina de picas 
+Medusa 
+Jota de picas 
+Veterano 
+Diez de picas 
+Gigante de escarcha 
+Nueve de picas 
+Troll 
+Ocho de picas 
+Hobgoblin 
+Dos de picas 
+Goblin 
+As de tréboles 
+Gólem de hierro 
+Rey de tréboles 
+Capitán bandido y tres bandidos 
+Reina de tréboles 
+Erinia 
+Jota de tréboles 
+Berserker 
+Diez de tréboles 
+Gigante de las colinas 
+Nueve de tréboles 
+Ogro 
+Ocho de tréboles 
+Orco 
+Dos de tréboles 
+Kobold 
+Comodines (2) 
+Tú (quien posee la baraja) 
+Baraja de múltiples cosas 
+Objeto maravilloso, legendario 
+Esta baraja, que normalmente se encuentra dentro 
+de una caja o bolsa, contiene cartas hechas de marfil o 
+vitela. La mayoría (75 %) de estas barajas disponen 
+solo de trece cartas, pero el resto tienen veintidós. 
+ Antes de robar una carta, debes declarar cuántas 
+pretendes robar y, a continuación, robarlas al azar 
+(puedes utilizar una baraja de naipes alterada para 
+simular esta baraja). Cualquier carta robada por 
+encima de la cantidad declarada no tiene efecto. 
+Por lo demás, en cuanto robes una carta de la baraja, 
+su magia producirá el efecto que corresponda. Debes 
+robar cada carta antes de que pase 1 hora desde 
+el robo anterior. Si no robas la cantidad de cartas 
+declaradas, las cartas restantes saldrán volando de 
+la baraja por su cuenta y tendrán efecto a la vez. 
+ Cuando robas una carta, desaparece de tu mano. 
+A menos que sea el Loco o el Bufón, la carta volverá 
+a la baraja, por lo que será posible robarla dos veces. 
+Naipe 
+Carta 
+As de diamantes 
+Visir* 
+Rey de diamantes 
+Sol 
+Reina de diamantes 
+Luna 
+Jota de diamantes 
+Estrella 
+Dos de diamantes 
+Cometa* 
+As de corazones 
+Los Hados* 
+Rey de corazones 
+Trono 
+Reina de corazones 
+Llave 
+Jota de corazones 
+Caballero 
+Dos de corazones 
+Gema* 
+As de tréboles 
+Garras* 
+Rey de tréboles 
+El Vacío 
+Reina de tréboles 
+Llamas 
+Jota de tréboles 
+Calavera 
+Dos de tréboles 
+Idiota* 
+As de picas 
+Calabozo* 
+Rey de picas 
+Ruina 
+Reina de picas 
+Euríale 
+Jota de picas 
+Canalla 
+Dos de picas 
+Equilibrio* 
+Comodín (rojo) 
+Loco* 
+Comodín (negro) 
+Bufón 
+*Solo se encuentra en una baraja de veintidós cartas. 
+ 
+ Bufón. Ganas 10 000 PX o puedes robar dos cartas 
+más de las que declaraste. 
+ Caballero. Un personaje no jugador de la clase 
+guerrero de nivel 4 se pone a tu servicio. Aparecerá 
+en un espacio de tu elección a 9 m o menos de ti. 
+Es de tu misma raza y te servirá con lealtad hasta 
+la muerte, ya que cree que el destino le ha llevado 
+junto a ti. Controlas a este personaje. 
+ Calabozo. Desapareces y quedas sepultado en 
+un estado de animación suspendida en una esfera 
+extradimensional. Todo lo que llevaras y vistieras 
+se queda donde estabas, en el espacio que ocupabas 
+cuando desapareciste. Permanecerás encarcelado
+
+Documento de referencia del sistema 5.1. 232
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+hasta que te encuentren y te saquen de la esfera. No se 
+te puede localizar mediante magia de adivinación, pero 
+sí mediante un conjuro deseo. No robas más cartas. 
+ Calavera. Invocas a un avatar de la muerte: 
+un esqueleto de humanoide fantasmal vestido con 
+una raída túnica negra y que empuña una guadaña 
+espectral. Aparece en un espacio a 3 m o menos de 
+ti a elección de tu GM y te ataca, a la par que advierte 
+al resto que debes derrotarlo en solitario. El avatar 
+luchará contra ti hasta que mueras o hasta que sus 
+puntos de golpe se reduzcan a 0, momento en que 
+desaparecerá. Si alguien intenta ayudarte, el 
+ayudante invocará a su propio avatar de la muerte. 
+Cualquier criatura que sucumba ante un avatar 
+de la muerte no puede revivir. 
+Avatar de la muerte 
+Muerto viviente Mediano, neutral malvado 
+Clase de Armadura: 20 
+Puntos de golpe: la mitad del máximo de su invocador 
+Velocidad: 18 m, volar 18 m (levitar) 
+ 
+FUE 
+DES 
+CON 
+INT 
+SAB 
+CAR 
+ 16 (+3) 16 (+3) 16 (+3) 16 (+3) 16 (+3) 16 (+3) 
+Inmunidad a daño: necrótico, veneno 
+Inmunidad a estados: asustado, envenenado, 
+hechizado, inconsciente, paralizado, petrificado 
+Sentidos: visión en la oscuridad 18 m, visión verdadera 
+18 m, Percepción pasiva 13 
+Idiomas: todos los que conozca su invocador 
+Desafío: — (0 PX) 
+ 
+Inmunidad a Expulsión. El avatar es inmune a los 
+efectos que expulsan muertos vivientes. 
+Movimiento Incorpóreo. El avatar puede moverse 
+a través de otras criaturas y objetos como si fueran 
+terreno difícil. Recibe 5 (1d10) de daño de fuerza si 
+acaba su turno dentro de un objeto. 
+Acciones 
+Guadaña segadora. El avatar barre con su guadaña 
+espectral a una criatura que esté a 1,5 m o menos de 
+él y le inflige 7 (1d8 +3) de daño cortante más 4 (1d8) 
+de daño necrótico. 
+ 
+ Canalla. Un personaje no jugador a elección de tu 
+GM se vuelve hostil hacia ti. La identidad de tu nuevo 
+enemigo será desconocida hasta que el PNJ u otro 
+personaje la revelen. Salvo un conjuro deseo o la 
+intercesión divina, nada puede hacer que esta 
+hostilidad cese. 
+ Cometa. Si derrotas sin ayuda al siguiente 
+monstruo o grupo de monstruos hostiles que te 
+encuentres, ganas suficientes puntos de experiencia 
+para subir de nivel. De lo contrario, la carta no tiene 
+efecto. 
+ Estrella. Aumenta en 2 una de tus puntuaciones 
+de característica. Puede pasar de 20, pero no de 24. 
+ Equilibrio. Tu mente sufre una alteración terrible, 
+lo que causa que tu alineamiento cambie. Legal se 
+vuelve caótico, bueno se vuelve malvado y viceversa. 
+Si eres neutral verdadero o sin alineamiento, esta 
+carta no te afecta. 
+ Euríale. La cara de medusa de la carta te lanza 
+una maldición. Recibes un penalizador de −2 a tus 
+tiradas de salvación mientras estés bajo su influjo. 
+Solo un dios o la magia de Los Hados pueden acabar 
+con esta maldición. 
+ Garras. Todos los objetos mágicos que vistas 
+o lleves contigo se desintegran. Los artefactos que 
+poseas no se destruyen, pero desaparecen. 
+ Gema. Aparecen a tus pies veinticinco joyas 
+con un valor de 2000 po cada una o cincuenta gemas 
+con un valor de 1000 po cada una. 
+ Los Hados. El tejido del universo se desteje y se 
+teje de nuevo, lo que te permite evitar o borrar un 
+suceso, como si nunca hubiera ocurrido. Puedes usar 
+esta magia tan pronto como robes la carta o en 
+cualquier momento antes de morir. 
+ Idiota. Tu Inteligencia se reduce permanente-
+mente en 1d4 + 1 (hasta un mínimo de 1). Puedes 
+robar una carta más de las que declaraste. 
+ Llamas. Un poderoso diablo se convierte en tu 
+enemigo. Buscará tu ruina y te acosará, además de 
+regodearse con tu sufrimiento antes de intentar 
+matarte. Esta enemistad dura hasta que el diablo 
+o tú muráis. 
+ Llave. Aparece en tus manos un arma mágica rara 
+o de mayor rareza con la que eres competente. 
+Tu GM elige el arma. 
+ Loco. Pierdes 10 000 PX, descartas esta carta 
+y robas otra vez de la baraja; ambos robos solo 
+contarán como uno de tus robos declarados. Si esa 
+pérdida de PX te haría bajar de nivel, en vez de eso, 
+perderás la cantidad de PX justa para quedarte en tu 
+nivel actual. 
+ Luna. Obtienes la capacidad de lanzar el conjuro 
+deseo 1d3 veces. 
+ Ruina. Pierdes todas las riquezas que lleves 
+o poseas, excepto los objetos mágicos. Las 
+propiedades que puedas llevar encima desaparecen.
+
+Documento de referencia del sistema 5.1. 274
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Monstruos 
+Los valores de juego de cada monstruo, que reciben 
+en su conjunto el nombre de perfil, contienen la 
+información esencial que necesitarás para poder 
+controlarlo. 
+Tamaño 
+Un monstruo puede ser Diminuto, Pequeño, 
+Mediano, Grande, Enorme o Gargantuesco. La tabla 
+“Categorías de tamaño” muestra cuánto espacio 
+controla en combate cada criatura en función de 
+su tamaño. En la página 96 encontrarás más 
+información sobre el tamaño de las criaturas 
+y el espacio que ocupan. 
+Categorías de tamaño 
+Tamaño 
+Espacio 
+Ejemplos 
+Diminuto 
+0,75 por 0,75 m 
+Diablillo, duende 
+Pequeño 
+1,5 por 1,5 m 
+Goblin, rata gigante 
+Mediano 
+1,5 por 1,5 m 
+Hombre lobo, orco 
+Grande 
+3 por 3 m 
+Hipogrifo, ogro 
+Enorme 
+4,5 por 4,5 m 
+Ent, gigante de fuego 
+Gargantuesco 
+6 por 6 m o más 
+Gusano púrpura, kraken 
+ 
+Modificar criaturas 
+A pesar de lo versátil que es esta selección de monstruos, 
+podrías no encontrar la criatura adecuada para una de tus 
+aventuras. Si te ocurre esto, no dudes en modificar un 
+monstruo ya existente para adaptarlo a tus necesidades, 
+ya sea tomando un atributo de otro monstruo o recurriendo 
+a una variante o plantilla, de las que hay algunos ejemplos 
+en este libro. Pero no olvides que, al modificar un monstruo, 
+aunque sea aplicándole una plantilla, podrías cambiar su 
+valor de desafío. 
+ 
+Tipo 
+El tipo de un monstruo describe su naturaleza 
+fundamental. Ciertos conjuros, objetos mágicos, 
+rasgos de clase y otros efectos del juego afectan de 
+forma especial a las criaturas de tipos concretos. 
+Por ejemplo, una flecha asesina de dragones inflige 
+daño adicional no solo a los dragones, sino a todas 
+las criaturas del tipo “dragón”, como los dragones 
+tortuga o los guivernos. 
+ El juego incluye los siguientes tipos de monstruo, 
+que por sí mismos no tienen regla alguna. 
+ Las aberraciones son seres de naturaleza 
+completamente alienígena. Muchos de ellos poseen 
+habilidades mágicas innatas que no provienen de las 
+fuerzas místicas del mundo, sino de la propia mente 
+de la criatura. Las aberraciones por antonomasia son 
+los aboleths, los azotamentes, los contempladores 
+y los slaads. 
+ Los autómatas no nacen de forma natural, sino 
+que son construidos. Algunos han sido programados 
+por sus creadores para obedecer unas instrucciones 
+muy sencillas, mientras que otros tienen consciencia 
+y son capaces de pensar por sí mismos. Los gólems 
+son los autómatas arquetípicos. Muchas criaturas 
+nativas del Plano Exterior de Mechanus, como los 
+modrons, son autómatas creados a partir de la 
+materia prima de su planto natal. Son producto 
+de la voluntad de seres superiores. 
+ Las bestias son criaturas no humanoides que 
+forman parte del ecosistema. Algunas poseen 
+poderes mágicos, pero la mayoría no son inteli-
+gentes y carecen de sociedad o idioma alguno. 
+Ejemplos de bestias son los animales corrientes, 
+los dinosaurios y las versiones gigantescas de ciertos 
+animales. 
+ Los celestiales son criaturas nativas de los Planos 
+Superiores. Muchas de ellas sirven a los dioses como 
+sus mensajeros y agentes en el reino mortal y a lo 
+largo y ancho de los planos. Los celestiales son 
+buenos por naturaleza, así que aquellos individuos 
+excepcionales que tienen otro alineamiento son 
+rarezas espeluznantes. Los ángeles, couatls 
+y pegasos son celestiales. 
+ Los cienos son criaturas gelatinosas que suelen 
+carecer de una forma concreta. Casi siempre 
+subterráneas, moran en cuevas y mazmorras, 
+donde se alimentan de desechos, carroña o las 
+criaturas que tienen la mala suerte de cruzarse en 
+su camino. Los cienos más famosos son los cubos 
+gelatinosos y los púdines negros. 
+ Los dragones son enormes criaturas de aspecto 
+reptiliano, tremendamente poderosas y de orígenes 
+antiguos. Los auténticos dragones, entre los que se 
+cuentan tanto los metálicos, bondadosos, como los 
+cromáticos, malvados, son seres muy inteligentes 
+y con poderes mágicos innatos. Esta categoría 
+también cubre otras criaturas emparentadas, 
+aunque de forma lejana, con los verdaderos 
+dragones. Menos poderosas e inteligentes, sus 
+facultades mágicas son inferiores. Ejemplos de 
+estos seres son los guivernos y pseudodragones. 
+ Los elementales son criaturas nativas de los 
+Planos Elementales. Algunos de los monstruos de 
+este tipo son poco más que una masa animada del 
+elemento que encarnan. Los seres comúnmente 
+llamados elementales son un ejemplo de esto. Otros, 
+sin embargo, son entidades biológicas rebosantes
+
+Documento de referencia del sistema 5.1. 275
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+de energía elemental. Las diversas razas de genios, 
+entre las que se encuentran los djinns y los ifrits, 
+han creado las civilizaciones más importantes de 
+los Planos Elementales. Otros ejemplos de criaturas 
+elementales serían los azers y los acechadores 
+invisibles. 
+ Los feéricos son criaturas mágicas estrechamente 
+ligadas a las fuerzas de la naturaleza. Moran en las 
+arboledas crepusculares y los bosques cubiertos 
+de bruma. En ciertos mundos están fuertemente 
+ligados a los Parajes Feéricos, que también reciben 
+el nombre de Plano Feérico. También es posible 
+hallar a estas criaturas en algunos Planos Exteriores, 
+especialmente en Arbórea y las Tierras de las Bestias. 
+Las dríades, los duendes y los sátiros son seres 
+feéricos. 
+ Los gigantes se alzan sobre los humanos y otras 
+razas similares. Su forma es parecida a la humana, 
+pero algunos poseen varias cabezas (los ettins) 
+o deformidades (los fomorés). Las seis variedades 
+de gigantes verdaderos son los gigantes de las 
+colinas, de piedra, de escarcha, de fuego, de las 
+nubes y de las tormentas. Además, hay otras 
+criaturas que también son consideradas gigantes, 
+como los ogros y los trolls. 
+ Los humanoides constituyen la mayor parte de 
+las culturas de los mundos de fantasía, tanto salvajes 
+como civilizadas. Este tipo incluye a los humanos 
+y a una enorme variedad de otras especies. Son 
+bípedos, conocen algún idioma y tienen alguna 
+forma de estructura social. Muy pocos poseen 
+capacidades mágicas innatas, aunque la mayoría 
+pueden aprender a lanzar conjuros. Las razas de 
+humanoides más comunes suelen ser las típicas de 
+los personajes jugadores: humanos, elfos, enanos 
+y medianos. Sin embargo, existen otras razas de 
+humanoides, casi tan numerosas como las anteriores, 
+pero mucho más salvajes, brutales y, casi siempre, 
+malvadas: los trasgos (goblins, hobgoblins y osgos), 
+los orcos, los gnolls, los hombres lagarto y los 
+kobolds. 
+ Los infernales son criaturas retorcidas que 
+provienen de los Planos Inferiores. Algunos sirven 
+a los dioses, aunque la mayoría trabajan para los 
+archidiablos y los príncipes demonio. Ciertos magos 
+y sacerdotes malvados intentan invocar infernales 
+al mundo material para que cumplan sus órdenes. 
+Si un celestial maligno es una rara avis, un infernal 
+bueno es prácticamente inconcebible. Los demonios, 
+diablos, rakshasas, sabuesos infernales y yugoloths 
+son todos ellos infernales. 
+ Las monstruosidades son monstruos en 
+el sentido más literal de la palabra: criaturas 
+aterradoras que no son ni normales ni naturales 
+y prácticamente nunca bondadosas. Algunas son 
+el resultado de experimentos mágicos que han salido 
+mal (como los osos lechuza), mientras que otras 
+son producto de horribles maldiciones (como los 
+minotauros y los yuan-tis). Se resisten a cualquier 
+taxonomía, por lo que este tipo suele servir como 
+un cajón de sastre en el que meter a todas aquellas 
+criaturas que no encajan en ningún otro. 
+ Los muertos vivientes son criaturas que antaño 
+estuvieron vivas, pero que ahora se alzan en una 
+horrible parodia de la vida, víctimas de la nigro-
+mancia o de alguna maldición impía. Tanto los 
+cadáveres animados, como los vampiros y los 
+zombis, como los espíritus incorpóreos, como los 
+fantasmas y espectros, son muertos vivientes. 
+ Las plantas no son, en este contexto, simple flora, 
+sino criaturas del reino vegetal. La mayoría son 
+capaces de desplazarse y algunas son carnívoras. 
+Las plantas por excelencia son las brozas movedizas 
+y los ents. Las criaturas fúngicas, como las esporas 
+de gas y los micónidos, también entran en esta 
+categoría. 
+Etiquetas 
+Un monstruo puede tener entre paréntesis una 
+o más etiquetas asociadas a su tipo. Por ejemplo, 
+el orco es del tipo humanoide (orco). Estas etiquetas 
+permiten dotar de un nivel de clasificación adicional 
+a ciertos monstruos. No poseen ninguna regla 
+asociada per se, pero otros aspectos del juego, como 
+algunos objetos mágicos, pueden hacer referencia 
+a ellas. Por ejemplo, una lanza que sea especialmente 
+efectiva contra demonios podría surtir efecto contra 
+cualquier monstruo con la etiqueta “demonio”. 
+Alineamiento 
+El alineamiento de un monstruo da pistas sobre su 
+temperamento y forma de afrontar una situación de 
+interpretación o de combate. Así, será difícil razonar 
+con un monstruo caótico malvado, que podría atacar 
+sin ser provocado. Por contra, quizá un monstruo 
+neutral esté más dispuesto a negociar. En la página 
+58 de este documento se describen los 
+alineamientos. 
+ El alineamiento que aparece en el perfil de cada 
+monstruo es el que se asume por defecto. Aun así, 
+no temas cambiar el alineamiento de un monstruo 
+para que se adapte mejor a las necesidades de tu 
+campaña. Si quieres tener un dragón verde bueno 
+o un gigante de las tormentas malvado, nada te 
+lo impide.
+
+Documento de referencia del sistema 5.1. 277
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+el apartado “Tiradas de salvación” en su perfil. 
+Por consiguiente, un monstruo que no pueda ser 
+fácilmente hechizado o asustado recibirá un 
+bonificador a sus tiradas de salvación de Sabiduría. 
+La mayoría de las criaturas no poseen bonificadores 
+adicionales a sus tiradas de salvación; en esos casos, 
+este apartado no aparecerá. 
+ El bonificador a una tirada de salvación de 
+un monstruo es la suma de su modificador por 
+característica pertinente y su bonificador por 
+competencia, que depende del valor de desafío 
+de la criatura. Esto se muestra en la tabla 
+“Bonificador por competencia por valor de desafío”. 
+Bonificador por competencia por valor 
+de desafío 
+Desafío 
+Bonificador por 
+competencia 
+ 
+Desafío 
+Bonificador por 
+competencia 
+0 
++2 
+ 
+14 
++5 
+1/8 
++2 
+ 
+15 
++5 
+1/4 
++2 
+ 
+16 
++5 
+1/2 
++2 
+ 
+17 
++6 
+1 
++2 
+ 
+18 
++6 
+2 
++2 
+ 
+19 
++6 
+3 
++2 
+ 
+20 
++6 
+4 
++2 
+ 
+21 
++7 
+5 
++3 
+ 
+22 
++7 
+6 
++3 
+ 
+23 
++7 
+7 
++3 
+ 
+24 
++7 
+8 
++3 
+ 
+25 
++8 
+9 
++4 
+ 
+26 
++8 
+10 
++4 
+ 
+27 
++8 
+11 
++4 
+ 
+28 
++8 
+12 
++4 
+ 
+29 
++9 
+13 
++5 
+ 
+30 
++9 
+ 
+Habilidades 
+Solo los monstruos competentes en una o varias 
+habilidades cuentan con el apartado “Habilidades” 
+en su perfil. Por ejemplo, un monstruo muy 
+perspicaz y sigiloso podría disponer de 
+bonificadores en las pruebas de Sabiduría 
+(Percepción) y Destreza (Sigilo). 
+ El bonificador a una habilidad de un monstruo 
+es la suma de su modificador por característica 
+pertinente y su bonificador por competencia, que 
+depende del valor de desafío de la criatura. Esto se 
+muestra en la tabla “Bonificador por competencia 
+por valor de desafío”. También podrían aplicarse 
+otros modificadores. Por ejemplo, un monstruo 
+quizá tenga un bonificador mayor de lo esperado 
+(normalmente el doble de su bonificador por 
+competencia) para representar su pericia 
+excepcional. 
+Vulnerabilidades, resistencias 
+e inmunidades 
+Existen criaturas que poseen vulnerabilidad, 
+resistencia e inmunidad a ciertos tipos de daño. 
+Algunas incluso son resistentes o inmunes a todo el 
+daño que no provenga de ataques mágicos, que son 
+todos aquellos hechos utilizando un conjuro, objeto 
+mágico o cualquier otro origen mágico. Además, 
+algunas son inmunes a ciertos estados. 
+Sentidos 
+El apartado “Sentidos” indica la Sabiduría 
+(Percepción) pasiva de un monstruo, así como 
+cualquier otro sentido especial que pueda tener. 
+Los sentidos especiales se enumeran a continuación: 
+Sentir vibraciones 
+Un monstruo que sienta vibraciones puede detectar 
+y localizar el origen de las mismas dentro de un 
+radio específico si el monstruo y la fuente de las 
+vibraciones están en contacto con el mismo terreno 
+o sustancia. Este sentido no sirve para detectar 
+criaturas voladoras o incorpóreas. Muchas criaturas 
+excavadoras, como los ankhegs y las moles sombrías, 
+cuentan con este sentido especial. 
+Visión ciega 
+Una monstruo con visión ciega puede percibir su 
+entorno sin tener que recurrir a la vista dentro 
+de un radio específico.  
+ Las criaturas sin ojos, como los cienos grises y los 
+grimlocks, así como las que poseen ecolocalización 
+o sentidos agudizados, como los murciélagos o los 
+verdaderos dragones, suelen tener este sentido 
+especial. 
+ Si un monstruo es ciego de forma natural, este 
+hecho suele indicarse entre paréntesis. En estos 
+casos, el radio de su visión ciega es la distancia 
+máxima a la que alcanza su percepción.  
+Visión en la oscuridad 
+Un monstruo con visión en la oscuridad puede ver 
+a oscuras dentro de un radio específico. Si en dicho 
+radio hay luz tenue, verá como si hubiera luz 
+brillante, y si hay oscuridad, como si hubiera luz 
+tenue. Eso sí, no podrá distinguir los colores en 
+la oscuridad, solo distintos tonos de gris. Muchas 
+criaturas subterráneas poseen este sentido especial.
+
+Documento de referencia del sistema 5.1. 396
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+necesiten semanas de extenuante caminata para 
+cruzar una sola de esas capas. 
+ Los Planos Exteriores más conocidos son un grupo 
+de dieciséis planos que se corresponden con los ocho 
+alineamientos (sin contar la neutralidad) y los 
+grados de distinción entre ellos. 
+Planos Exteriores 
+Los planos cuya esencia es el bien se conocen 
+como Planos Superiores y en ellos habitan 
+criaturas celestiales como ángeles y pegasos. 
+A los  planos que poseen cierto grado de maldad 
+se los conoce como Planos Inferiores y son la 
+morada de infernales como demonios y diablos. 
+El alineamiento de un plano es su esencia y un 
+personaje cuyo alineamiento no coincida con el de 
+dicho plano experimentará una profunda sensación 
+de incompatibilidad en él. Si una criatura buena 
+visita Elíseo, por ejemplo (un Plano Superior neutral 
+bueno), se sentirá en sintonía con ese plano, pero 
+una criatura malvada tendrá la sensación de estar 
+fuera de sitio y sufrirá un alto grado de incomodidad. 
+Semiplanos 
+Los semiplanos son pequeños espacios 
+extradimensionales con sus propias reglas, 
+fragmentos de la realidad que no parecen encajar 
+en ninguna otra parte. Existen diversos medios por 
+los que se puede originar un semiplano. Algunos 
+son creaciones de conjuros, como semiplano, o se 
+generan por deseo de una poderosa deidad u otra 
+fuerza similar. Su existencia puede ser natural, como 
+un pliegue de la realidad actual que se ha separado 
+del resto del multiverso, o como un universo en 
+ciernes que va adquiriendo poder. Cada semiplano 
+posee un único punto de acceso, que es el lugar 
+donde linda con otro plano. En teoría, un conjuro 
+desplazamiento entre planos también podría 
+transportar a unos viajeros a un semiplano, pero 
+es extremadamente difícil conseguir que el diapasón 
+suene a la frecuencia adecuada. El conjuro portal 
+resulta más fiable, siempre y cuando el lanzador 
+conozca el semiplano.
+

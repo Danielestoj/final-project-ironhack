@@ -1,0 +1,155 @@
+{
+  "name": "D&D PDF Processor",
+  "nodes": [
+    {
+      "id": "cron-trigger",
+      "name": "Schedule",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {
+        "rule": {
+          "interval": [
+            { "field": "minutes", "minutesInterval": 5 }
+          ]
+        }
+      }
+    },
+    {
+      "id": "check-pending",
+      "name": "Check Pending",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [460, 300],
+      "parameters": {
+        "url": "http://127.0.0.1:8000/api/pdf/check-pending",
+        "method": "POST",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": []
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "expand-files",
+      "name": "Expand File List",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [660, 300],
+      "parameters": {
+        "jsCode": "const { pending } = $json;\nif (!pending || !Array.isArray(pending) || pending.length === 0) {\n  return [{ empty: true }];\n}\nreturn pending.map(filename => ({ filename }));"
+      }
+    },
+    {
+      "id": "has-files",
+      "name": "Has Files?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [860, 300],
+      "parameters": {
+        "conditions": {
+          "boolean": [
+            {
+              "value1": "={{ $json.empty }}",
+              "operation": "notEqual",
+              "value2": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "no-files",
+      "name": "No Files (End)",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1060, 480],
+      "parameters": {}
+    },
+    {
+      "id": "split-batches",
+      "name": "Process Each File",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 1,
+      "position": [1060, 300],
+      "parameters": {
+        "batchSize": 1
+      }
+    },
+    {
+      "id": "process-file",
+      "name": "Process PDF",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1260, 300],
+      "parameters": {
+        "url": "http://127.0.0.1:8000/api/pdf/process",
+        "method": "POST",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            { "name": "filename", "value": "={{ $json.filename }}" }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "loop-back",
+      "name": "Loop Back",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 1,
+      "position": [1460, 300],
+      "parameters": {
+        "options": {}
+      }
+    },
+    {
+      "id": "sync-to-db",
+      "name": "Sync to DB",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1460, 480],
+      "parameters": {
+        "url": "http://127.0.0.1:8000/api/pdf/sync-to-db",
+        "method": "POST",
+        "sendBody": false,
+        "options": {}
+      }
+    }
+  ],
+  "connections": {
+    "Schedule": {
+      "main": [[{ "node": "Check Pending", "type": "main", "index": 0 }]]
+    },
+    "Check Pending": {
+      "main": [[{ "node": "Expand File List", "type": "main", "index": 0 }]]
+    },
+    "Expand File List": {
+      "main": [[{ "node": "Has Files?", "type": "main", "index": 0 }]]
+    },
+    "Has Files?": {
+      "main": [
+        [{ "node": "Process Each File", "type": "main", "index": 0 }],
+        [{ "node": "No Files (End)", "type": "main", "index": 0 }]
+      ]
+    },
+    "Process Each File": {
+      "main": [[{ "node": "Process PDF", "type": "main", "index": 0 }]]
+    },
+    "Process PDF": {
+      "main": [[{ "node": "Loop Back", "type": "main", "index": 0 }]]
+    },
+    "Loop Back": {
+      "main": [[{ "node": "Process Each File", "type": "main", "index": 0 }]]
+    },
+    "No Files (End)": {
+      "main": [[{ "node": "Sync to DB", "type": "main", "index": 0 }]]
+    }
+  },
+  "pinData": {},
+  "versionId": "1.0.0",
+  "active": true,
+  "settings": {}
+}

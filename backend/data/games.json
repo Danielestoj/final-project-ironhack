@@ -1,0 +1,100 @@
+[
+  {
+    "slug": "dnd",
+    "nombre": "Dungeons & Dragons",
+    "icono": "🎲",
+    "descripcion": "El juego de rol de fantasía más famoso del mundo",
+    "plantilla": true,
+    "nav": [
+      {
+        "path": "chat",
+        "label": "Chat",
+        "icono": "💬"
+      },
+      {
+        "path": "hechizos",
+        "label": "Hechizos",
+        "icono": "✨"
+      },
+      {
+        "path": "personajes",
+        "label": "Personajes",
+        "icono": "🧝"
+      },
+      {
+        "path": "condiciones",
+        "label": "Condiciones",
+        "icono": "⚡"
+      },
+      {
+        "path": "clases-razas",
+        "label": "Clases y Razas",
+        "icono": "📚"
+      },
+      {
+        "path": "enemigos",
+        "label": "Enemigos",
+        "icono": "👹"
+      },
+      {
+        "path": "objetos",
+        "label": "Objetos",
+        "icono": "🛡️"
+      },
+      {
+        "path": "perfil",
+        "label": "Perfil",
+        "icono": "👤"
+      }
+    ]
+  },
+  {
+    "slug": "pathfinder",
+    "nombre": "Pathfinder",
+    "icono": "🐉",
+    "descripcion": "",
+    "nav": [
+      {
+        "path": "chat",
+        "label": "Chat",
+        "icono": "💬"
+      },
+      {
+        "path": "hechizos",
+        "label": "Hechizos",
+        "icono": "✨"
+      },
+      {
+        "path": "personajes",
+        "label": "Personajes",
+        "icono": "🧝"
+      },
+      {
+        "path": "condiciones",
+        "label": "Condiciones",
+        "icono": "⚡"
+      },
+      {
+        "path": "clases-razas",
+        "label": "Clases y Razas",
+        "icono": "📚"
+      },
+      {
+        "path": "enemigos",
+        "label": "Enemigos",
+        "icono": "👹"
+      },
+      {
+        "path": "objetos",
+        "label": "Objetos",
+        "icono": "🛡️"
+      },
+      {
+        "path": "perfil",
+        "label": "Perfil",
+        "icono": "👤"
+      }
+    ],
+    "plantilla": false
+  }
+]

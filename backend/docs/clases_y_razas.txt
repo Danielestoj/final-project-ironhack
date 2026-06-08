@@ -1,0 +1,4203 @@
+Título: Clases y Razas en D&D 5e
+
+CLASES:
+
+Guerrero: Especialista en combate físico. Competente en armaduras, escudos y armas marciales. Ventaja: versatilidad y resistencia. Dado de golpe: d10. Habilidad principal: Fuerza o Destreza.
+
+Mago: Usuario de magia arcana. Gran repertorio de hechizos pero físicamente frágil. Dado de golpe: d6. Habilidad principal: Inteligencia. Empieza con 6 hechizos de nivel 1 en su grimorio.
+
+Pícaro: Experto en sigilo, trampas y ataques precisos. Ataque furtivo (1d6 por nivel). Dado de golpe: d8. Habilidad principal: Destreza. Ideal para exploración e infiltración.
+
+Clérigo: Canaliza poder divino. Puede curar, repeler muertos vivientes y proteger aliados. Dado de golpe: d8. Habilidad principal: Sabiduría. Dominio divino que otorga habilidades adicionales.
+
+Bárbaro: Guerrero salvaje que entra en furia. Resistencia a daño físico durante la furia. Dado de golpe: d12. Habilidad principal: Fuerza. Ventaja en Fuerza y salvaciones durante la furia.
+
+Explorador: Cazador experimentado con magia natural. Dado de golpe: d10. Habilidades principales: Destreza, Sabiduría. Competente con arcos y armas marciales.
+
+Paladín: Guerrero sagrado con juramento divino. Dado de golpe: d10. Habilidad principal: Fuerza, Carisma. Puede curar e imponer manos.
+
+Druida: Guardián de la naturaleza con forma salvaje. Dado de golpe: d8. Habilidad principal: Sabiduría. Puede transformarse en animales.
+
+RAZAS:
+
+Humano: Versátil. +1 a todas las habilidades. Ideal para cualquier clase.
+
+Elfo: +2 Destreza. Visión en la oscuridad. Inmune a dormir. Ventaja contra hechizos.
+
+Enano: +2 Constitución. Visión en la oscuridad. Resistencia al veneno. Competente en armas enanas.
+
+Mediano: +2 Destreza. Pequeño. Suertudo (repetición de 1s). Valiente (ventaja contra miedo).
+
+Semielfo: +2 Carisma, +1 a dos habilidades. Visión en la oscuridad. Ventaja contra hechizos.
+
+Semiorco: +2 Fuerza, +1 Constitución. Visión en la oscuridad. Aguante (1 vez/día, 1 PG al caer a 0).
+
+Gnomo: +2 Inteligencia. Pequeño. Visión en la oscuridad. Astucia gnoma (ventaja en Sabiduría contra magia).
+
+Tiefling: +2 Carisma, +1 Inteligencia. Visión en la oscuridad. Resistencia al fuego. Hechizos infernales.
+
+
+## Fuente: SRD_CC_v5.1_ES
+
+Documento de referencia del sistema 5.1. 
+2
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Documento de referencia 
+del sistema 5.1 
+ 
+Si localizas algún error en este documento, háznoslo saber 
+por correo electrónico a askdnd@wizards.com. 
+Razas 
+Atributos raciales 
+La descripción de cada raza incluye los atributos 
+raciales que comparten sus miembros. La mayoría 
+de las razas contienen los siguientes apartados. 
+Mejora de Característica 
+Todas las razas aumentan al menos una de las 
+puntuaciones de característica del personaje. 
+Alineamiento 
+La mayoría de las razas tienden hacia ciertos 
+alineamientos, tal y como se describe en este 
+apartado de cada raza. No obstante, estas tendencias 
+no son vinculantes para los personajes, pero pensar 
+en por qué tu enano es caótico, por ejemplo, en claro 
+desafío a la sociedad legal buena de su raza podría 
+ayudarte a caracterizar mejor a tu personaje. 
+Edad 
+Este apartado indica la edad a la que un miembro de 
+la raza se considera adulto, así como la esperanza 
+de vida típica. Esta información puede ayudarte 
+a decidir la edad que quieres que tenga tu personaje 
+al empezar el juego. Puedes escoger cualquier edad 
+para tu personaje, lo que podría ayudarte a explicar 
+algunas de sus puntuaciones de característica. 
+Por ejemplo, si juegas con un personaje joven o muy 
+viejo, la edad podría justificar una puntuación muy 
+baja de Fuerza o de Constitución. De la misma forma, 
+una edad avanzada explicaría una Inteligencia 
+o Sabiduría altas. 
+Tamaño 
+Los personajes de la gran mayoría de las razas son 
+de tamaño Mediano, una categoría de tamaño que 
+cubre a las criaturas que miden entre 1,2 m y 2,4 m 
+de alto. Los miembros de algunas razas son 
+Pequeños (entre 60 cm y 1,2 m de alto), lo que 
+significa que ciertas reglas del juego les afectan de 
+forma distinta. De estas reglas, la más importante 
+es la que indica que los personajes Pequeños tienen 
+problemas para usar armas pesadas, tal y como se 
+explica en la sección “Equipo”. 
+Velocidad 
+Tu velocidad determina la distancia que puedes 
+recorrer cuando viajas (“Aventuras”) y combates 
+(“Combate”). 
+Idiomas 
+Como miembro de su raza, tu personaje podrá 
+hablar, leer y escribir determinados idiomas. 
+Subrazas 
+Algunas razas poseen subrazas. Los miembros de 
+una de ellas tienen tanto los atributos de la raza 
+madre como los de su subraza. Las relaciones entre 
+las subrazas varían significativamente de raza 
+a raza y de mundo a mundo.  
+Elfo 
+Atributos de los elfos 
+Tu personaje elfo posee una gran variedad de 
+capacidades innatas, que son el fruto de miles 
+de años de sofisticación élfica. 
+ Mejora de Característica. Tu puntuación de 
+Destreza aumenta en 2. 
+ Alineamiento. Los elfos aman la libertad, la 
+variedad y la expresión personal, por lo que tienden 
+hacia los aspectos más benéficos del caos. Valoran 
+y protegen la libertad, tanto la suya como la de los 
+demás, y la mayoría suelen ser buenos. 
+ Edad. Aunque los elfos alcanzan la madurez 
+aproximadamente a la misma edad que los humanos, 
+la concepción de la mayoría de edad de los elfos va 
+más allá del crecimiento e incluye la experiencia 
+vital. Los elfos suelen llegar a la edad adulta y recibir 
+su nuevo nombre tras unos cien años y pueden 
+llegar a vivir hasta setecientos cincuenta. 
+ Tamaño. Los elfos miden entre poco menos de 
+1,5 m y algo más de 1,8 m de altura y son esbeltos. 
+Eres de tamaño Mediano. 
+ Velocidad. Tu velocidad base caminando 
+es de 9 m.
+
+Documento de referencia del sistema 5.1. 
+3
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+ Visión en la Oscuridad. Acostumbrado a la 
+penumbra de los bosques y el cielo nocturno, puedes 
+ver bien en la oscuridad o con poca luz. Puedes ver 
+con luz tenue a 18 m o menos de ti como si hubiera 
+luz brillante y, en la oscuridad, como si hubiera luz 
+tenue. Eso sí, no puedes distinguir colores en la 
+oscuridad, solo tonos de gris. 
+ Sentidos Agudos. Eres competente en la habilidad 
+Percepción. 
+ Linaje Feérico. Tienes ventaja en las tiradas de 
+salvación para evitar que te hechicen y la magia 
+no puede dormirte. 
+ Trance. Los elfos no necesitan dormir. Meditan 
+profundamente, en un estado semiconsciente, 
+durante 4 horas al día. La palabra en común para 
+referirse a esta meditación es “trance”. Mientras 
+meditas, experimentas algo parecido a los sueños, 
+pero en realidad son ejercicios mentales que se han 
+vuelto automáticos tras años de práctica. Este trance 
+es suficiente para obtener los mismos beneficios que 
+un humano recibe tras 8 horas de sueño. 
+ Idiomas. Puedes hablar, leer y escribir en común 
+y elfo. El idioma elfo es fluido, con entonaciones 
+sutiles y una gramática compleja. La literatura élfica 
+es rica y variada, y sus canciones y poemas son 
+famosos entre el resto de razas. Muchos bardos 
+aprenden este idioma para poder añadir baladas 
+élficas a sus repertorios. 
+Alto elfo 
+Como alto elfo, posees una mente aguda y un 
+dominio de, como mínimo, los rudimentos de la 
+magia. En muchos de los mundos fantásticos hay 
+dos tipos de altos elfos. Los del primer tipo son 
+orgullosos y retraídos, pues se creen superiores 
+a las razas no élficas e incluso a otros elfos. Los del 
+otro tipo se dejan ver y son más amables. De hecho, 
+es habitual encontrarlos junto a humanos 
+e individuos de otras razas. 
+ Mejora de Característica. Tu puntuación 
+de Inteligencia aumenta en 1. 
+ Entrenamiento con Armas Élficas. Eres 
+competente con espadas cortas, espadas largas, 
+arcos cortos y arcos largos. 
+ Truco. Conoces un truco de tu elección escogido 
+de entre los de la lista de conjuros de mago. 
+La Inteligencia es tu aptitud mágica para lanzarlo. 
+ Idioma Adicional. Puedes hablar, leer y escribir 
+un idioma adicional de tu elección. 
+Enano 
+Atributos de los enanos 
+Tu personaje enano tiene una serie de 
+características innatas, que son una parte 
+indisoluble de la naturaleza de su raza. 
+ Mejora de Característica. Tu puntuación 
+de Constitución aumenta en 2. 
+ Alineamiento. La mayoría de los enanos son 
+legales, pues creen firmemente en las ventajas de 
+una sociedad bien estructurada. Además, tienden 
+a ser buenos, ya que poseen un fuerte sentido del 
+juego limpio y creen que todos merecen compartir 
+los frutos de un orden justo. 
+ Edad. Los enanos alcanzan la madurez a la misma 
+edad que los humanos, pero se les considera jóvenes 
+hasta los cincuenta años. Viven, de media, unos 
+trescientos cincuenta años. 
+ Tamaño. Los enanos miden entre 1,2 y 1,5 m de 
+altura y pesan unos 75 kg de media. Eres de tamaño 
+Mediano. 
+ Velocidad. Tu velocidad base caminando es de 
+7,5 m. Tu velocidad no se reduce por llevar una 
+armadura pesada. 
+ Visión en la Oscuridad. Acostumbrado a la vida 
+bajo tierra, puedes ver bien en la oscuridad o con 
+poca luz. Puedes ver con luz tenue a 18 m o menos 
+de ti como si hubiera luz brillante y, en la oscuridad, 
+como si hubiera luz tenue. Eso sí, no puedes 
+distinguir colores en la oscuridad, solo tonos de gris. 
+ Resistencia Enana. Tienes ventaja en las tiradas 
+de salvación contra veneno y posees resistencia 
+al daño de veneno. 
+ Entrenamiento de Combate Enano. Eres 
+competente con hachas de guerra, hachas de 
+mano, martillos de guerra y martillos ligeros. 
+ Competencia con Herramientas. Eres 
+competente con las herramientas de artesano que 
+elijas de entre las siguientes: herramientas de albañil, 
+herramientas de herrero o suministros de cervecero. 
+ Afinidad con la Piedra. Cuando hagas una prueba 
+de Inteligencia (Historia) que tenga relación con el 
+origen de un trabajo en piedra, se te considerará 
+competente en la habilidad Historia y sumarás el 
+doble de tu bonificador por competencia a la tirada, 
+en lugar del bonificador normal. 
+ Idiomas. Puedes hablar, leer y escribir en común 
+y enano. El enano está lleno de consonantes duras 
+y sonidos guturales, y esas características se 
+extienden a cualquier otro idioma que un enano 
+pueda hablar.
+
+Documento de referencia del sistema 5.1. 
+6
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+objetos mágicos, alquímicos o tecnológicos, podrás 
+sumar dos veces tu bonificador por competencia 
+a la tirada, en lugar del bonificador por competencia 
+que normalmente apliques. 
+ Manitas. Eres competente con las siguientes 
+herramientas de artesano: herramientas de manitas. 
+Al usar estas herramientas, puedes invertir 1 hora 
+y materiales valorados en 10 po en construir 
+un dispositivo mecánico Diminuto (CA 5, 1 pg). 
+Este dispositivo deja de funcionar pasadas 24 horas 
+(salvo si dedicas 1 hora a repararlo para mantenerlo 
+a punto) o si usas una acción para desmantelarlo. 
+En ese momento, podrás recuperar los materiales 
+que usaste para construirlo. Puedes tener hasta 
+tres dispositivos de este tipo en funcionamiento 
+al mismo tiempo. 
+ Cuando crees un dispositivo, elige una de las 
+siguientes opciones: 
+Caja de música. Al abrirse, esta caja de música 
+reproduce una única canción a un volumen 
+moderado. La caja deja de sonar cuando 
+la canción se acaba o cuando se cierra. 
+Encendedor. Este dispositivo produce una llama 
+en miniatura que puedes utilizar para encender 
+una vela, una antorcha o una hoguera. Usar el 
+dispositivo requiere tu acción. 
+Juguete mecánico. Este juguete mecánico posee 
+forma de animal, monstruo o persona, como 
+por ejemplo, de una rana, ratón, pájaro, dragón 
+o soldado. Cuando se coloca en el suelo, el juguete 
+se mueve 1,5 m en una dirección aleatoria en 
+cada uno de tus turnos. Hace los ruidos que 
+corresponden a la criatura que representa. 
+Semielfo 
+Atributos de los semielfos 
+Tu personaje semielfo tiene una serie de aptitudes 
+en común con los elfos, además de algunas 
+exclusivas de los semielfos. 
+ Mejora de Característica. Tu puntuación de 
+Carisma aumenta en 2 y otras dos puntuaciones 
+de característica de tu elección aumentan en 1. 
+ Alineamiento. Los semielfos tienen la propensión 
+al caos propia de su linaje élfico. Valoran tanto 
+la libertad individual como la creatividad y no 
+demuestran aprecio por los líderes ni desean 
+seguidores. Les irritan las normas, se molestan 
+con las órdenes de otros y, a veces, pueden no ser 
+fiables o, como mínimo, resultar impredecibles. 
+ Edad. Los semielfos maduran al mismo ritmo que 
+los humanos y alcanzan la edad adulta en torno 
+a los veinte años. No obstante, viven mucho más 
+que los humanos: a menudo, superan los ciento 
+ochenta años. 
+ Tamaño. Los semielfos miden más o menos 
+lo mismo que los humanos, entre 1,5 y 1,8 m de alto. 
+Eres de tamaño Mediano. 
+ Velocidad. Tu velocidad base caminando 
+es de 9 m. 
+ Visión en la Oscuridad. Debido a tu sangre élfica, 
+puedes ver bien en la oscuridad o con poca luz. 
+Puedes ver con luz tenue a 18 m o menos de ti como 
+si hubiera luz brillante y, en la oscuridad, como si 
+hubiera luz tenue. Eso sí, no puedes distinguir 
+colores en la oscuridad, solo tonos de gris. 
+ Linaje Feérico. Tienes ventaja en las tiradas de 
+salvación para evitar que te hechicen y la magia 
+no puede dormirte. 
+ Versátil con Habilidades. Ganas competencia 
+en dos habilidades de tu elección. 
+ Idiomas. Puedes hablar, leer y escribir común, 
+elfo y un idioma adicional de tu elección. 
+Semiorco 
+Atributos de los semiorcos 
+Tu personaje semiorco posee ciertos atributos 
+derivados de su linaje orco. 
+ Mejora de Característica. Tu puntuación 
+de Fuerza aumenta en 2 y tu puntuación 
+de Constitución aumenta en 1. 
+ Alineamiento. Los semiorcos han heredado la 
+tendencia hacia el caos de su progenitor orco y 
+no sienten una inclinación especial hacia el bien. 
+Los que se crían entre orcos y aspiran a vivir junto 
+a ellos suelen ser malvados. 
+ Edad. Los semiorcos maduran un poco más rápido 
+que los humanos y llegan a la edad adulta en torno 
+a los catorce años. También envejecen visiblemente 
+más deprisa y rara vez viven más de setenta 
+y cinco años. 
+ Tamaño. Los semiorcos son ligeramente más altos 
+y corpulentos que los humanos. Miden entre 1,5 m 
+y bastante por encima de 1,8 m de altura. Eres 
+de tamaño Mediano. 
+ Velocidad. Tu velocidad base caminando 
+es de 9 m. 
+ Visión en la Oscuridad. Gracias a tu sangre orca, 
+puedes ver bien en la oscuridad o con poca luz. 
+Puedes ver con luz tenue a 18 m o menos de ti como 
+si hubiera luz brillante y, en la oscuridad, como si 
+hubiera luz tenue. Eso sí, no puedes distinguir 
+colores en la oscuridad, solo tonos de gris.
+
+Documento de referencia del sistema 5.1. 15 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Brujo 
+Rasgos de clase 
+Como brujo, obtienes los siguientes rasgos de clase. 
+Puntos de golpe 
+Dados de Golpe: 1d8 por nivel de brujo. 
+Puntos de golpe a nivel 1: 8 + tu modificador por 
+Constitución. 
+Puntos de golpe a niveles superiores: 1d8 (o 5) + 
+tu modificador por Constitución por cada nivel de 
+brujo por encima del primero. 
+Competencias 
+Armadura: armaduras ligeras. 
+Armas: armas sencillas. 
+Herramientas: ninguna. 
+Tiradas de salvación: Sabiduría, Carisma. 
+Habilidades: escoge dos de entre Conocimiento 
+Arcano, Engaño, Historia, Intimidación, 
+Investigación, Naturaleza y Religión. 
+Equipo 
+Además del que obtengas por tu trasfondo, empiezas 
+con el siguiente equipo: 
+• (a) una ballesta ligera y 20 virotes o (b) cualquier 
+arma sencilla; 
+• (a) un saquito de componentes o (b) un 
+canalizador arcano; 
+• (a) un paquete de erudito o (b) un paquete 
+de explorador de mazmorras; 
+• una armadura de cuero, cualquier arma sencilla 
+y dos dagas. 
+ 
+El brujo 
+Nivel 
+Bon. por 
+competencia 
+Rasgos 
+Trucos 
+conocidos 
+Conjuros 
+conocidos 
+Espacios de 
+conjuro 
+Nivel de los 
+espacios 
+Invocaciones 
+conocidas 
+1 
++2 
+Patrón Sobrenatural, Magia del 
+Pacto 
+2 
+2 
+1 
+1 
+— 
+2 
++2 
+Invocaciones Sobrenaturales 
+2 
+3 
+2 
+1 
+2 
+3 
++2 
+Beneficio del Pacto 
+2 
+4 
+2 
+2 
+2 
+4 
++2 
+Mejora de Característica 
+3 
+5 
+2 
+2 
+2 
+5 
++3 
+— 
+3 
+6 
+2 
+3 
+3 
+6 
++3 
+Rasgo de Patrón Sobrenatural 
+3 
+7 
+2 
+3 
+3 
+7 
++3 
+— 
+3 
+8 
+2 
+4 
+4 
+8 
++3 
+Mejora de Característica 
+3 
+9 
+2 
+4 
+4 
+9 
++4 
+— 
+3 
+10 
+2 
+5 
+5 
+10 
++4 
+Rasgo de Patrón Sobrenatural 
+4 
+10 
+2 
+5 
+5 
+11 
++4 
+Arcanum Místico (nivel 6) 
+4 
+11 
+3 
+5 
+5 
+12 
++4 
+Mejora de Característica 
+4 
+11 
+3 
+5 
+6 
+13 
++5 
+Arcanum Místico (nivel 7) 
+4 
+12 
+3 
+5 
+6 
+14 
++5 
+Rasgo de Patrón Sobrenatural 
+4 
+12 
+3 
+5 
+6 
+15 
++5 
+Arcanum Místico (nivel 8) 
+4 
+13 
+3 
+5 
+7 
+16 
++5 
+Mejora de Característica 
+4 
+13 
+3 
+5 
+7 
+17 
++6 
+Arcanum Místico (nivel 9) 
+4 
+14 
+4 
+5 
+7 
+18 
++6 
+— 
+4 
+14 
+4 
+5 
+8 
+19 
++6 
+Mejora de Característica 
+4 
+15 
+4 
+5 
+8 
+20 
++6 
+Maestro Sobrenatural 
+4 
+15 
+4 
+5 
+8 
+ 
+Patrón Sobrenatural 
+A nivel 1, has llegado a un trato con un ser de otro 
+mundo: el Infernal, que se detalla al final de 
+la descripción de esta clase. Esta elección 
+te proporciona ciertos rasgos a nivel 1 y en 
+los niveles 6, 10 y 14. 
+Magia del Pacto 
+Tus investigaciones sobre lo arcano y la magia que 
+te ha concedido tu patrón te han dotado de cierta 
+habilidad con los conjuros.
+
+Documento de referencia del sistema 5.1. 21 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Clérigo 
+Rasgos de clase 
+Como clérigo, obtienes los siguientes rasgos de clase. 
+Puntos de golpe 
+Dados de Golpe: 1d8 por nivel de clérigo. 
+Puntos de golpe a nivel 1: 8 + tu modificador por 
+Constitución. 
+Puntos de golpe a niveles superiores: 1d8 (o 5) + 
+tu modificador por Constitución por cada nivel de 
+clérigo por encima del primero. 
+Competencias 
+Armadura: armaduras ligeras y medias, escudos. 
+Armas: armas sencillas. 
+Herramientas: ninguna. 
+Tiradas de salvación: Sabiduría, Carisma. 
+Habilidades: escoge dos de entre Historia, Medicina, 
+Perspicacia, Persuasión y Religión. 
+Equipo 
+Además del que obtengas por tu trasfondo, empiezas 
+con el siguiente equipo: 
+• (a) una maza o (b) un martillo de guerra (si eres 
+competente); 
+• (a) una cota de escamas, (b) una armadura de 
+cuero o (c) una cota de malla (si eres competente); 
+• (a) una ballesta ligera y 20 virotes o (b) cualquier 
+arma sencilla; 
+• (a) un paquete de sacerdote o (b) un paquete de 
+explorador; 
+• un escudo y un símbolo sagrado. 
+ 
+El clérigo 
+Nivel 
+Bon. por 
+competencia 
+Rasgos 
+Trucos 
+conocidos 
+—Espacios de conjuro por cada nivel de conjuro— 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+1 
++2 
+Lanzamiento de Conjuros, Dominio Divino 
+3 
+2 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+2 
++2 
+Canalizar Divinidad (1/descanso), rasgo de 
+Dominio Divino 
+3 
+3 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+3 
++2 
+— 
+3 
+4 
+2 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+4 
++2 
+Mejora de Característica 
+4 
+4 
+3 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+5 
++3 
+Destruir Muertos Vivientes (VD 1/2) 
+4 
+4 
+3 
+2 
+— 
+— 
+— 
+— 
+— 
+— 
+6 
++3 
+Canalizar Divinidad (2/descanso), rasgo de 
+Dominio Divino 
+4 
+4 
+3 
+3 
+— 
+— 
+— 
+— 
+— 
+— 
+7 
++3 
+— 
+4 
+4 
+3 
+3 
+1 
+— 
+— 
+— 
+— 
+— 
+8 
++3 
+Mejora de Característica, Destruir Muertos 
+Vivientes (VD 1), rasgo de Dominio Divino 
+4 
+4 
+3 
+3 
+2 
+— 
+— 
+— 
+— 
+— 
+9 
++4 
+— 
+4 
+4 
+3 
+3 
+3 
+1 
+— 
+— 
+— 
+— 
+10 
++4 
+Intercesión Divina 
+5 
+4 
+3 
+3 
+3 
+2 
+— 
+— 
+— 
+— 
+11 
++4 
+Destruir Muertos Vivientes (VD 2) 
+5 
+4 
+3 
+3 
+3 
+2 
+1 
+— 
+— 
+— 
+12 
++4 
+Mejora de Característica 
+5 
+4 
+3 
+3 
+3 
+2 
+1 
+— 
+— 
+— 
+13 
++5 
+— 
+5 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+— 
+— 
+14 
++5 
+Destruir Muertos Vivientes (VD 3) 
+5 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+— 
+— 
+15 
++5 
+— 
+5 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+— 
+16 
++5 
+Mejora de Característica 
+5 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+— 
+17 
++6 
+Destruir Muertos Vivientes (VD 4), rasgo de 
+Dominio Divino 
+5 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+1 
+18 
++6 
+Canalizar Divinidad (3/descanso) 
+5 
+4 
+3 
+3 
+3 
+3 
+1 
+1 
+1 
+1 
+19 
++6 
+Mejora de Característica 
+5 
+4 
+3 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+20 
++6 
+Mejora de Intercesión Divina 
+5 
+4 
+3 
+3 
+3 
+3 
+2 
+2 
+1 
+1 
+ 
+Lanzamiento de Conjuros 
+Como canalizador del poder divino, puedes lanzar 
+conjuros de clérigo. 
+Trucos 
+A nivel 1, conoces tres trucos de tu elección 
+escogidos de entre los de la lista de conjuros de 
+clérigo. Podrás elegir más trucos de clérigo cuando
+
+Documento de referencia del sistema 5.1. 25 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Druida 
+Rasgos de clase 
+Como druida, obtienes los siguientes rasgos de clase. 
+Puntos de golpe 
+Dados de Golpe: 1d8 por nivel de druida. 
+Puntos de golpe a nivel 1: 8 + tu modificador 
+por Constitución. 
+Puntos de golpe a niveles superiores: 1d8 (o 5) + 
+tu modificador por Constitución por cada nivel de 
+druida por encima del primero. 
+Competencias 
+Armadura: armaduras ligeras y medias, escudos 
+(los druidas no llevan armaduras ni usan escudos 
+hechos de metal). 
+Armas: bastones, cimitarras, dagas, dardos, garrotes, 
+hoces, hondas, jabalinas, lanzas y mazas. 
+Herramientas: útiles de herborista. 
+Tiradas de salvación: Inteligencia, Sabiduría. 
+Habilidades: escoge dos de entre Conocimiento 
+Arcano, Medicina, Naturaleza, Percepción, 
+Perspicacia, Religión, Supervivencia y Trato 
+con Animales. 
+Equipo 
+Además del que obtengas por tu trasfondo, empiezas 
+con el siguiente equipo: 
+• (a) un escudo de madera o (b) cualquier arma 
+sencilla; 
+• (a) una cimitarra o (b) cualquier arma cuerpo 
+a cuerpo sencilla; 
+• armadura de cuero, un paquete de explorador 
+y un canalizador druídico. 
+ 
+El druida 
+Nivel 
+Bon. por 
+competencia 
+Rasgos 
+Trucos 
+conocidos 
+—Espacios de conjuro por cada nivel de conjuro— 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+1 
++2 
+Druídico, Lanzamiento de Conjuros 
+2 
+2 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+2 
++2 
+Forma Salvaje, Círculo Druídico 
+2 
+3 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+3 
++2 
+— 
+2 
+4 
+2 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+4 
++2 
+Mejora de Forma Salvaje, Mejora de 
+Característica 
+3 
+4 
+3 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+5 
++3 
+— 
+3 
+4 
+3 
+2 
+— 
+— 
+— 
+— 
+— 
+— 
+6 
++3 
+Rasgo de Círculo Druídico 
+3 
+4 
+3 
+3 
+— 
+— 
+— 
+— 
+— 
+— 
+7 
++3 
+— 
+3 
+4 
+3 
+3 
+1 
+— 
+— 
+— 
+— 
+— 
+8 
++3 
+Mejora de Forma Salvaje, Mejora de 
+Característica 
+3 
+4 
+3 
+3 
+2 
+— 
+— 
+— 
+— 
+— 
+9 
++4 
+— 
+3 
+4 
+3 
+3 
+3 
+1 
+— 
+— 
+— 
+— 
+10 
++4 
+Rasgo de Círculo Druídico 
+4 
+4 
+3 
+3 
+3 
+2 
+— 
+— 
+— 
+— 
+11 
++4 
+— 
+4 
+4 
+3 
+3 
+3 
+2 
+1 
+— 
+— 
+— 
+12 
++4 
+Mejora de Característica 
+4 
+4 
+3 
+3 
+3 
+2 
+1 
+— 
+— 
+— 
+13 
++5 
+— 
+4 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+— 
+— 
+14 
++5 
+Rasgo de Círculo Druídico 
+4 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+— 
+— 
+15 
++5 
+— 
+4 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+— 
+16 
++5 
+Mejora de Característica 
+4 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+— 
+17 
++6 
+— 
+4 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+1 
+18 
++6 
+Cuerpo Atemporal, Conjurar como Bestia 
+4 
+4 
+3 
+3 
+3 
+3 
+1 
+1 
+1 
+1 
+19 
++6 
+Mejora de Característica 
+4 
+4 
+3 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+20 
++6 
+Archidruida 
+4 
+4 
+3 
+3 
+3 
+3 
+2 
+2 
+1 
+1 
+ 
+Druídico 
+Sabes druídico, el idioma secreto de los druidas. 
+Puedes hablarlo y utilizarlo para dejar mensajes 
+ocultos. Tanto tú como cualquiera que conozca este 
+idioma os percataréis de inmediato de la presencia 
+de estos mensajes. Los demás deberán superar 
+una prueba de Sabiduría (Percepción) con CD 15 
+para detectarlos, pero no podrán descifrarlos sin 
+recurrir a la magia.
+
+Documento de referencia del sistema 5.1. 30 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Explorador 
+Rasgos de clase 
+Como explorador, obtienes los siguientes rasgos 
+de clase. 
+Puntos de golpe 
+Dados de Golpe: 1d10 por nivel de explorador. 
+Puntos de golpe a nivel 1: 10 + tu modificador 
+por Constitución. 
+Puntos de golpe a niveles superiores: 1d10 (o 6) + 
+tu modificador por Constitución por cada nivel de 
+explorador por encima del primero. 
+Competencias 
+Armadura: armaduras ligeras y medias, escudos. 
+Armas: armas sencillas y marciales. 
+Herramientas: ninguna. 
+Tiradas de salvación: Fuerza, Destreza. 
+Habilidades: escoge tres de entre Atletismo, 
+Investigación, Naturaleza, Percepción, Perspicacia, 
+Sigilo, Supervivencia y Trato con Animales. 
+Equipo 
+Además del que obtengas por tu trasfondo, empiezas 
+con el siguiente equipo: 
+• (a) una cota de escamas o (b) una armadura de 
+cuero; 
+• (a) dos espadas cortas o (b) dos armas cuerpo 
+a cuerpo sencillas; 
+• (a) un paquete de explorador de mazmorras o (b) 
+un paquete de explorador; 
+• un arco largo y una aljaba con 20 flechas. 
+ 
+El explorador 
+Nivel 
+Bon. por 
+competencia 
+Rasgos 
+Conjuros 
+conocidos 
+—Espacios de conjuro por cada nivel de conjuro— 
+1 
+2 
+3 
+4 
+5 
+1 
++2 
+Enemigo Predilecto, Explorador Nato 
+— 
+— 
+— 
+— 
+— 
+— 
+2 
++2 
+Estilo de Combate, Lanzamiento de 
+Conjuros 
+2 
+2 
+— 
+— 
+— 
+— 
+3 
++2 
+Arquetipo de Explorador, Percepción 
+Primigenia 
+3 
+3 
+— 
+— 
+— 
+— 
+4 
++2 
+Mejora de Característica 
+3 
+3 
+— 
+— 
+— 
+— 
+5 
++3 
+Ataque Adicional 
+4 
+4 
+2 
+— 
+— 
+— 
+6 
++3 
+Mejoras de Enemigo Predilecto 
+y Explorador Nato 
+4 
+4 
+2 
+— 
+— 
+— 
+7 
++3 
+Rasgo de Arquetipo de Explorador 
+5 
+4 
+3 
+— 
+— 
+— 
+8 
++3 
+Mejora de Característica, Paso de la Tierra 
+5 
+4 
+3 
+— 
+— 
+— 
+9 
++4 
+— 
+6 
+4 
+3 
+2 
+— 
+— 
+10 
++4 
+Mejora de Explorador Nato, Esconderse 
+a Plena Vista 
+6 
+4 
+3 
+2 
+— 
+— 
+11 
++4 
+Rasgo de Arquetipo de Explorador 
+7 
+4 
+3 
+3 
+— 
+— 
+12 
++4 
+Mejora de Característica 
+7 
+4 
+3 
+3 
+— 
+— 
+13 
++5 
+— 
+8 
+4 
+3 
+3 
+1 
+— 
+14 
++5 
+Mejora de Enemigo Predilecto, 
+Desvanecerse 
+8 
+4 
+3 
+3 
+1 
+— 
+15 
++5 
+Rasgo de Arquetipo de Explorador 
+9 
+4 
+3 
+3 
+2 
+— 
+16 
++5 
+Mejora de Característica 
+9 
+4 
+3 
+3 
+2 
+— 
+17 
++6 
+— 
+10 
+4 
+3 
+3 
+3 
+1 
+18 
++6 
+Sentidos Salvajes 
+10 
+4 
+3 
+3 
+3 
+1 
+19 
++6 
+Mejora de Característica 
+11 
+4 
+3 
+3 
+3 
+2 
+20 
++6 
+Azote de Enemigos 
+11 
+4 
+3 
+3 
+3 
+2 
+ 
+Enemigo Predilecto 
+Desde el nivel 1, posees una enorme experiencia 
+estudiando, rastreando, cazando e incluso hablando 
+con un tipo concreto de enemigo. 
+ Escoge un tipo de enemigo predilecto: 
+aberraciones, autómatas, bestias, celestiales, cienos, 
+dragones, elementales, feéricos, gigantes, infernales, 
+monstruosidades, muertos vivientes o plantas. 
+De forma alternativa, puedes elegir dos razas de
+
+Documento de referencia del sistema 5.1. 31 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+humanoides (como gnolls y orcos, por ejemplo) 
+como enemigos predilectos. 
+ Tienes ventaja en las pruebas de Sabiduría 
+(Supervivencia) para rastrear a tus enemigos 
+predilectos, así como en las pruebas de Inteligencia 
+para recordar información sobre ellos. 
+ Cuando obtienes este rasgo también aprendes 
+un idioma de tu elección que hablen tus enemigos 
+predilectos (si es que hablan alguno). 
+ Puedes elegir un enemigo predilecto adicional, así 
+como un idioma asociado al mismo, en los niveles 6 
+y 14. A medida que subes de nivel, tus elecciones 
+deberían reflejar el tipo de monstruos con los que 
+te has encontrado en tus aventuras. 
+Explorador Nato 
+Estás muy familiarizado con un tipo de entorno 
+natural concreto, por lo que eres un experto en 
+viajar por las regiones de ese tipo y sobrevivir en 
+ellas. Escoge un tipo de terreno predilecto: ártico, 
+bosque, costa, desierto, montaña, pantano o pradera. 
+Cuando hagas una prueba de Inteligencia o Sabiduría 
+que tenga relación con tu terreno predilecto, tu 
+bonificador por competencia se duplicará si estás 
+usando una habilidad en la que eres competente. 
+ Cuando viajas durante al menos una hora por 
+tu terreno predilecto, obtienes los siguientes 
+beneficios: 
+• El terreno difícil no ralentiza el viaje de tu grupo. 
+• Tu grupo no puede perderse por causas no 
+mágicas. 
+• Incluso aunque estés ocupado con otra actividad 
+mientras viajas (como forrajear, orientarte 
+o rastrear), permaneces atento al peligro. 
+• Si viajas en solitario, puedes moverte con sigilo 
+a un ritmo de viaje normal. 
+• Cuando forrajeas, encuentras el doble de comida 
+de lo normal. 
+• Cuando rastreas a otras criaturas, también 
+descubres el número exacto de las mismas, sus 
+tamaños y hace cuánto pasaron por la zona. 
+ Puedes elegir otros tipos de terreno predilecto 
+en los niveles 6 y 10. 
+Estilo de Combate 
+A nivel 2, adoptas un estilo de combate concreto 
+como tu especialidad. Elige una de las siguientes 
+opciones. No puedes escoger el mismo Estilo de 
+Combate más de una vez, incluso aunque luego 
+puedas elegir de nuevo un Estilo de Combate. 
+Combate con Dos Armas 
+Cuando estés combatiendo con dos armas, puedes 
+sumar tu modificador por característica al daño del 
+segundo ataque. 
+Defensa 
+Recibes un bonificador de +1 a la CA cuando lleves 
+puesta cualquier armadura. 
+Duelo 
+Cuando empuñes una única arma cuerpo a cuerpo 
+con una mano, recibes un bonificador de +2 a tus 
+tiradas de daño con esa arma. 
+Tiro con Arco 
+Recibes un bonificador de +2 a las tiradas de ataque 
+con armas a distancia. 
+Lanzamiento de Conjuros 
+Cuando hayas alcanzado el nivel 2, habrás aprendido 
+a emplear la esencia mágica de la naturaleza para 
+lanzar conjuros como lo haría un druida. 
+Espacios de conjuro 
+La tabla “El explorador” muestra de cuántos 
+espacios de conjuro dispones para lanzar conjuros 
+de nivel 1 y superiores. Para lanzar uno de estos 
+conjuros, deberás invertir un espacio de al menos 
+el nivel del conjuro. Recuperas todos los espacios 
+utilizados tras finalizar un descanso largo. 
+ Si, por ejemplo, conoces el conjuro de nivel 1 
+encantar animal y posees un espacio de conjuro 
+de nivel 1 y otro de nivel 2, podrías lanzar encantar 
+animal empleando cualquiera de los dos espacios. 
+Conjuros conocidos de nivel 1 y superiores 
+Conoces dos conjuros de nivel 1 de tu elección de 
+la lista de conjuros de explorador. 
+ La columna “Conjuros conocidos” de la tabla 
+“El explorador” te indica cuándo podrás aprender 
+más conjuros de explorador a tu elección. Estos 
+conjuros deben ser de un nivel para el que tengas 
+espacios de conjuro. Así, cuando subas al nivel 5 en 
+esta clase, podrás aprender un conjuro nuevo, que 
+puede ser de nivel 1 o 2. 
+ Además, cada vez que subas un nivel de esta clase, 
+podrás elegir uno de los conjuros de explorador que 
+ya conoces y reemplazarlo por otro de los que 
+aparecen en la lista de conjuros de explorador. Este 
+reemplazo deberá ser de un nivel para el que poseas 
+espacios de conjuro.
+
+Documento de referencia del sistema 5.1. 34 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Guerrero 
+Rasgos de clase 
+Como guerrero, obtienes los siguientes rasgos 
+de clase. 
+Puntos de golpe 
+Dados de Golpe: 1d10 por nivel de guerrero. 
+Puntos de golpe a nivel 1: 10 + tu modificador por 
+Constitución. 
+Puntos de golpe a niveles superiores: 1d10 (o 6) + 
+tu modificador por Constitución por cada nivel de 
+guerrero por encima del primero. 
+Competencias 
+Armadura: todas las armaduras y escudos. 
+Armas: armas sencillas y marciales. 
+Herramientas: ninguna. 
+Tiradas de salvación: Fuerza, Constitución. 
+Habilidades: escoge dos de entre Acrobacias, 
+Atletismo, Historia, Intimidación, Percepción, 
+Perspicacia, Supervivencia y Trato con Animales. 
+Equipo 
+Además del que obtengas por tu trasfondo, empiezas 
+con el siguiente equipo: 
+• (a) una cota de malla o (b) una armadura de cuero, 
+un arco largo y 20 flechas; 
+• (a) un arma marcial y un escudo o (b) dos armas 
+marciales; 
+• (a) una ballesta ligera y 20 virotes o (b) dos 
+hachas de mano; 
+• (a) un paquete de explorador de mazmorras o (b) 
+un paquete de explorador. 
+ 
+El guerrero 
+Nivel 
+Bon. por 
+competencia 
+Rasgos 
+1 
++2 
+Estilo de Combate, Tomar Aliento 
+2 
++2 
+Acción Súbita (un uso) 
+3 
++2 
+Arquetipo Marcial 
+4 
++2 
+Mejora de Característica 
+5 
++3 
+Ataque Adicional 
+6 
++3 
+Mejora de Característica 
+7 
++3 
+Rasgo de Arquetipo Marcial 
+8 
++3 
+Mejora de Característica 
+9 
++4 
+Indómito (un uso) 
+10 
++4 
+Rasgo de Arquetipo Marcial 
+11 
++4 
+Ataque Adicional (2) 
+Nivel 
+Bon. por 
+competencia 
+Rasgos 
+12 
++4 
+Mejora de Característica 
+13 
++5 
+Indómito (dos usos) 
+14 
++5 
+Mejora de Característica 
+15 
++5 
+Rasgo de Arquetipo Marcial 
+16 
++5 
+Mejora de Característica 
+17 
++6 
+Acción Súbita (dos usos), 
+Indómito (tres usos) 
+18 
++6 
+Rasgo de Arquetipo Marcial 
+19 
++6 
+Mejora de Característica 
+20 
++6 
+Ataque Adicional (3) 
+ 
+Estilo de Combate 
+Adoptas un estilo de combate concreto como tu 
+especialidad. Elige una de las siguientes opciones. 
+No puedes escoger el mismo Estilo de Combate más 
+de una vez, incluso aunque luego puedas elegir de 
+nuevo un Estilo de Combate. 
+Combate con Armas a Dos Manos 
+Si sacas un 1 o un 2 en alguno de los dados de daño 
+de un ataque hecho con un arma cuerpo a cuerpo 
+que empuñes con las dos manos, puedes volver 
+a tirar el dado en cuestión. Debes usar el nuevo 
+resultado, incluso aunque este sea un 1 o un 2. 
+Para obtener este beneficio, el arma debe poseer 
+la propiedad “versátil” o “a dos manos”. 
+Combate con Dos Armas 
+Cuando estés combatiendo con dos armas, puedes 
+sumar tu modificador por característica al daño 
+del segundo ataque. 
+Defensa 
+Recibes un bonificador de +1 a la CA cuando lleves 
+puesta cualquier armadura. 
+Duelo 
+Cuando empuñes una única arma cuerpo a cuerpo 
+con una mano, recibes un bonificador de +2 a tus 
+tiradas de daño con esa arma. 
+Protección 
+Cuando una criatura que puedas ver ataque a un 
+objetivo que esté a 1,5 m o menos de ti y no seas 
+tú mismo, puedes utilizar tu reacción para dar 
+desventaja a la tirada de ataque. Debes estar 
+embrazando un escudo.
+
+Documento de referencia del sistema 5.1. 40 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Mago 
+Rasgos de clase 
+Como mago, obtienes los siguientes rasgos de clase. 
+Puntos de golpe 
+Dados de Golpe: 1d6 por nivel de mago. 
+Puntos de golpe a nivel 1: 6 + tu modificador por 
+Constitución. 
+Puntos de golpe a niveles superiores: 1d6 (o 4) + 
+tu modificador por Constitución por cada nivel de 
+mago por encima del primero. 
+Competencias 
+Armadura: ninguna. 
+Armas: ballestas ligeras, bastones, dagas, dardos 
+y hondas. 
+Herramientas: ninguna. 
+Tiradas de salvación: Inteligencia, Sabiduría. 
+Habilidades: escoge dos de entre Conocimiento 
+Arcano, Historia, Investigación, Medicina, 
+Perspicacia y Religión. 
+Equipo 
+Además del que obtengas por tu trasfondo, empiezas 
+con el siguiente equipo: 
+• (a) un bastón o (b) una daga; 
+• (a) un saquito de componentes o (b) 
+un canalizador arcano; 
+• (a) un paquete de erudito o (b) un paquete 
+de explorador; 
+• un libro de conjuros. 
+ 
+El mago 
+Nivel 
+Bon. por 
+competencia Rasgos 
+Trucos 
+conocidos 
+—Espacios de conjuro por cada nivel de conjuro— 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+1 
++2 
+Lanzamiento de Conjuros, Recuperación Arcana 
+3 
+2 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+2 
++2 
+Tradición Arcana 
+3 
+3 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+3 
++2 
+— 
+3 
+4 
+2 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+4 
++2 
+Mejora de Característica 
+4 
+4 
+3 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+5 
++3 
+— 
+4 
+4 
+3 
+2 
+— 
+— 
+— 
+— 
+— 
+— 
+6 
++3 
+Rasgo de Tradición Arcana 
+4 
+4 
+3 
+3 
+— 
+— 
+— 
+— 
+— 
+— 
+7 
++3 
+— 
+4 
+4 
+3 
+3 
+1 
+— 
+— 
+— 
+— 
+— 
+8 
++3 
+Mejora de Característica 
+4 
+4 
+3 
+3 
+2 
+— 
+— 
+— 
+— 
+— 
+9 
++4 
+— 
+4 
+4 
+3 
+3 
+3 
+1 
+— 
+— 
+— 
+— 
+10 
++4 
+Rasgo de Tradición Arcana 
+5 
+4 
+3 
+3 
+3 
+2 
+— 
+— 
+— 
+— 
+11 
++4 
+— 
+5 
+4 
+3 
+3 
+3 
+2 
+1 
+— 
+— 
+— 
+12 
++4 
+Mejora de Característica 
+5 
+4 
+3 
+3 
+3 
+2 
+1 
+— 
+— 
+— 
+13 
++5 
+— 
+5 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+— 
+— 
+14 
++5 
+Rasgo de Tradición Arcana 
+5 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+— 
+— 
+15 
++5 
+— 
+5 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+— 
+16 
++5 
+Mejora de Característica 
+5 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+— 
+17 
++6 
+— 
+5 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+1 
+18 
++6 
+Maestría sobre Conjuros 
+5 
+4 
+3 
+3 
+3 
+3 
+1 
+1 
+1 
+1 
+19 
++6 
+Mejora de Característica 
+5 
+4 
+3 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+20 
++6 
+Conjuro Característico 
+5 
+4 
+3 
+3 
+3 
+3 
+2 
+2 
+1 
+1 
+ 
+Lanzamiento de Conjuros 
+Como estudiante de la magia arcana que eres, posees 
+un libro de conjuros que muestra los primeros 
+destellos de tu verdadero poder. 
+Trucos 
+A nivel 1, conoces tres trucos de tu elección 
+escogidos de entre los de la lista de conjuros 
+de mago. Podrás elegir más trucos de mago cuando 
+llegues a niveles superiores, como se indica en 
+la columna “Trucos conocidos” de la tabla “El mago”. 
+Libro de conjuros 
+A nivel 1, posees un libro de conjuros que contiene 
+seis conjuros de mago de nivel 1 de tu elección. 
+Este libro es el repositorio de los conjuros de mago 
+que conoces, con la excepción de los trucos, que 
+están grabados en tu mente.
+
+Documento de referencia del sistema 5.1. 44 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Monje 
+Rasgos de clase 
+Como monje, obtienes los siguientes rasgos de clase. 
+Puntos de golpe 
+Dados de Golpe: 1d8 por nivel de monje. 
+Puntos de golpe a nivel 1: 8 + tu modificador por 
+Constitución. 
+Puntos de golpe a niveles superiores: 1d8 (o 5) + 
+tu modificador por Constitución por cada nivel 
+de monje por encima del primero. 
+Competencias 
+Armadura: ninguna. 
+Armas: armas sencillas, espadas cortas. 
+Herramientas: escoge un tipo de herramientas 
+de artesano o un instrumento musical. 
+Tiradas de salvación: Fuerza, Destreza. 
+Habilidades: escoge dos de entre Acrobacias, 
+Atletismo, Historia, Perspicacia, Religión y Sigilo. 
+Equipo 
+Además del que obtengas por tu trasfondo, empiezas 
+con el siguiente equipo: 
+• (a) una espada corta o (b) cualquier arma sencilla; 
+• (a) un paquete de explorador de mazmorras o (b) 
+un paquete de explorador; 
+• 10 dardos. 
+ 
+El monje 
+Nivel 
+Bon. por 
+competencia 
+Artes 
+marciales 
+Puntos de ki 
+Movimiento 
+sin Armadura 
+Rasgos 
+1 
++2 
+1d4 
+— 
+— 
+Defensa sin Armadura, Artes Marciales 
+2 
++2 
+1d4 
+2 
++3 m 
+Ki, Movimiento sin Armadura 
+3 
++2 
+1d4 
+3 
++3 m 
+Tradición Monástica, Desviar Proyectiles 
+4 
++2 
+1d4 
+4 
++3 m 
+Mejora de Característica, Caída Lenta 
+5 
++3 
+1d6 
+5 
++3 m 
+Ataque Adicional, Golpe Aturdidor 
+6 
++3 
+1d6 
+6 
++4,5 m 
+Golpes Potenciados con Ki, rasgo de Tradición Monástica 
+7 
++3 
+1d6 
+7 
++4,5 m 
+Evasión, Quietud Mental 
+8 
++3 
+1d6 
+8 
++4,5 m 
+Mejora de Característica 
+9 
++4 
+1d6 
+9 
++4,5 m 
+Mejora de Movimiento sin Armadura 
+10 
++4 
+1d6 
+10 
++6 m 
+Pureza de Cuerpo 
+11 
++4 
+1d8 
+11 
++6 m 
+Rasgo de Tradición Monástica 
+12 
++4 
+1d8 
+12 
++6 m 
+Mejora de Característica 
+13 
++5 
+1d8 
+13 
++6 m 
+Lengua del Sol y la Luna 
+14 
++5 
+1d8 
+14 
++7,5 m 
+Alma Diamantina 
+15 
++5 
+1d8 
+15 
++7,5 m 
+Cuerpo Atemporal 
+16 
++5 
+1d8 
+16 
++7,5 m 
+Mejora de Característica 
+17 
++6 
+1d10 
+17 
++7,5 m 
+Rasgo de Tradición Monástica 
+18 
++6 
+1d10 
+18 
++9 m 
+Cuerpo Vacío 
+19 
++6 
+1d10 
+19 
++9 m 
+Mejora de Característica 
+20 
++6 
+1d10 
+20 
++9 m 
+Yo Perfecto 
+ 
+Defensa sin Armadura 
+A partir del nivel 1, mientras no portes ninguna 
+armadura ni embraces un escudo, tu CA será 10 + 
+tu modificador por Destreza + tu modificador por 
+Sabiduría. 
+Artes Marciales 
+A nivel 1, tu práctica de las artes marciales te ha 
+otorgado un dominio de los estilos de combate que 
+emplean ataques sin armas y armas de monje, que 
+son las espadas cortas y cualquier arma cuerpo 
+a cuerpo sencilla que no posea las propiedades 
+“a dos manos” o “pesada”. 
+ Obtienes los siguientes beneficios mientras no 
+portes armadura ni escudo y estés desarmado 
+o empuñes únicamente armas de monje: 
+• Puedes usar tu Destreza en lugar de tu Fuerza 
+para las tiradas de ataque y de daño de tus ataques 
+sin armas y tus armas de monje.
+
+Documento de referencia del sistema 5.1. 48 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Paladín 
+Rasgos de clase 
+Como paladín, obtienes los siguientes rasgos de clase. 
+Puntos de golpe 
+Dados de Golpe: 1d10 por nivel de paladín. 
+Puntos de golpe a nivel 1: 10 + tu modificador por 
+Constitución. 
+Puntos de golpe a niveles superiores: 1d10 (o 6) + 
+tu modificador por Constitución por cada nivel de 
+paladín por encima del primero. 
+Competencias 
+Armadura: todas las armaduras y escudos. 
+Armas: armas sencillas y marciales. 
+Herramientas: ninguna. 
+Tiradas de salvación: Sabiduría, Carisma. 
+Habilidades: escoge dos de entre Atletismo, 
+Intimidación, Medicina, Perspicacia, Persuasión 
+y Religión. 
+Equipo 
+Además del que obtengas por tu trasfondo, empiezas 
+con el siguiente equipo: 
+• (a) un arma marcial y un escudo o (b) dos armas 
+marciales; 
+• (a) cinco jabalinas o (b) cualquier arma cuerpo 
+a cuerpo sencilla; 
+• (a) un paquete de sacerdote o (b) un paquete 
+de explorador; 
+• una cota de malla y un símbolo sagrado. 
+ 
+El paladín 
+Nivel 
+Bon. por 
+competencia 
+Rasgos 
+—Espacios de conjuro por cada nivel de conjuro— 
+1 
+2 
+3 
+4 
+5 
+1 
++2 
+Sentidos Divinos, Imponer las Manos 
+— 
+— 
+— 
+— 
+— 
+2 
++2 
+Estilo de Combate, Lanzamiento de Conjuros, Castigo Divino 
+2 
+— 
+— 
+— 
+— 
+3 
++2 
+Salud Divina, Juramento Sagrado 
+3 
+— 
+— 
+— 
+— 
+4 
++2 
+Mejora de Característica 
+3 
+— 
+— 
+— 
+— 
+5 
++3 
+Ataque Adicional 
+4 
+2 
+— 
+— 
+— 
+6 
++3 
+Aura de Protección 
+4 
+2 
+— 
+— 
+— 
+7 
++3 
+Rasgo de Juramento Sagrado 
+4 
+3 
+— 
+— 
+— 
+8 
++3 
+Mejora de Característica 
+4 
+3 
+— 
+— 
+— 
+9 
++4 
+— 
+4 
+3 
+2 
+— 
+— 
+10 
++4 
+Aura de Coraje 
+4 
+3 
+2 
+— 
+— 
+11 
++4 
+Castigo Divino Mejorado 
+4 
+3 
+3 
+— 
+— 
+12 
++4 
+Mejora de Característica 
+4 
+3 
+3 
+— 
+— 
+13 
++5 
+— 
+4 
+3 
+3 
+1 
+— 
+14 
++5 
+Toque Purificador 
+4 
+3 
+3 
+1 
+— 
+15 
++5 
+Rasgo de Juramento Sagrado 
+4 
+3 
+3 
+2 
+— 
+16 
++5 
+Mejora de Característica 
+4 
+3 
+3 
+2 
+— 
+17 
++6 
+— 
+4 
+3 
+3 
+3 
+1 
+18 
++6 
+Mejoras de auras 
+4 
+3 
+3 
+3 
+1 
+19 
++6 
+Mejora de Característica 
+4 
+3 
+3 
+3 
+2 
+20 
++6 
+Rasgo de Juramento Sagrado 
+4 
+3 
+3 
+3 
+2 
+ 
+Sentidos Divinos 
+La presencia de un fuerte mal se manifiesta en tus 
+sentidos como un hedor nauseabundo, mientras 
+que un poderoso bien resuena en tus oídos como 
+música celestial. Como acción, puedes expandir tu 
+percepción para detectar estas fuerzas. Hasta el final 
+de tu siguiente turno, sabrás la ubicación de 
+cualquier celestial, infernal o muerto viviente que 
+esté a 18 m o menos de ti y que no se encuentre tras 
+una cobertura completa. Conocerás el tipo (celestial, 
+infernal o muerto viviente) de cualquier ser cuya 
+presencia detectes, pero no su identidad (el conde 
+vampiro Strahd von Zarovich, por ejemplo). En el 
+mismo radio, también detectarás la presencia de 
+cualquier lugar u objeto que haya sido consagrado 
+o profanado, como con el conjuro consagrar. 
+ Puedes utilizar este rasgo una cantidad de veces 
+igual a 1 + tu modificador por Carisma. Recuperas 
+todos los usos tras finalizar un descanso largo.
+
+Documento de referencia del sistema 5.1. 56 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Más allá del nivel 1 
+A medida que tu personaje viva aventuras y supere 
+desafíos, obtendrá experiencia, lo que se representa 
+mediante los puntos de experiencia. Al alcanzar 
+ciertas cantidades de puntos de experiencia, el 
+personaje se volverá más capaz. Este progreso 
+se conoce como subir de nivel. 
+ Cuando tu personaje sube de nivel, a menudo su 
+clase le concede rasgos adicionales, como se detalla 
+en la descripción de la clase. Algunos de estos 
+rasgos te permiten aumentar tus puntuaciones de 
+característica, bien aumentando dos puntuaciones 
+en 1 o una puntuación en 2. No puedes aumentar 
+una puntuación de característica por encima de 20. 
+Además, en ciertos niveles, también aumenta el 
+bonificador por competencia de cada personaje. 
+ Cada vez que subas un nivel, obtendrás un 
+Dado de Golpe adicional. Tira ese dado, suma tu 
+modificador por Constitución al resultado y añade 
+el total a tus puntos de golpe máximos. Como 
+alternativa, puedes utilizar el valor fijo que aparece 
+en tu clase en vez de tirar. Este valor es el resultado 
+medio de la tirada (redondeando hacia arriba). 
+ Cuando tu modificador por Constitución aumente 
+en 1, tus puntos de golpe máximos también aumen-
+tarán en 1 por cada nivel que hayas alcanzado. 
+Por ejemplo, si tu guerrero de nivel 7 tiene una 
+puntuación de Constitución de 17, al subir al nivel 8 
+puede aumentar su puntuación de Constitución de 
+17 a 18, lo que incrementará su modificador por 
+Constitución de +3 a +4. Por tanto, sus puntos de 
+golpe máximos aumentarán en 8. 
+ La tabla “Avance de personajes” especifica los PX 
+que necesitas para subir de nivel desde el nivel 1 
+hasta el nivel 20 y el bonificador por competencia 
+de un personaje de ese nivel. Consulta la información 
+que aparece en la descripción de la clase de tu 
+personaje para ver qué otros aspectos mejoran 
+al subir de nivel. 
+Avance de personajes 
+Puntos de 
+experiencia 
+Nivel 
+Bonificador por 
+competencia 
+0 
+1 
++2 
+300 
+2 
++2 
+900 
+3 
++2 
+2700 
+4 
++2 
+6500 
+5 
++3 
+14 000 
+6 
++3 
+23 000 
+7 
++3 
+34 000 
+8 
++3 
+48 000 
+9 
++4 
+Puntos de 
+experiencia 
+Nivel 
+Bonificador por 
+competencia 
+64 000 
+10 
++4 
+85 000 
+11 
++4 
+100 000 
+12 
++4 
+120 000 
+13 
++5 
+140 000 
+14 
++5 
+165 000 
+15 
++5 
+195 000 
+16 
++5 
+225 000 
+17 
++6 
+265 000 
+18 
++6 
+305 000 
+19 
++6 
+355 000 
+20 
++6 
+Multiclase 
+La multiclase te permite subir de nivel en varias 
+clases. Hacerlo te permite mezclar las características 
+de esas clases para hacer realidad un concepto de 
+personaje que tal vez no se refleje en ninguna de 
+las opciones de clase estándar. 
+ Con esta regla, tienes la opción de subir de nivel en 
+una nueva clase cada vez que subas de nivel, en lugar 
+de subir de nivel en tu clase actual. Para determinar 
+el nivel de tu personaje, se suman los niveles de 
+todas tus clases. Por ejemplo, si tienes 3 niveles 
+como mago y 2 como guerrero, eres un personaje 
+de nivel 5. 
+ A medida que subas de nivel, podrías seguir 
+siendo principalmente miembro de tu clase original 
+con tan solo unos pocos niveles en otra clase o 
+podrías cambiar de rumbo por completo y olvidarte 
+del todo de la clase que abandonas. Incluso podrías 
+empezar a progresar en una tercera o cuarta clase. 
+En comparación con un personaje monoclase del 
+mismo nivel, sacrificarás la especialización a cambio 
+de la versatilidad. 
+Requisitos 
+Para poder optar a una nueva clase, debes reunir 
+los requisitos de puntuaciones de característica de 
+tu clase actual y de la nueva, como se muestra en 
+la tabla “Requisitos de multiclase”. Por ejemplo, un 
+bárbaro que decida hacerse multiclase como druida 
+deberá tener puntuaciones de Fuerza y Sabiduría de 
+13 o más. Sin todo el entrenamiento que recibe un 
+personaje principiante, debes aprender rápido en tu 
+nueva clase y tener una aptitud natural que se refleje 
+en unas puntuaciones de característica superiores 
+a la media.
+
+Documento de referencia del sistema 5.1. 57 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Requisitos de multiclase 
+Clase 
+Puntuación de característica mínima 
+Bárbaro 
+Fuerza 13 
+Bardo 
+Carisma 13 
+Brujo 
+Carisma 13 
+Clérigo 
+Sabiduría 13 
+Druida 
+Sabiduría 13 
+Explorador 
+Destreza 13 y Sabiduría 13 
+Guerrero 
+Fuerza 13 o Destreza 13 
+Hechicero 
+Carisma 13 
+Mago 
+Inteligencia 13 
+Monje 
+Destreza 13 y Sabiduría 13 
+Paladín 
+Fuerza 13 y Carisma 13 
+Pícaro 
+Destreza 13 
+ 
+Puntos de experiencia 
+El coste en puntos de experiencia de subir un nivel 
+siempre se basa en el nivel total de tu personaje, 
+como se muestra en la tabla “Avance de personajes”, 
+no en tu nivel en una clase concreta. Por tanto, 
+si eres un clérigo 6/guerrero 1, debes conseguir 
+suficientes PX para alcanzar el nivel 8 para poder 
+subir al nivel 2 de guerrero o al nivel 7 de clérigo. 
+Puntos de golpe y Dados de Golpe 
+Obtienes los puntos de golpe de tu nueva clase como 
+se describe para los niveles siguientes al 1. Obtienes 
+los puntos de golpe de nivel 1 de una clase única-
+mente cuando eres un personaje de nivel 1. 
+ Tu total de Dados de Golpe es la suma de los 
+Dados de Golpe de todas tus clases. Si los Dados de 
+Golpe son del mismo tipo de dado, puedes sumarlos 
+y ya está. Por ejemplo, tanto guerreros como 
+paladines tienen 1d10 por nivel, por lo que si eres 
+un paladín 5/guerrero 5, tus Dados de Golpe serán 
+10d10. Si tus clases tienen Dados de Golpe de 
+distintos tipos, lleva la cuenta de cada uno por 
+separado. Por ejemplo, si eres un paladín 5/clérigo 5, 
+tus Dados de Golpe serán 5d10 y 5d8. 
+Bonificador por competencia 
+El bonificador por competencia siempre se basa en 
+el nivel total de tu personaje, como se muestra en 
+la tabla “Avance de personajes”, no en tu nivel 
+en una clase concreta. Por ejemplo, si eres un 
+guerrero 3/pícaro 2, tendrás el bonificador por 
+competencia de un personaje de nivel 5, que es +3. 
+Competencias 
+Cuando obtengas tu primer nivel en una clase que no 
+sea tu clase inicial, también obtendrás algunas de las 
+competencias iniciales de la nueva clase, como se 
+muestra en la tabla “Competencias multiclase”. 
+Competencias multiclase 
+Clase 
+Competencias obtenidas 
+Bárbaro 
+Escudos, armas sencillas y marciales 
+Bardo 
+Armaduras ligeras, una habilidad a tu elección, 
+un instrumento musical a tu elección 
+Brujo 
+Armaduras ligeras, armas sencillas 
+Clérigo 
+Armaduras ligeras y medias, escudos 
+Druida 
+Armaduras ligeras y medias, escudos 
+(los druidas no llevan armaduras ni usan 
+escudos hechos de metal) 
+Explorador 
+Armaduras ligeras y medias, escudos, armas 
+sencillas y marciales, una habilidad de la lista 
+de habilidades de la clase 
+Guerrero 
+Armaduras ligeras y medias, escudos, armas 
+sencillas y marciales 
+Hechicero 
+— 
+Mago 
+— 
+Monje 
+Armas sencillas, espadas cortas 
+Paladín 
+Armaduras ligeras y medias, escudos, armas 
+sencillas y marciales 
+Pícaro 
+Armaduras ligeras, una habilidad de la lista de 
+habilidades de la clase, herramientas de ladrón 
+ 
+Rasgos de clase 
+Cuando ganes un nuevo nivel en una clase, 
+obtendrás los rasgos correspondientes a ese nivel. 
+Sin embargo, no recibirás el equipo inicial de la clase 
+y algunos rasgos tienen reglas adicionales si eres 
+un personaje multiclase: Ataque Adicional, Canalizar 
+Divinidad, Defensa sin Armadura y Lanzamiento 
+de Conjuros. 
+Ataque Adicional 
+Si obtienes el rasgo de clase Ataque Adicional de más 
+de una clase, los rasgos no se suman. No puedes 
+hacer más de dos ataques con este rasgo a menos 
+que así se indique (como sucede con la versión 
+de Ataque Adicional de los guerreros). De forma 
+parecida, la invocación sobrenatural Filo Sediento 
+del brujo no te proporciona más ataques si tienes 
+Ataque Adicional. 
+Canalizar Divinidad 
+Si ya tienes el rasgo Canalizar Divinidad y subes un 
+nivel en una clase que también conceda ese rasgo, 
+obtendrás los efectos de Canalizar Divinidad
+
+Documento de referencia del sistema 5.1. 58 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+concedidos por esa clase, pero volver a obtener 
+el rasgo no te proporcionará un uso adicional de este. 
+Solo obtendrás usos adicionales cuando alcances un 
+nivel de clase que te los conceda explícitamente. 
+Por ejemplo, si eres un clérigo 6/paladín 4, puedes 
+usar Canalizar Divinidad dos veces entre descansos, 
+porque tu nivel en la clase clérigo es suficientemente 
+alto como para tener más usos. Siempre que uses 
+el rasgo, puedes elegir cualquiera de los efectos de 
+Canalizar Divinidad que te otorgan tus dos clases. 
+Defensa sin Armadura 
+Si ya tienes el rasgo Defensa sin Armadura, no 
+puedes volver a obtenerlo de otra clase. 
+Lanzamiento de Conjuros 
+Tu capacidad de lanzamiento de conjuros depende, 
+en parte, de tus niveles combinados en clases 
+capaces de lanzar conjuros y, en parte, de tus niveles 
+individuales en esas clases. Cuando tengas el rasgo 
+Lanzamiento de Conjuros de más de una clase, usa 
+las reglas de debajo. Si eres un personaje multiclase, 
+pero solo tienes el rasgo Lanzamiento de Conjuros 
+de una clase, sigue las reglas descritas en esa clase. 
+ Conjuros conocidos y preparados. Determinas 
+qué conjuros conoces y puedes preparar para cada 
+clase de forma individual, como si fueras un 
+miembro monoclase de esa clase. Por ejemplo, 
+si eres un explorador 4/mago 3, conoces tres 
+conjuros de explorador de nivel 1 debido a tus 
+niveles en la clase explorador. Como mago de nivel 3, 
+conoces tres trucos de mago y tu libro de conjuros 
+contiene diez conjuros de mago, dos de los cuales 
+(los obtenidos al alcanzar el nivel 3 de mago) 
+pueden ser conjuros de nivel 2. Si tu Inteligencia 
+es 16, puedes preparar seis conjuros de mago 
+de tu libro de conjuros.  
+ Cada conjuro que conoces y preparas está 
+asociado con una de tus clases y debes usar la 
+aptitud mágica de esa clase al lanzar el conjuro. 
+De forma similar, un canalizador mágico, como un 
+símbolo sagrado, solo se puede usar para lanzar 
+los conjuros de la clase asociada con ese canalizador. 
+ Espacios de conjuro. Para determinar los espacios 
+de conjuro que tienes disponibles, suma todos tus 
+niveles de las clases bardo, clérigo, druida, hechicero 
+y mago, y la mitad de tus niveles (redondeado hacia 
+abajo) de las clases explorador y paladín. Cuando 
+conozcas este total, consulta la tabla “Lanzador 
+de conjuros multiclase” para determinar cuántos 
+espacios de conjuro tienes. 
+ Si tienes más de una clase capaz de lanzar 
+conjuros, esta tabla podría darte un número de 
+espacios de conjuro de un nivel superior a los 
+conjuros que conoces o puedes preparar. Puedes 
+usar estos espacios igualmente, pero solo para 
+lanzar tus conjuros de nivel inferior. Si un conjuro 
+de nivel inferior que lances, como manos ardientes, 
+tiene un efecto mejorado cuando se lanza usando 
+un espacio de nivel superior, puedes usar el efecto 
+mejorado, aunque no tengas ningún conjuro de 
+ese nivel superior.  
+ Por ejemplo, si eres el explorador 4/mago 3 
+mencionado antes, cuentas como un personaje 
+de nivel 5 al determinar tus espacios de conjuro: 
+tendrás cuatro espacios de conjuro de nivel 1, tres 
+espacios de nivel 2 y dos espacios de nivel 3. Sin 
+embargo, no conoces ningún conjuro de nivel 3 ni 
+ningún conjuro de explorador de nivel 2. Puedes 
+usar los espacios de conjuro de esos niveles para 
+lanzar los conjuros que conoces y, si es posible, 
+mejorar sus efectos. 
+ Magia del Pacto. Si posees tanto el rasgo de clase 
+Lanzamiento de Conjuros como el rasgo de clase 
+Magia del Pacto de la clase brujo, puedes usar los 
+espacios de conjuro que obtienes del rasgo Magia 
+del Pacto para lanzar conjuros que conozcas 
+o tengas preparados de clases con el rasgo de clase 
+Lanzamiento de Conjuros y puedes usar los 
+espacios de conjuro que obtengas del rasgo de 
+clase Lanzamiento de Conjuros para lanzar 
+los conjuros de brujo que conozcas. 
+ 
+Lanzador de conjuros multiclase:  
+Espacios de conjuro por cada nivel 
+de conjuro 
+Nvl. 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+1 
+2 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+2 
+3 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+3 
+4 
+2 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+4 
+4 
+3 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+5 
+4 
+3 
+2 
+— 
+— 
+— 
+— 
+— 
+— 
+6 
+4 
+3 
+3 
+— 
+— 
+— 
+— 
+— 
+— 
+7 
+4 
+3 
+3 
+1 
+— 
+— 
+— 
+— 
+— 
+8 
+4 
+3 
+3 
+2 
+— 
+— 
+— 
+— 
+— 
+9 
+4 
+3 
+3 
+3 
+1 
+— 
+— 
+— 
+— 
+10 
+4 
+3 
+3 
+3 
+2 
+— 
+— 
+— 
+— 
+11 
+4 
+3 
+3 
+3 
+2 
+1 
+— 
+— 
+— 
+12 
+4 
+3 
+3 
+3 
+2 
+1 
+— 
+— 
+— 
+13 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+— 
+— 
+14 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+— 
+— 
+15 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+— 
+16 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+— 
+17 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+1 
+18 
+4 
+3 
+3 
+3 
+3 
+1 
+1 
+1 
+1 
+19 
+4 
+3 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+20 
+4 
+3 
+3 
+3 
+3 
+2 
+2 
+1 
+1
+
+Documento de referencia del sistema 5.1. 59 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Alineamiento 
+Casi todas las criaturas del juego tienen un 
+alineamiento, el cual describe a grandes rasgos sus 
+actitudes morales y personales. El alineamiento es 
+una combinación de dos factores: por una parte, 
+la moralidad (bueno, malvado o neutral) y, por otra, 
+la actitud hacia la sociedad y el orden (legal, caótico 
+o neutral). Por tanto, nueve alineamientos distintos 
+definen las combinaciones posibles. 
+ A continuación tienes un breve resumen de ellos, 
+en el que se explica el proceder típico de una 
+criatura de cada alineamiento. Sin embargo, un 
+individuo concreto puede tener un comportamiento 
+que varíe significativamente y son pocos quienes 
+siempre se comportan tal y como dictan los 
+preceptos de su alineamiento. 
+ Las criaturas legales buenas (LB) cumplirán con 
+lo que la sociedad considera correcto. Los dragones 
+de oro, los paladines y la mayoría de los enanos son 
+legales buenos. 
+ Las personas neutrales buenas (NB) harán lo que 
+esté en su mano para ayudar a los demás de acuerdo 
+con sus necesidades. Muchos celestiales, algunos 
+gigantes de las nubes y la mayoría de gnomos son 
+neutrales buenos. 
+ Los seres caóticos buenos (CB) actúan siguiendo 
+los dictados de sus conciencias, sin preocuparles lo 
+que otros esperan de ellos. Los dragones de cobre, 
+muchos elfos y los unicornios son caóticos buenos. 
+ Los individuos legales neutrales (LN) se 
+comportan de acuerdo con la ley, la tradición o sus 
+códigos de conducta personales. Muchos monjes 
+y algunos magos son legales neutrales. 
+ Neutral (N) es el alineamiento de aquellos que 
+prefieren evitar las cuestiones éticas, no toman 
+partido y, por tanto, hacen lo que les parece mejor 
+en cada momento. Los hombres lagarto, la mayoría 
+de druidas y muchos humanos son neutrales. 
+ Las criaturas caóticas neutrales (CN) persiguen 
+sus caprichos y valoran su libertad personal por 
+encima de cualquier otra cosa. Muchos bárbaros 
+y pícaros, así como algunos bardos, son caóticos 
+neutrales. 
+ Los seres legales malvados (LM) toman lo que 
+les viene en gana, pero siempre de forma metódica 
+y dentro de los límites que marcan la tradición, el 
+orden o la lealtad. Los diablos, los dragones azules 
+y los hobgoblins son legales malvados. 
+ Neutral malvado (NM) es el alineamiento de los 
+que se salen con la suya siempre que se presenta 
+la oportunidad, sin compasión ni remordimiento 
+alguno. Muchos drows, algunos gigantes de las nubes 
+y los goblins son neutrales malvados. 
+ Las criaturas caóticas malvadas (CM) recurren 
+a la violencia arbitrariamente, movidas por la codicia, 
+el odio o el ansia de sangre. Los demonios, los 
+dragones rojos y los orcos son caóticos malvados. 
+Alineamiento en el multiverso 
+Para muchas criaturas conscientes, el alineamiento 
+es una elección moral. Humanos, enanos, elfos 
+y otras razas humanoides pueden elegir si siguen 
+el camino del bien o del mal, de la ley o el caos. 
+Según cuentan los mitos, los dioses de alineamiento 
+“bueno” que crearon estas razas les concedieron 
+libre albedrío para elegir su senda moral, ya que 
+sabían que el bien sin libertad de elección en 
+realidad es esclavitud. 
+ Sin embargo, las deidades malvadas que crearon 
+a otras razas las hicieron para que les sirvieran. 
+Estas razas poseen fuertes tendencias innatas 
+similares a la naturaleza de sus dioses. La mayoría 
+de los orcos comparten la naturaleza salvaje 
+y violenta de los dioses orcos, por lo que se inclinan 
+hacia el mal. Incluso si un orco elige un alineamiento 
+“bueno”, lucha toda su vida contra sus tendencias 
+innatas (hasta los semiorcos sienten la atracción 
+constante de la influencia de los dioses orcos). 
+ El alineamiento es una parte esencial de la 
+naturaleza de los celestiales y los infernales. 
+Un diablo no elige ser legal malvado y no tiene 
+tendencia hacia ello, sino que es legal malvado 
+en esencia. Si de algún modo dejase de ser legal 
+malvado, dejaría de ser un diablo. 
+ La mayoría de las criaturas que carecen de 
+raciocinio no poseen alineamiento alguno: son 
+sin alineamiento. Estos seres no son capaces 
+de hacer juicios éticos o morales y simplemente 
+actúan según su naturaleza bestial. Los tiburones 
+son depredadores salvajes, por ejemplo, pero 
+no son malvados: no tienen alineamiento. 
+Idiomas 
+Tu raza indica los idiomas que tu personaje puede 
+hablar de forma predeterminada y tu trasfondo 
+podría darte acceso a uno o más idiomas de tu 
+elección. Anota estos idiomas en tu hoja de 
+personaje. 
+ Elige tus idiomas en la tabla “Idiomas estándar” 
+o elige uno que sea habitual en tu campaña. Si tu GM 
+te da permiso, puedes elegir un idioma de la tabla 
+“Idiomas exóticos” o un idioma secreto, como 
+la jerga de ladrones o el druídico.
+
+Documento de referencia del sistema 5.1. 60 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+ Algunos de estos idiomas en realidad son familias 
+de idiomas con muchos dialectos. Por ejemplo, 
+el idioma primordial incluye los dialectos acuano, 
+aurano, ígneo y terrano, uno para cada uno de los 
+cuatro Planos Elementales. Las criaturas que hablan 
+dialectos distintos del mismo idioma se pueden 
+comunicar entre sí. 
+Idiomas estándar 
+Idioma 
+Hablantes típicos 
+Escritura 
+Común 
+Humanos 
+Común 
+Elfo 
+Elfos 
+Elfo 
+Enano 
+Enanos 
+Enano 
+Gigante 
+Ogros, gigantes 
+Enano 
+Gnomo 
+Gnomos 
+Enano 
+Goblin 
+Trasgos 
+Enano 
+Mediano 
+Medianos 
+Común 
+Orco 
+Orcos 
+Enano 
+ 
+Idiomas exóticos 
+Idioma 
+Hablantes típicos 
+Escritura 
+Abisal 
+Demonios 
+Infernal 
+Celestial 
+Celestiales 
+Celestial 
+Dracónico 
+Dragones, 
+dracónidos 
+Dracónico 
+Habla de las 
+profundidades 
+Aboleths, mantos 
+— 
+Infernal 
+Diablos 
+Infernal 
+Infracomún 
+Mercaderes del 
+inframundo 
+Elfo 
+Primordial 
+Elementales 
+Enano 
+Silvano 
+Criaturas feéricas 
+Elfo 
+Inspiración 
+La inspiración es una regla que tu Game Master 
+puede usar para recompensarte por interpretar 
+a tu personaje de un modo fiel a sus rasgos de 
+personalidad, su ideal, su vínculo y su defecto. Con 
+la inspiración, puedes usar tu rasgo de personalidad 
+de compasión por los desamparados para obtener 
+ventaja el negociar con el Príncipe de los Mendigos. 
+La inspiración también puede permitirte recurrir 
+a tu vínculo para defender tu aldea natal y superar 
+el efecto de un conjuro que te hayan lanzado. 
+Obtener inspiración 
+Tu GM puede optar por darte inspiración por 
+distintos motivos. Normalmente, los GM te 
+recompensan cuando interpretas tus rasgos de 
+personalidad, claudicas ante los problemas que 
+te suponen un defecto o un vínculo y representas 
+a tu personaje de un modo atractivo de cualquier 
+otra forma. Tu GM te dirá cómo puedes obtener 
+inspiración en el juego. 
+ O tienes inspiración o no: no puedes acumular 
+varias “inspiraciones” para usarla más adelante. 
+Usar la inspiración 
+Si tienes inspiración, puedes gastarla cuando 
+realices una tirada de ataque, una tirada de salvación 
+o una prueba de característica. Si gastas tu 
+inspiración, tendrás ventaja en esa tirada. 
+ Además, si tienes inspiración, puedes 
+recompensar a otro jugador por una buena 
+interpretación, una gran idea o simplemente por 
+hacer algo emocionante en el juego. Cuando el 
+personaje de otro jugador haga algo que realmente 
+contribuya a la historia de una forma divertida 
+e interesante, puedes renunciar a tu inspiración 
+para dársela a ese otro personaje. 
+Trasfondos 
+Toda historia tiene un principio. El trasfondo de 
+tu personaje explica de dónde viene, qué le hizo 
+lanzarse en busca de aventuras y cuál es su lugar en 
+el mundo. Tu guerrero podría haber sido un valiente 
+caballero o un soldado veterano. Tu maga podría 
+haber sido una erudita o una artesana. Tu pícare 
+podría haber trabajado de ladrone para un gremio 
+o haber embelesado al público sobre un escenario. 
+ Elegir un trasfondo te proporciona pistas 
+narrativas importantes sobre la identidad de tu 
+personaje. La pregunta más importante que hacer 
+sobre tu trasfondo es: “¿Qué ha cambiado?”. ¿Por 
+qué dejaste de hacer lo que describe tu trasfondo y 
+empezaste a buscar aventuras? ¿De dónde sacaste el 
+dinero para comprar tu equipo inicial o, si procedes 
+de un trasfondo acomodado, por qué no tienes aún 
+más dinero? ¿Dónde aprendiste las habilidades de tu 
+clase? ¿Qué te diferencia de la gente normal que 
+comparte tu trasfondo? 
+ El trasfondo de ejemplo que se muestra aquí 
+proporciona tanto beneficios concretos (rasgos, 
+competencias e idiomas) como sugerencias de 
+interpretación. 
+Competencias 
+Cada trasfondo da al personaje competencia en dos 
+habilidades (se describen en la sección “Uso de las 
+puntuaciones de característica”). 
+ Además, la mayoría de los trasfondos otorgan 
+al aventurero competencia con uno o más tipos 
+de herramientas (que se detallan en la sección 
+“Equipo”).
+
+Documento de referencia del sistema 5.1. 72 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+un paquete por el precio mostrado, que podría incluso 
+ser más barato que comprar los objetos por separado. 
+ 
+Paquete de artista (40 po). Incluye una mochila, 
+un petate, 2 disfraces, 5 velas, raciones para 5 días, 
+una cantimplora y útiles para disfrazarse. 
+ 
+Paquete de diplomático (39 po). Incluye un cofre, 
+2 estuches para mapas o pergaminos, una muda de ropas 
+de calidad, una botella de tinta, una pluma, una lámpara, 
+2 frascos de aceite, 5 hojas de papel, un vial de perfume, 
+lacre y jabón. 
+ 
+Paquete de erudito (40 po). Incluye una mochila, un libro 
+de algún saber concreto, una botella de tinta, una pluma, 
+10 hojas de pergamino, una bolsita con arena y un cuchillo 
+pequeño. 
+ 
+Paquete de explorador (10 po). Incluye una mochila, 
+un petate, utensilios de cocina, un yesquero, 10 antorchas, 
+raciones para 10 días y una cantimplora. Además, el paquete 
+tiene una cuerda de cáñamo de 15 m enganchada en un lado. 
+ 
+Paquete de explorador de mazmorras (12 po). Incluye 
+una mochila, una palanqueta, un martillo, 10 pitones, 
+10 antorchas, un yesquero, raciones para 10 días y una 
+cantimplora. Además, el paquete tiene una cuerda de 
+cáñamo de 15 m enganchada en un lado. 
+ 
+Paquete de ladrón (16 po). Incluye una mochila, una 
+bolsa con 1000 bolas de metal, 3 m de cordel, una campana, 
+5 velas, una palanqueta, un martillo, 10 pitones, una linterna 
+sorda, 2 frascos de aceite, raciones para 5 días, un yesquero 
+y una cantimplora. Además, el paquete tiene una cuerda 
+de cáñamo de 15 m enganchada en un lado. 
+ 
+Paquete de sacerdote (19 po). Incluye una mochila, 
+una manta, 10 velas, un yesquero, una caja para limosnas, 
+2 barras de incienso, un incensario, vestiduras, raciones 
+para 2 días y una cantimplora. 
+Herramientas 
+Las herramientas te permiten realizar algo que de 
+otra forma estaría fuera de tu alcance, como fabricar 
+o reparar un objeto, falsificar un documento o forzar 
+una cerradura. Tu raza, clase, trasfondo o dotes 
+pueden hacerte competente con ciertas herra-
+mientas. La competencia con una herramienta te 
+permite sumar tu bonificador por competencia 
+a cualquier prueba de característica que hagas con 
+dicha herramienta. Hay que tener en cuenta que 
+el uso de herramientas no está atado a una única 
+característica, ya que la competencia con ellas 
+representa un conocimiento amplio sobre su empleo. 
+De este modo, tu GM podría pedirte que realices una 
+prueba de Destreza para tallar detalles delicados 
+con unas herramientas de ebanista, mientras que 
+esculpir algo a partir de una madera especialmente 
+dura podría requerir una prueba de Fuerza. 
+Herramientas 
+Objeto 
+Precio 
+Peso 
+ 
+Herramientas de artesano 
+ 
+ 
+ 
+ Herramientas de albañil 
+10 po 
+4 kg 
+ 
+ Herramientas de alfarero 
+10 po 
+1,5 kg 
+ 
+ Herramientas de carpintero 
+8 po 
+3 kg 
+ 
+ Herramientas de cartógrafo 
+15 po 
+3 kg 
+ 
+ Herramientas de curtidor 
+5 po 
+2,5 kg 
+ 
+ Herramientas de ebanista 
+1 po 
+2,5 kg 
+ 
+ Herramientas de herrero 
+20 po 
+4 kg 
+ 
+ Herramientas de joyero 
+25 po 
+1 kg 
+ 
+ Herramientas de manitas 
+50 po 
+5 kg 
+ 
+ Herramientas de soplador de vidrio 
+30 po 
+2,5 kg 
+ 
+ Herramientas de tejedor 
+1 po 
+2,5 kg 
+ 
+ Herramientas de zapatero 
+5 po 
+2,5 kg 
+ 
+ Suministros de alquimista 
+50 po 
+4 kg 
+ 
+ Suministros de calígrafo 
+10 po 
+2,5 kg 
+ 
+ Suministros de cervecero 
+20 po 
+4,5 kg 
+ 
+ Suministros de pintor 
+10 po 
+2,5 kg 
+ 
+ Útiles de cocinero 
+1 po 
+4 kg 
+ 
+ Útiles para disfrazarse 
+25 po 
+1,5 kg 
+ 
+ Útiles para falsificar 
+15 po 
+2,5 kg 
+ 
+Herramientas de ladrón 
+25 po 
+0,5 kg 
+ 
+Herramientas de navegante 
+25 po 
+1 kg 
+ 
+Instrumentos musicales 
+ 
+ 
+ 
+ Chirimía 
+2 po 
+0,5 kg 
+ 
+ Cuerno 
+3 po 
+1 kg 
+ 
+ Dulcémele 
+25 po 
+5 kg 
+ 
+ Flauta 
+2 po 
+0,5 kg 
+ 
+ Flauta de pan 
+12 po 
+1 kg 
+ 
+ Gaita 
+30 po 
+3 kg 
+ 
+ Laúd 
+35 po 
+1 kg 
+ 
+ Lira 
+30 po 
+1 kg 
+ 
+ Tambor 
+6 po 
+1,5 kg 
+ 
+ Viola 
+30 po 
+0,5 kg 
+ 
+Juegos 
+ 
+ 
+ 
+ Dados 
+1 pp 
+— 
+ 
+ Naipes 
+5 pp 
+— 
+ 
+Útiles de envenenador 
+50 po 
+1 kg 
+ 
+Útiles de herborista 
+5 po 
+1,5 kg 
+ 
+Vehículos (terrestres o acuáticos) 
+* 
+* 
+ 
+* Consulta la sección “Monturas y vehículos”. 
+ 
+ Herramientas de artesano. Estas herramientas 
+especiales consisten en los objetos necesarios 
+para llevar a cabo las tareas propias de un oficio. 
+La tabla muestra ejemplos de las herramientas más 
+habituales que proporcionan los útiles apropiados 
+para una profesión concreta. La competencia con 
+las herramientas de un oficio te permite sumar tu 
+bonificador por competencia a cualquier prueba de 
+característica que hagas con dichas herramientas, 
+siempre y cuando las emplees en tareas de 
+la profesión correspondiente. Cada tipo de
+
+Documento de referencia del sistema 5.1. 81 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+hacer lo mismo y solo uno puede tener éxito, como 
+al tratar de coger un anillo mágico que ha caído al 
+suelo. También es posible que uno de ellos esté 
+intentando evitar que el otro alcance su objetivo. 
+Por ejemplo, cuando un monstruo trata de abrir 
+a la fuerza una puerta que un aventurero intenta 
+mantener cerrada. En situaciones como estas, el 
+desenlace viene determinado por un tipo especial 
+de pruebas de característica, llamadas “tiradas 
+enfrentadas”. 
+ Los dos participantes en una tirada enfrentada 
+hacen las pruebas de característica apropiadas 
+a sus acciones. Cada uno suma sus bonificadores 
+y penalizadores según corresponda, pero en vez de 
+intentar superar una CD, los resultados de ambas 
+pruebas deben compararse entre sí. El participante 
+que obtenga el resultado más alto gana la tirada 
+enfrentada. Dicho personaje o monstruo tiene éxito 
+en su acción o evita que su oponente lo tenga. 
+ Si la tirada enfrentada acaba en empate, la 
+situación se queda como estaba antes. Eso significa 
+que uno de los participantes podría ganar por 
+defecto. Por ejemplo, si dos personajes trataran 
+de coger un anillo del suelo, ninguno lo conseguiría. 
+En una tirada enfrentada entre un monstruo que 
+trata de forzar una puerta y un aventurero que 
+pretende mantenerla cerrada, un empate significaría 
+que la puerta sigue cerrada. 
+Habilidades 
+Cada característica cubre un amplio abanico de 
+aptitudes, que incluyen habilidades en las que un 
+personaje o monstruo podría ser competente. Una 
+habilidad representa un aspecto concreto de una 
+de las características y la competencia en una 
+habilidad indica una especialización en ella. 
+Las competencias en habilidades iniciales de 
+un personaje se determinan durante su creación, 
+mientras que las de un monstruo aparecen en su 
+perfil. 
+ Por ejemplo, una prueba de Destreza podría 
+reflejar las intenciones de un personaje de realizar 
+una proeza acrobática, atrapar un objeto o permane-
+cer oculto. De hecho, estos tres aspectos de la 
+Destreza tienen habilidades asociadas: Acrobacias, 
+Juego de Manos y Sigilo, respectivamente. Así, 
+a cualquier personaje competente en la habilidad 
+Sigilo se le da especialmente bien realizar pruebas 
+de Destreza para esconderse y moverse sin ser 
+detectado. 
+ En la tabla siguiente se indica qué habilidades 
+corresponden a cada puntuación de característica 
+(la Constitución no tiene ninguna habilidad 
+asociada). Consulta la descripción de cada 
+característica en los apartados posteriores de esta 
+sección para ver ejemplos de cómo usar una 
+habilidad asociada con una característica. 
+Fuerza 
+• Atletismo 
+Destreza 
+• Acrobacias 
+• Juego de Manos 
+• Sigilo 
+Inteligencia 
+• Conocimiento Arcano 
+• Historia 
+• Investigación 
+• Naturaleza 
+• Religión 
+Sabiduría 
+• Medicina 
+• Percepción 
+• Perspicacia 
+• Supervivencia 
+• Trato con Animales 
+Carisma 
+• Engaño 
+• Interpretación 
+• Intimidación 
+• Persuasión 
+ 
+ Algunas veces tu GM te pedirá una prueba 
+de característica de una habilidad concreta. 
+Por ejemplo: “Haz una prueba de Sabiduría 
+(Percepción)”. En otras ocasiones, un jugador 
+preguntará a su GM si la competencia en cierta 
+habilidad puede aplicarse a una prueba. En ambos 
+casos, poseer competencia en una habilidad significa 
+que se puede añadir el bonificador por competencia 
+a las pruebas de característica que impliquen el uso 
+de dicha habilidad. Si no es competente, el personaje 
+hará la prueba de característica de la forma normal. 
+ De esta manera, si una aventurera intentase trepar 
+por un acantilado peligroso, su GM le pediría una 
+prueba de Fuerza (Atletismo). Si el personaje es 
+competente en Atletismo, sumará su bonificador por 
+competencia a la prueba de Fuerza. En cambio, si no 
+lo es, simplemente hará una prueba de Fuerza.
+
+Documento de referencia del sistema 5.1. 86 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Supervivencia y Trato con Animales reflejan las 
+aptitudes para ciertas pruebas de Sabiduría. 
+ Medicina. Una prueba de Sabiduría (Medicina) 
+sirve para intentar estabilizar a un compañero 
+que agoniza o diagnosticar una enfermedad. 
+ Percepción. Las pruebas de Sabiduría 
+(Percepción) te permiten ver, oír y, en general, 
+detectar la presencia de algo o alguien. Estas 
+pruebas miden tu atención general a lo que te rodea 
+y la agudeza de tus sentidos. Por ejemplo, podrías 
+intentar escuchar una conversación a través de una 
+puerta cerrada, espiar bajo una ventana abierta u oír 
+a unos monstruos que se mueven sigilosamente por 
+el bosque. También podrías tratar de descubrir 
+cosas escondidas o fáciles de pasar por alto, ya sean 
+orcos tendiendo una emboscada en el camino, 
+matones ocultándose en las sombras de un callejón 
+o la luz de una vela tras una puerta secreta cerrada. 
+ Perspicacia. Las pruebas de Sabiduría 
+(Perspicacia) indican si eres capaz de discernir 
+las verdaderas intenciones de una criatura, como 
+cuando intentas detectar si miente o predecir 
+su siguiente movimiento. Para ello es necesario 
+observar el lenguaje corporal, los hábitos del habla 
+y los cambios en los gestos. 
+ Supervivencia. Tu GM te podría pedir una prueba 
+de Sabiduría (Supervivencia) para seguir rastros, 
+cazar, guiar a tu grupo a través de un páramo helado, 
+identificar signos que indiquen la presencia de 
+osos lechuza en los alrededores, predecir el tiempo 
+o evitar arenas movedizas y otros peligros naturales. 
+ Trato con Animales. Cuando haya que dilucidar 
+si puedes calmar a un animal doméstico, evitar que 
+una montura se asuste o intuir las intenciones de 
+un animal, tu GM podrá pedirte una prueba de 
+Sabiduría (Trato con Animales). También deberás 
+hacer una prueba de este tipo para controlar tu 
+montura al intentar hacer una maniobra arriesgada. 
+ Otras pruebas de Sabiduría. Tu GM puede 
+pedirte que hagas una prueba de Sabiduría si 
+intentas realizar tareas como las siguientes: 
+• Saber instintivamente cuál es el mejor modo de 
+proceder en una situación. 
+• Discernir si una criatura aparentemente muerta 
+o viva es un muerto viviente. 
+Aptitud mágica 
+Clérigos, druidas y exploradores emplean la 
+Sabiduría como su aptitud mágica, lo que determina 
+las CD de las tiradas de salvación de los conjuros que 
+lanzan. 
+Carisma 
+El Carisma indica tu capacidad para interaccionar 
+con los demás de forma efectiva. Incluye aspectos 
+como la confianza y la elocuencia y también puede 
+representar una personalidad encantadora 
+o dominante. 
+Pruebas de Carisma 
+Puede realizarse una prueba de Carisma si tratas de 
+influir en otras personas o entretenerlas, si intentas 
+causar una buena impresión o contar una mentira 
+creíble, o si quieres salir airoso de una situación 
+social comprometida. Las habilidades Engaño, 
+Interpretación, Intimidación y Persuasión reflejan 
+las aptitudes para ciertas pruebas de Carisma. 
+ Engaño. Las pruebas de Carisma (Engaño) 
+determinan si puedes esconder la verdad de forma 
+convincente, ya sea verbalmente o mediante tus 
+actos. El engaño abarca desde confundir a otros 
+recurriendo a ambigüedades hasta simple y llana-
+mente mentir. Algunos ejemplos típicos serían 
+embarullar a un guardia, timar a un mercader, 
+ganar dinero con juegos de azar, disfrazarse para 
+pasar desapercibido, impedir sospechas mediante 
+afirmaciones falsas o mantener la compostura 
+al mentir. 
+ Interpretación. Las pruebas de Carisma 
+(Interpretación) indican si logras cautivar a tu 
+público mediante la música, el baile, la declamación 
+o cualquier otra forma de entretenimiento. 
+ Intimidación. Cuando intentes influir en alguien 
+recurriendo a amenazas, actos hostiles y violencia 
+física, tu GM te pedirá una prueba de Carisma 
+(Intimidación). Algunos ejemplos serían sonsacar 
+información a un prisionero, convencer a unos 
+matones callejeros de que no inicien una confron-
+tación o usar una botella rota para pedir a un visir 
+desdeñoso que se replantee su decisión. 
+ Persuasión. Cuando intentes influir en personas 
+o grupos recurriendo al tacto, la educación o los 
+buenos modos, tu GM te pedirá una prueba de 
+Carisma (Persuasión). La persuasión se suele utilizar 
+al actuar de buena fe, como, por ejemplo, para 
+afianzar amistades, hacer peticiones cordiales 
+o comportarse como exige la etiqueta. Algunos 
+intentos de persuadir podrían ser convencer 
+a un chambelán para que conceda a tu grupo una 
+audiencia con el rey, negociar la paz entre tribus 
+enfrentadas o inspirar a una multitud de aldeanos. 
+ Otras pruebas de Carisma. Tu GM puede pedirte 
+que hagas una prueba de Carisma si intentas realizar 
+tareas como las siguientes:
+
+Documento de referencia del sistema 5.1. 192
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Reencarnar 
+Transmutación nivel 5 
+Tiempo de lanzamiento: 1 hora 
+Alcance: Toque 
+Componentes: V, S, M (aceites y ungüentos raros 
+que valgan al menos 1000 po y que se consumen 
+como parte del conjuro) 
+Duración: Instantáneo 
+Tocas a un humanoide muerto o una parte de sus 
+restos. Siempre que la criatura no lleve muerta más 
+de 10 días, el conjuro forma un nuevo cuerpo adulto 
+y luego llama al alma para que entre en él. Si el alma 
+del objetivo no está libre o no está dispuesta 
+a hacerlo, el conjuro falla. 
+ La magia crea un nuevo cuerpo para que la 
+criatura lo habite, lo que probablemente haga que 
+cambie su raza. Tu GM tirará 1d100 y consultará la 
+siguiente tabla para determinar la forma que adopta 
+la criatura cuando recupera la vida, o puede elegir 
+una forma que desee. 
+d100 
+Raza 
+01–04 
+Dracónido 
+05–12 
+Elfo de los bosques 
+13–16 
+Elfo oscuro 
+17–25 
+Elfo, alto 
+26–34 
+Enano de las colinas 
+35–42 
+Enano de las montañas 
+43–48 
+Gnomo de las rocas 
+49–52 
+Gnomo de los bosques 
+53–72 
+Humano 
+73–80 
+Mediano fornido 
+81–88 
+Mediano piesligeros 
+89–92 
+Semielfo 
+93–96 
+Semiorco 
+97–100 
+Tiefling 
+ 
+ La criatura reencarnada recuerda su vida y sus 
+experiencias anteriores. Conserva las capacidades 
+que tenía en su forma original, pero cambia su raza 
+anterior por la nueva y, por tanto, sus atributos 
+raciales también cambian. 
+Regenerar 
+Transmutación nivel 7 
+Tiempo de lanzamiento: 1 minuto 
+Alcance: Toque 
+Componentes: V, S, M (una rueda de plegarias 
+y agua bendita) 
+Duración: 1 hora 
+Tocas a una criatura y estimulas su capacidad 
+natural de curación. El objetivo recupera 4d8 + 
+15 puntos de golpe. Hasta que termine el conjuro, 
+recupera 1 punto de golpe al principio de cada uno 
+de sus turnos (10 puntos de golpe por minuto). 
+ Los miembros mutilados del objetivo (dedos, 
+piernas, colas, etc.), si los hubiera, se recuperan 
+transcurridos 2 minutos. Si tienes el miembro 
+cercenado y lo mantienes pegado al muñón, 
+el conjuro hace que se unan inmediatamente. 
+Relámpago 
+Evocación nivel 3 
+Tiempo de lanzamiento: 1 acción 
+Alcance: Lanzador (línea de 30 m) 
+Componentes: V, S, M (un poco de pelaje y una vara 
+de ámbar, cristal o vidrio) 
+Duración: Instantáneo 
+Un relámpago que forma una línea recta de 30 m 
+de largo y 1,5 m de ancho surge de ti en la dirección 
+que elijas. Todas las criaturas situadas en esa línea 
+deberán hacer una tirada de salvación de Destreza. 
+Sufrirán 8d6 de daño de relámpago si la fallan o la 
+mitad del daño si la superan. 
+ El relámpago prenderá todos los objetos 
+inflamables que se encuentren en el área y que 
+no lleve o vista alguien. 
+ A niveles superiores. Cuando lanzas este conjuro 
+mediante un espacio de conjuro de nivel 4 o superior, 
+el daño aumenta en 1d6 por cada nivel por encima 
+de 3 que tenga el espacio que hayas empleado. 
+Relámpago en cadena 
+Evocación nivel 6 
+Tiempo de lanzamiento: 1 acción 
+Alcance: 45 m 
+Componentes: V, S, M (un poco de pelaje, tres 
+alfileres de plata y un trozo de ámbar o vidrio 
+o una vara de cristal) 
+Duración: Instantáneo 
+Creas un relámpago que se dirige a un objetivo de 
+tu elección al que puedas ver dentro del alcance. 
+A continuación, de ese objetivo surgirán otros tres 
+relámpagos dirigidos a otros tantos objetivos, cada 
+uno de los cuales deberá estar a 9 m o menos del 
+primero. Un objetivo puede ser una criatura o un 
+objeto y solo puede ser objetivo de uno de los 
+relámpagos. 
+ Cada objetivo deberá hacer una tirada de 
+salvación de Destreza y sufrirá 10d8 de daño de 
+relámpago si la falla o la mitad del daño si la supera. 
+ A niveles superiores. Cuando lanzas este conjuro 
+mediante un espacio de conjuro de nivel 7 o superior,
+
+Documento de referencia del sistema 5.1. 233
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Pierdes todos los negocios, edificios y tierras que 
+poseas de la manera que menos altere la realidad. 
+Cualquier documento que pruebe que deberías 
+poseer las riquezas perdidas por esta carta también 
+desaparece. 
+ Sol. Ganas 50 000 PX y en tus manos aparece un 
+objeto maravilloso (tu GM lo determina al azar). 
+ Trono. Ganas competencia en la habilidad 
+Persuasión y duplicas tu bonificador por 
+competencia en las pruebas de esa habilidad. 
+Además, obtienes de pleno derecho la propiedad 
+de una pequeña fortaleza en alguna parte del mundo. 
+No obstante, ahora mismo la habitan monstruos, 
+a los que deberás expulsar antes de reclamar la 
+fortaleza. 
+ El Vacío. Esta carta negra vaticina una catástrofe. 
+Tu alma se extrae de tu cuerpo y va a parar al 
+interior de un objeto situado en un lugar a elección 
+de tu GM. Uno o más seres poderosos custodian ese 
+sitio. Mientras tu alma esté atrapada de este modo, 
+tu cuerpo quedará incapacitado. Un conjuro deseo 
+no puede traer de vuelta tu alma, pero sí revela la 
+ubicación del objeto que la contiene. No robas más 
+cartas. 
+ Visir. En cualquier momento que quieras hasta 
+un año después de robar esta carta, podrás hacer 
+una pregunta mientras meditas y recibirás 
+mentalmente una respuesta veraz a dicha cuestión. 
+Además de proporcionarte información, la respuesta 
+te ayudará a resolver un problema u otro dilema. 
+Dicho de otro modo, el conocimiento se obtiene 
+junto con la sabiduría necesaria para aplicarlo. 
+Bastón de curación 
+Bastón, raro (requiere sintonización por parte de un 
+bardo, clérigo o druida) 
+Este bastón tiene 10 cargas. Mientras lo empuñes, 
+podrás usar una acción y gastar 1 o más de sus 
+cargas para lanzar uno de los siguientes conjuros 
+desde él con tu CD de salvación de conjuros y 
+modificador por aptitud mágica: curar heridas 
+(1 carga por nivel del conjuro, hasta el 4), curar 
+heridas en masa (5 cargas), restablecimiento menor 
+(2 cargas). 
+ El bastón recupera 1d6 + 4 cargas empleadas cada 
+día, al amanecer. Si gastas la última carga, tira 1d20. 
+Si el resultado es 1, el bastón se desvanece tras un 
+destello y se pierde para siempre. 
+Bastón de enjambre de insectos 
+Bastón, raro (requiere sintonización por parte de 
+un bardo, brujo, clérigo, druida, hechicero o mago) 
+Este bastón tiene 10 cargas y recupera 1d6 + 
+4 cargas empleadas cada día, al amanecer. Si gastas 
+la última carga, tira 1d20. Si el resultado es 1, un 
+enjambre de insectos engulle el bastón, lo destruye 
+y  luego se dispersa. 
+ Conjuros. Mientras empuñes el bastón, podrás 
+usar una acción y gastar algunas de sus cargas para 
+lanzar uno de los siguientes conjuros desde él con 
+tu CD de salvación de conjuros: insecto gigante 
+(4 cargas), plaga de insectos (5 cargas). 
+ Nube de insectos. Mientras empuñes el bastón, 
+podrás usar una acción y gastar 1 carga para hacer 
+que un enjambre de insectos voladores inofensivos 
+cubra un radio de 9 m a tu alrededor. Los insectos 
+permanecerán durante 10 minutos y convertirán 
+el área en una zona muy oscura para todas las 
+criaturas menos para ti. El enjambre se mueve 
+contigo y se mantiene centrado en ti. Un viento de 
+al menos 15 km/h dispersará al enjambre y pondrá 
+fin al efecto. 
+Bastón de escarcha 
+Bastón, muy raro (requiere sintonización por parte 
+de un brujo, druida, hechicero o mago) 
+Mientras empuñes este bastón, tendrás resistencia 
+al daño de frío. 
+ El bastón tiene 10 cargas. Mientras lo empuñes, 
+podrás usar una acción y gastar 1 o más de sus 
+cargas para lanzar uno de los siguientes conjuros 
+desde él con tu CD de salvación de conjuros: cono 
+de frío (5 cargas), muro de hielo (4 cargas), nube 
+de oscurecimiento (1 carga) o tormenta de hielo 
+(4 cargas). 
+ El bastón recupera 1d6 + 4 cargas empleadas cada 
+día, al amanecer. Si gastas la última carga, tira 1d20. 
+Si el resultado es 1, el bastón se convierte en agua 
+y se destruye. 
+Bastón de fuego 
+Bastón, muy raro (requiere sintonización por parte 
+de un brujo, druida, hechicero o mago) 
+Mientras empuñes este bastón, tendrás resistencia 
+al daño de fuego. 
+ El bastón tiene 10 cargas. Mientras lo empuñes, 
+podrás usar una acción y gastar 1 o más de sus 
+cargas para lanzar uno de los siguientes conjuros 
+desde él con tu CD de salvación de conjuros: bola
+
+Documento de referencia del sistema 5.1. 272
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+(Un objeto de este tipo nunca es neutral). 
+2 
+Perdición. El objeto quiere derrotar o destruir 
+a criaturas de un tipo determinado, como 
+cambiaformas, infernales, trolls o magos. 
+3 
+Protector. El objeto quiere defender a una raza o tipo 
+de criatura en particular, como elfos o druidas. 
+4 
+Cruzado. El objeto quiere derrotar, debilitar o destruir 
+a los siervos de una deidad concreta. 
+5 
+Templario. El objeto quiere defender a los siervos 
+e intereses de una deidad concreta. 
+6 
+Destructor. El objeto ansía la destrucción e incita 
+a su usuario a luchar de forma arbitraria. 
+7 
+Buscador de gloria. El objeto busca el reconocimiento 
+como el mejor objeto mágico del mundo, por lo que 
+querrá que su usuario alcance la fama y la notoriedad. 
+8 
+Buscador de conocimiento. El objeto anhela 
+conocimientos o está decidido a resolver un misterio, 
+desvelar un secreto o descifrar una enigmática 
+profecía. 
+9 
+Buscador del destino. El objeto está convencido de que 
+tanto él como su usuario desempeñarán una función 
+clave en futuros acontecimientos. 
+10 
+Buscador del creador. El objeto busca a su creador 
+y quiere saber por qué lo creó. 
+ 
+Conflicto 
+Un objeto consciente tiene voluntad propia, 
+moldeada por su personalidad y alineamiento. 
+Si su usuario actúa de manera opuesta al alinea-
+miento o propósito del objeto, puede surgir un 
+conflicto. En tal caso, el objeto realizará una prueba 
+de Carisma enfrentada a una prueba de Carisma del 
+usuario. Si el objeto gana, exigirá una o más de las 
+siguientes cosas: 
+• Insistirá en que lo porten o lo vistan a todas horas. 
+• Exigirá que su usuario se deshaga de cualquier 
+cosa que le parezca repugnante. 
+• Exigirá que su usuario persiga los fines del objeto 
+en detrimento de cualquier otro objetivo. 
+• Exigirá que lo entreguen a otra persona. 
+ Si el usuario se niega a cumplir los deseos del 
+objeto, este podrá hacer alguna de las siguientes 
+cosas (o todas): 
+• Impedir que el usuario se sintonice con él. 
+• Suprimir uno o varias de sus propiedades 
+activadas. 
+• Tratar de tomar el control del usuario. 
+ Si un objeto consciente intenta tomar el control 
+de quien lo utiliza, el usuario deberá realizar una 
+tirada de salvación de Carisma con una CD igual a 12 
++ el modificador por Carisma del objeto. Si la falla, 
+el usuario quedará hechizado por el objeto durante 
+1d12 horas. Mientras esté hechizado, deberá de 
+tratar de seguir las órdenes del objeto. Cuando 
+el usuario sufra daño, podrá repetir la tirada de 
+salvación y, si tiene éxito, se librará del efecto. 
+Tanto si logra controlar a su usuario o no, el objeto 
+no podrá volver a usar este poder hasta el siguiente 
+amanecer. 
+Artefactos 
+Orbe de los Dragones 
+Objeto maravilloso, artefacto (requiere sintonización) 
+Otrora, los elfos y los humanos libraron una guerra 
+terrible contra los dragones malvados. Cuando 
+el mundo parecía estar condenado, unos magos 
+poderosos se aliaron y utilizaron su grandiosa magia 
+para forjar cinco Orbes de los Dragones (u Orbes 
+Dragón) con el fin de ayudarles a derrotar a los 
+dragones. Cada orbe se llevó a una de las cinco 
+torres de los magos y, allí, se usaron para encauzar 
+la guerra hacia un desenlace victorioso. Los magos 
+utilizaron los orbes para atraer a los dragones, 
+a los que mataron con su poderosa magia. 
+ Eras después, cuando cayeron las torres de los 
+magos, los orbes se destruyeron o se convirtieron 
+en meras leyendas, aunque se cree que tres de 
+ellos sobrevivieron. Su magia se ha distorsionado 
+y corrompido a lo largo de los siglos, por lo que, 
+aunque su propósito original de llamar a los 
+dragones aún perdure, también sirven para ejercer 
+cierto control sobre ellos. 
+ Cada orbe contiene la esencia de un dragón 
+malvado, una presencia que se ofenderá ante 
+cualquier intento de extraer magia de ella. 
+Las criaturas de carácter débil podrían acabar 
+esclavizadas por un orbe. 
+ Un orbe es un globo de cristal grabado de unos 
+25 cm de diámetro. Cuando se usa, se expande hasta 
+alcanzar los 50 cm de diámetro y una bruma se 
+arremolina en su interior. 
+ Mientras tengas sintonización con un orbe, podrás 
+utilizar una acción para mirar en las profundidades 
+del mismo y pronunciar su palabra de activación. 
+Tendrás que realizar una prueba de Carisma con 
+CD 15. Si la superas, controlarás el orbe mientras 
+permanezcas en sintonía con él. Si la fallas, quedarás 
+hechizado por el orbe mientras permanezcas en 
+sintonía con él. 
+ Mientras estés hechizado por el orbe, no podrás 
+acabar voluntariamente la sintonización y el orbe 
+te lanzará sugestión a voluntad (CD de salvación 18)
+
+Documento de referencia del sistema 5.1. 391
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Apéndice MJ-B: 
+Panteones histórico-
+fantásticos 
+Los panteones celta, egipcio, griego y nórdico son 
+interpretaciones fantásticas de religiones históricas 
+de la antigüedad de nuestro propio mundo. Incluyen 
+deidades que encajan muy bien con el juego, aunque 
+se han separado de su contexto histórico real y se 
+han incluido en panteones que sirven para las 
+necesidades del juego. 
+El panteón celta 
+Se dice que en el corazón de cada alma acecha algo 
+salvaje, un recoveco que se estremece con el sonido 
+de la llamada nocturna de los gansos, con el susurro 
+del viento al atravesar los pinos, con el rojo que tiñe 
+el muérdago de un roble... Y es en ese espacio donde 
+moran los dioses celtas. Su origen son el arroyo y el 
+riachuelo, y su poder aumenta con la fuerza del roble 
+y la belleza de los bosques y los grandes páramos. 
+Cuando el primer guardabosques se atrevió a dar 
+nombre al rostro que contemplaba en el tronco de 
+un árbol o a la voz que le hablaba desde el torrente 
+montañoso, estos dioses tomaron cuerpo. 
+ Los dioses celtas son objeto de veneración 
+tanto de druidas como de clérigos, ya que están 
+en sintonía con las fuerzas de la naturaleza que 
+los druidas reverencian.  
+El panteón griego 
+Los dioses del Olimpo hacen notar su presencia con 
+el gentil golpeteo de las olas contra la orilla o con el 
+retumbar del trueno entre los picos velados por las 
+nubes. Las pruebas de su paso pueden verse tanto 
+en los espesos bosques infestados de osos como 
+en las adustas colinas recubiertas de olivos. Cada 
+aspecto de la naturaleza reverbera con su presencia 
+y también se han hecho un hueco en el corazón de 
+los humanos. 
+El panteón egipcio 
+Estos dioses, una joven dinastía de una familia 
+de deidades ancestrales, son los herederos del 
+gobierno del cosmos y del deber de mantener el 
+divino principio de maat: el orden fundamental 
+de la verdad, la justicia, la ley y la armonía que 
+pone a los dioses, a los faraones mortales y a la gente 
+ordinaria en su lugar lógico y apropiado del universo. 
+ El panteón egipcio difiere de los demás porque 
+son tres dioses los responsables de la muerte, cada 
+uno con su propio alineamiento. Anubis es el dios 
+legal neutral de la vida tras la muerte, quien juzga 
+las almas de los difuntos. Set es el dios caótico 
+malvado del asesinato, conocido sobre todo por 
+haber acabado con la vida de su hermano Osiris. 
+Y Neftis es la diosa caótica buena del luto.  
+El panteón nórdico 
+Allí donde la tierra cae en picado desde las colinas 
+nevadas hasta los helados fiordos, donde alargados 
+barcos se aproximan a la playa, donde cada otoño y 
+cada primavera los glaciares avanzan y retroceden... 
+Allí tiene su hogar el panteón nórdico, en la tierra 
+de los vikingos. Con un clima tan brutal, la forma 
+de vida de sus habitantes también ha de serlo. Los 
+guerreros de estas tierras han tenido que adaptarse 
+a las severas condiciones para sobrevivir, pero 
+las exigencias del entorno no los han corrompido 
+demasiado. Pese a la necesidad de saquear para 
+obtener comida y riquezas, sorprende que los 
+mortales no hayan acabado peor. Los poderes de 
+estos dioses son un reflejo de la obligación que los 
+habitantes de estas tierras tenían de contar con 
+líderes fuertes y llevar a cabo acciones enérgicas. 
+Por ello ven a sus deidades en cada meandro de 
+un río, los escuchan en el estallido del trueno y en 
+el retumbar de los glaciares, y los huelen en el humo 
+de una casa comunal en llamas. 
+ El panteón nórdico está formado por dos familias 
+principales, los Aesir (deidades de la guerra y el 
+destino) y los Vanir (dioses de la fertilidad y la 
+prosperidad). Antaño enemigas, ahora estas dos 
+familias han formado una estrecha alianza para 
+hacer frente a sus enemigos comunes, los gigantes 
+(incluidos los dioses Surt y Thrym). 
+ 
+Deidades celtas 
+Deidad 
+Alineamiento 
+Dominios recomendados 
+Símbolo 
+El Dagda, dios del clima y los cultivos 
+CB 
+Engaño, Naturaleza 
+Caldero burbujeante o escudo 
+Arawn, dios de la vida y la muerte 
+NM 
+Muerte, Vida 
+Estrella negra sobre fondo gris 
+Belenus, dios del sol, la luz y el calor 
+NB 
+Luz 
+Disco solar y menhires 
+Brigit, diosa de los ríos y el ganado 
+NB 
+Vida 
+Pasarela
+
+Documento de referencia del sistema 5.1. 428
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Apéndice MM-B: 
+Personajes no 
+jugadores 
+ 
+Este apéndice contiene los perfiles de varios 
+personajes no jugadores (PNJ) humanoides con los 
+que los aventureros podrían encontrarse durante la 
+campaña, desde humildes plebeyos hasta poderosos 
+archimagos. Estos perfiles sirven para PNJ tanto 
+humanos como de otras razas. 
+Personalizar un PNJ 
+Hay muchas formas sencillas de personalizar los PNJ 
+de estos apéndices para adaptarlos a tu campaña. 
+ Atributos raciales. Puedes añadir atributos 
+raciales a un PNJ. Así, un druida mediano tendría una 
+velocidad de 7,5 m y el atributo Afortunado. Poner 
+atributos de este tipo a un PNJ no modifica su valor 
+de desafío. Encontrarás más información sobre los 
+atributos raciales en la página 1. 
+ Cambiar conjuros. Una forma de personalizar 
+a un PNJ lanzador de conjuros es reemplazar algunos 
+de sus conjuros por otros. Puedes cambiar cualquier 
+conjuro de la lista del PNJ por otro de igual nivel de 
+la misma lista. Sustituir conjuros de esta forma no 
+modifica el valor de desafío del PNJ. 
+ Cambiar armas y armaduras. Puedes cambiar 
+la armadura del PNJ por una mejor o peor, así como 
+sustituir su arma por otra o añadirle más armas. 
+Los cambios en la Clase de Armadura y el daño 
+pueden modificar el valor de desafío del PNJ. 
+ Objetos mágicos. Cuanto más poderoso sea el PNJ, 
+más probable será que posea algún objeto mágico, 
+o incluso varios. Sería lógico pensar que un 
+archimago tenga un bastón o varita mágicos, 
+así como pergaminos y pociones. Dar a un PNJ 
+un objeto mágico poderoso capaz de infligir daño 
+podría alterar su valor de desafío. 
+Acólito 
+Humanoide Mediano (cualquier raza), cualquier 
+alineamiento 
+Clase de Armadura: 10 
+Puntos de golpe: 9 (2d8) 
+Velocidad: 9 m 
+ 
+FUE 
+DES 
+CON 
+INT 
+SAB 
+CAR 
+ 10 (+0) 10 (+0) 10 (+0) 10 (+0) 14 (+2) 11 (+0) 
+Habilidades: Medicina +4, Religión +2 
+Sentidos: Percepción pasiva 12 
+Idiomas: uno cualquiera (normalmente común) 
+Desafío: 1/4 (50 PX) 
+  
+Lanzamiento de Conjuros. El acólito es un lanzador de 
+conjuros de nivel 1. Su aptitud mágica es la Sabiduría 
+(CD de salvación de conjuros 12, +4 a impactar con 
+ataques de conjuro). Tiene los siguientes conjuros 
+de clérigo preparados: 
+Trucos (a voluntad): llama sagrada, luz, taumaturgia 
+Nivel 1 (3 espacios): bendición, curar heridas, santuario 
+Acciones 
+Garrote. Ataque con arma cuerpo a cuerpo: +2 a impactar, 
+alcance 1,5 m, un objetivo. Impacto: 2 (1d4) de daño 
+contundente. 
+ 
+Los acólitos son los miembros de menor rango del 
+clero, que suelen responder ante un sacerdote. 
+Llevan a cabo una gran variedad de funciones en 
+los templos y reciben unos pocos conjuros de sus 
+deidades. 
+ 
+Archimago 
+Humanoide Mediano (cualquier raza), cualquier 
+alineamiento 
+Clase de Armadura: 12 (15 con armadura de mago) 
+Puntos de golpe: 99 (18d8 + 18) 
+Velocidad: 9 m 
+ 
+FUE 
+DES 
+CON 
+INT 
+SAB 
+CAR 
+ 10 (+0) 14 (+2) 12 (+1) 20 (+5) 15 (+2) 16 (+3) 
+Tiradas de salvación: Int +9, Sab +6 
+Habilidades: Conocimiento Arcano +13, Historia +13 
+Resistencia a daño: daño de conjuros; contundente, 
+cortante y perforante de ataques no mágicos 
+(por piel pétrea) 
+Sentidos: Percepción pasiva 12 
+Idiomas: seis cualesquiera 
+Desafío: 12 (8400 PX)
+

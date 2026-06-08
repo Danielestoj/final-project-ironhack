@@ -1,0 +1,2027 @@
+## Fuente: SRD_CC_v5.1_ES
+
+Documento de referencia del sistema 5.1. 11 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Bardo 
+Rasgos de clase 
+Como bardo, obtienes los siguientes rasgos de clase. 
+Puntos de golpe 
+Dados de Golpe: 1d8 por nivel de bardo. 
+Puntos de golpe a nivel 1: 8 + tu modificador por 
+Constitución. 
+Puntos de golpe a niveles superiores: 1d8 (o 5) + 
+tu modificador por Constitución por cada nivel de 
+bardo por encima del primero. 
+Competencias 
+Armadura: armaduras ligeras. 
+Armas: armas sencillas, ballestas de mano, espadas 
+cortas, espadas largas y estoques. 
+Herramientas: tres instrumentos musicales de 
+tu elección. 
+Tiradas de salvación: Destreza, Carisma. 
+Habilidades: escoge tres cualesquiera. 
+Equipo 
+Además del que obtengas por tu trasfondo, empiezas 
+con el siguiente equipo: 
+• (a) un estoque, (b) una espada larga o (c) 
+cualquier arma sencilla; 
+• (a) un paquete de diplomático o (b) un paquete 
+de artista; 
+• (a) un laúd o (b) cualquier otro instrumento 
+musical; 
+• armadura de cuero y una daga. 
+ 
+ 
+ 
+El bardo 
+Nivel 
+Bon. por 
+competencia 
+Rasgos 
+Trucos 
+conocidos 
+Conjuros 
+conocidos 
+—Espacios de conjuro por cada nivel de conjuro— 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+1 
++2 
+Lanzamiento de Conjuros, 
+Inspiración Bárdica (d6) 
+2 
+4 
+2 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+2 
++2 
+Aprendiz de Mucho, Canción 
+de Descanso (d6) 
+2 
+5 
+3 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+3 
++2 
+Colegio Bárdico, Pericia 
+2 
+6 
+4 
+2 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+4 
++2 
+Mejora de Característica 
+3 
+7 
+4 
+3 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+5 
++3 
+Inspiración Bárdica (d8), 
+Fuente de Inspiración 
+3 
+8 
+4 
+3 
+2 
+— 
+— 
+— 
+— 
+— 
+— 
+6 
++3 
+Contraencantamiento, 
+rasgo de Colegio Bárdico  
+3 
+9 
+4 
+3 
+3 
+— 
+— 
+— 
+— 
+— 
+— 
+7 
++3 
+— 
+3 
+10 
+4 
+3 
+3 
+1 
+— 
+— 
+— 
+— 
+— 
+8 
++3 
+Mejora de Característica 
+3 
+11 
+4 
+3 
+3 
+2 
+— 
+— 
+— 
+— 
+— 
+9 
++4 
+Canción de Descanso (d8) 
+3 
+12 
+4 
+3 
+3 
+3 
+1 
+— 
+— 
+— 
+— 
+10 
++4 
+Inspiración Bárdica (d10), 
+Pericia, Secretos Mágicos 
+4 
+14 
+4 
+3 
+3 
+3 
+2 
+— 
+— 
+— 
+— 
+11 
++4 
+— 
+4 
+15 
+4 
+3 
+3 
+3 
+2 
+1 
+— 
+— 
+— 
+12 
++4 
+Mejora de Característica 
+4 
+15 
+4 
+3 
+3 
+3 
+2 
+1 
+— 
+— 
+— 
+13 
++5 
+Canción de Descanso (d10) 
+4 
+16 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+— 
+— 
+14 
++5 
+Secretos Mágicos, rasgo de 
+Colegio Bárdico 
+4 
+18 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+— 
+— 
+15 
++5 
+Inspiración Bárdica (d12) 
+4 
+19 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+— 
+16 
++5 
+Mejora de Característica 
+4 
+19 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+— 
+17 
++6 
+Canción de Descanso (d12) 
+4 
+20 
+4 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+1 
+18 
++6 
+Secretos Mágicos 
+4 
+22 
+4 
+3 
+3 
+3 
+3 
+1 
+1 
+1 
+1 
+19 
++6 
+Mejora de Característica 
+4 
+22 
+4 
+3 
+3 
+3 
+3 
+2 
+1 
+1 
+1 
+20 
++6 
+Inspiración Superior 
+4 
+22 
+4 
+3 
+3 
+3 
+3 
+2 
+2 
+1 
+1
+
+Documento de referencia del sistema 5.1. 63 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Equipo 
+Las monedas más comunes tienen diversas 
+denominaciones, que se basan en el valor relativo 
+del metal del que están hechas. Las tres monedas 
+más comunes son la pieza de oro (po), la pieza 
+de plaza (pp) y la pieza de cobre (pc). 
+ Una moneda de oro permite comprar un petate, 
+15 m de cuerda de buena calidad o una cabra. 
+Un artesano habilidoso (que no excepcional) puede 
+ganar una pieza de oro al día. La pieza de oro es la 
+unidad de medida estándar para la riqueza, incluso 
+aunque la moneda en sí no se utilice habitualmente. 
+Los mercaderes negocian acuerdos que implican 
+bienes o servicios valorados en cientos o miles de 
+piezas de oro, pero estas transacciones no suelen 
+terminar con el intercambio físico de monedas. 
+Más bien, la pieza de oro es una medida estándar 
+de valor y el intercambio real se produce mediante 
+lingotes de oro, cartas de crédito o bienes valiosos. 
+ Una pieza de oro vale tanto como diez piezas de 
+plata, la moneda más habitual entre los plebeyos. 
+Cada pieza de plata equivale a medio día de trabajo 
+de un peón, un frasco de aceite para lámparas o una 
+noche de descanso en una posada humilde. 
+ Una pieza de plata equivale a diez piezas de cobre, 
+la moneda empleada por peones y mendigos. Con 
+una pieza de cobre se puede comprar una vela, 
+una antorcha o un trozo de tiza. 
+ Además, existen monedas más raras, hechas de 
+otros metales más nobles, que a veces forman parte 
+de grandes tesoros. Las piezas de electro (pe) y de 
+platino (ppt) provienen de imperios caídos y reinos 
+perdidos, y utilizarlas en una transacción puede 
+levantar sospechas y generar escepticismo. Una 
+pieza de electro vale cinco piezas de plata y una 
+de platino serían diez piezas de oro. 
+ La moneda estándar pesa 10 g, por lo que 
+cincuenta monedas pesan 0,5 kg. 
+Tipo de cambio estándar 
+Moneda 
+PC 
+PP 
+PE 
+PO 
+PPT 
+Cobre (pc) 
+1 
+1/10 
+1/50 
+1/100 
+1/1000 
+Plata (pp) 
+10 
+1 
+1/5 
+1/10 
+1/100 
+Electro (pe) 
+50 
+5 
+1 
+1/2 
+1/20 
+Oro (po) 
+100 
+10 
+2 
+1 
+1/10 
+Platino (ppt) 
+1000 
+100 
+20 
+10 
+1 
+Vender tesoros 
+En las mazmorras que explores abundarán las 
+oportunidades de conseguir tesoros, equipo, armas, 
+armaduras y otras recompensas. Lo habitual es que, 
+al volver a un pueblo u otro asentamiento, vendas 
+los tesoros y baratijas hallados, siempre y cuando 
+encuentres compradores o mercaderes interesados 
+en tu botín. 
+ Armas, armaduras y otro equipo. Como regla 
+general, las armas, armaduras y otro equipo que no 
+hayan sufrido daños pueden venderse a la mitad de 
+su precio en un mercado. Las armaduras y armas 
+de los monstruos rara vez estarán en condiciones 
+lo bastante buenas como para poder venderlas. 
+ Objetos mágicos. Vender objetos mágicos es 
+peliagudo. No es muy difícil encontrar gente 
+interesada en comprar una poción o pergamino, 
+pero otros objetos solo estarán al alcance de los 
+nobles más ricos. Por eso mismo, lo normal será que 
+no encuentres conjuros ni objetos mágicos a la venta, 
+salvo algunos comunes. La magia es mucho más 
+valiosa que el simple oro, por lo que siempre debe 
+tratarse con la estima que merece. 
+ Gemas, joyas y obras de arte. Estos objetos 
+pueden venderse por su valor completo en el 
+mercado, así que puedes cambiarlos por monedas 
+o usarlos como pago en otras transacciones. Si se 
+trata de tesoros excepcionalmente valiosos, tu GM 
+podría pedirte que encuentres un comprador en 
+una ciudad o comunidad más grande antes de poder 
+venderlos. 
+ Mercancías. En las tierras fronterizas, es común 
+recurrir al trueque. Al igual que las gemas y las obras 
+de arte, las mercancías (barras de hierro, sacos de 
+sal, ganado, etc.) pueden venderse por su valor 
+completo y usarse como moneda. 
+Armaduras 
+Los mundos fantásticos forman un vasto tapiz 
+compuesto de numerosas culturas, cada una con 
+su propio nivel tecnológico. Por este motivo, los 
+aventureros tendrán acceso a una gran variedad de 
+armaduras, que van desde las económicas cotas de 
+malla o armaduras de cuero hasta la sumamente 
+cara armadura de placas, con un amplio espectro 
+entre ambos extremos. La tabla “Armaduras” 
+presenta los tipos de armadura más comunes del 
+juego y los divide en tres categorías: armaduras 
+ligeras, medias y pesadas. Muchos combatientes 
+complementan su armadura con un escudo. 
+ La tabla “Armaduras” muestra el coste, peso 
+y otras propiedades de los tipos de armaduras que 
+se suelen emplear en los mundos fantásticos. 
+ Competencia con armaduras. Cualquiera puede 
+ponerse una armadura o embrazar un escudo, pero 
+solo quienes sean competentes con dicho equipo
+
+Documento de referencia del sistema 5.1. 64 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+saben cómo utilizarlo de forma efectiva. Tu clase 
+determina el tipo de armaduras con las que eres 
+competente. Si llevas puesta una armadura con la 
+que no eres competente, tendrás desventaja en todas 
+las pruebas de característica, tiradas de salvación 
+y tiradas de ataque que impliquen la Fuerza o la 
+Destreza. Además, tampoco podrás lanzar conjuros. 
+ Clase de Armadura (CA). La armadura (y el 
+escudo, si procede) protege a su portador de los 
+ataques y determina su Clase de Armadura base. 
+ Armaduras pesadas. Las armaduras pesadas 
+interfieren con la capacidad del portador de 
+moverse con sigilo, rapidez y libertad. Si la tabla 
+“Armaduras” muestra “Fue 13” o “Fue 15” en la 
+columna de Fuerza para un tipo de armadura, esta 
+reducirá 3 m la velocidad del portador, salvo que 
+tenga una puntuación de Fuerza igual o superior 
+a la indicada. 
+ Sigilo. Si en la tabla aparece “desventaja” en la 
+columna de Sigilo, quien lleve la armadura sufrirá 
+desventaja en las pruebas de Destreza (Sigilo). 
+ Escudos. Los escudos, ya sean de madera o metal, 
+se portan en una mano. Embrazar un escudo 
+aumenta tu Clase de Armadura en 2. Solo puedes 
+usar un escudo al mismo tiempo. 
+Armaduras ligeras 
+Al estar hechas de materiales delgados y flexibles, 
+las armaduras ligeras resultan útiles para los 
+aventureros más ágiles, ya que ofrecen cierta 
+protección sin sacrificar la libertad de movimiento. 
+Si llevas una armadura ligera, añadirás tu 
+modificador por Destreza al número base 
+correspondiente a tu tipo de armadura para 
+determinar tu Clase de Armadura. 
+ Acolchada. La armadura acolchada está hecha 
+de varias capas de tela guateada. 
+ Cuero. La parte que cubre el torso y las hombreras 
+de esta armadura están hechas de cuero que se ha 
+endurecido al hervirlo en aceite. El resto está 
+confeccionado con materiales más blandos 
+y flexibles. 
+ Cuero tachonado. La armadura de cuero 
+tachonado, hecha de cuero resistente pero flexible, 
+está reforzada con pinchos o remaches dispuestos 
+muy juntos. 
+Armaduras medias 
+Las armaduras medias ofrecen mayor protección 
+que las ligeras, pero, a cambio, obstaculizan más 
+los movimientos. Si llevas una armadura media, 
+añadirás tu modificador por Destreza, hasta un 
+máximo de +2, al número base correspondiente 
+a tu tipo de armadura para determinar tu Clase 
+de Armadura. 
+ Pieles. Esta primitiva armadura se fabrica a partir 
+de pelajes y pieles gruesas. Es habitual verla en 
+tribus bárbaras, humanoides malvados y, en general, 
+cualquiera que no disponga de herramientas 
+o materiales necesarios para crear una armadura 
+mejor. 
+ Camisa de malla. La camisa de malla está hecha 
+de anillos de metal entrelazados y se lleva entre 
+capas de tela o cuero. Ofrece una protección 
+razonable para el torso y es bastante silenciosa, 
+ya que las capas exteriores amortiguan el sonido 
+que producen los anillos al chocar entre sí. 
+ Cota de escamas. Esta armadura está compuesta 
+de un chaquetón y unas perneras (y, a veces, una 
+falda aparte) de cuero cubiertos de trozos de metal 
+superpuestos, parecidos a las escamas de un pez. 
+Esta cota incluye guanteletes. 
+ Coraza. Esta armadura se compone de una placa 
+de metal ajustada al pecho mediante tiras de cuero 
+flexible. Aunque deja las extremidades relativamente 
+expuestas, ofrece buena protección para los órganos 
+vitales sin afectar en demasía a la libertad de 
+movimiento. 
+ Media armadura. Esta armadura está compuesta 
+de placas de metal forjadas para ajustarse a la forma 
+del cuerpo y cubre la mayor parte de este. Sin 
+embargo, no incluye protección para las piernas 
+más allá de unas grebas sujetas con tiras de cuero. 
+Armaduras pesadas 
+De entre todas las categorías de armaduras, las 
+pesadas son las que ofrecen la mayor protección. 
+Estas armaduras cubren todo el cuerpo y están 
+diseñadas para detener una gran variedad de 
+ataques. Solo los combatientes más capaces pueden 
+sobrellevar su peso y volumen. 
+ Las armaduras pesadas no te permiten añadir tu 
+modificador por Destreza a la Clase de Armadura, 
+pero tampoco te penalizarán si tu modificador por 
+Destreza es negativo. 
+ Cota guarnecida. Esta armadura es una armadura 
+de cuero sobre la que se cosen pesados anillos de 
+metal, que ayudan a reforzarla contra los golpes de 
+espadas y hachas. La cota guarnecida es inferior 
+a la cota de malla, por lo que solo suelen llevarla 
+aquellos que no se pueden permitir una armadura 
+mejor. 
+ Cota de malla. Esta armadura está fabricada 
+mediante anillos metálicos entrelazados, que se 
+apoyan sobre un gambesón que impide que la piel
+
+Documento de referencia del sistema 5.1. 67 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+liberada. Esta arma no tendrá efecto sobre objetivos 
+sin forma definida o que sean de tamaño Enorme 
+o mayor. Una criatura puede emplear su acción para 
+hacer una prueba de Fuerza con CD 10. Si tiene éxito, 
+podrá liberarse a sí misma o a otra criatura dentro 
+de su alcance. Infligir 5 de daño cortante a la red 
+(CA 10) también liberará a la criatura sin causarle 
+daño alguno, pondrá fin al efecto y destruirá la red. 
+ Cuando utilices una acción, una acción adicional 
+o una reacción para atacar con una red, solo podrás 
+realizar un ataque, incluso aunque normalmente 
+pudieras hacer más de uno. 
+Armas improvisadas 
+A veces, los personajes no portarán sus armas 
+y se verán obligados a atacar con cualquier cosa que 
+tengan a mano. Un arma improvisada es cualquier 
+objeto que puedas sujetar con una o las dos manos, 
+como una botella rota, la pata de una mesa, una 
+sartén, la rueda de una carreta o un goblin muerto. 
+ Con frecuencia, las armas improvisadas se parecen 
+tanto a las armas de verdad que pueden tratarse 
+como tales. Por ejemplo, la pata de una mesa es muy 
+similar a un garrote. A discreción de tu GM, un 
+personaje competente con un arma puede usar 
+un objeto similar como si fuera dicha arma y, así, 
+utilizar su bonificador por competencia. 
+ Los objetos que no se parecen a ningún arma 
+hacen 1d4 de daño (tu GM elige el tipo de daño más 
+apropiado para el objeto). Si un personaje usa un 
+arma a distancia como arma cuerpo a cuerpo o lanza 
+un arma que no sea arrojadiza, también causará 1d4 
+de daño. Si se arroja un arma improvisada, tendrá un 
+alcance normal de 6 m y un alcance largo de 18 m. 
+ 
+Armas 
+Nombre 
+Precio 
+Daño 
+Peso 
+Propiedades 
+Armas cuerpo a cuerpo sencillas 
+ 
+ 
+ 
+ 
+ Bastón 
+2 pp 
+1d6 contundente 
+2 kg 
+Versátil (1d8) 
+ Daga 
+2 po 
+1d4 perforante 
+0,5 kg 
+Arrojadiza (alcance 6/18), ligera, sutil 
+ Garrote 
+1 pp 
+1d4 contundente 
+1 kg 
+Ligero 
+ Garrote grande 
+2 pp 
+1d8 contundente 
+5 kg 
+A dos manos 
+ Hacha de mano 
+5 po 
+1d6 cortante 
+1 kg 
+Arrojadiza (alcance 6/18), ligera 
+ Hoz 
+1 po 
+1d4 cortante 
+1 kg 
+Ligera 
+ Jabalina 
+5 pp 
+1d6 perforante 
+1 kg 
+Arrojadiza (alcance 9/36) 
+ Lanza 
+1 po 
+1d6 perforante 
+1,5 kg 
+Arrojadiza (alcance 6/18), versátil (1d8) 
+ Martillo ligero 
+2 po 
+1d4 contundente 
+1 kg 
+Arrojadizo (alcance 6/18), ligero 
+ Maza 
+5 po 
+1d6 contundente 
+2 kg 
+— 
+Armas a distancia sencillas 
+ 
+ 
+ 
+ 
+ Arco corto 
+25 po 
+1d6 perforante 
+1 kg 
+A dos manos, munición (alcance 24/96) 
+ Ballesta ligera 
+25 po 
+1d8 perforante 
+2,5 kg 
+A dos manos, munición (alcance 24/96), recarga 
+ Dardo 
+5 pc 
+1d4 perforante 
+125 g 
+Arrojadizo (alcance 6/18), sutil 
+ Honda 
+1 pp 
+1d4 contundente 
+— 
+Munición (alcance 9/36) 
+Armas cuerpo a cuerpo marciales 
+ 
+ 
+ 
+ 
+ Alabarda 
+20 po 
+1d10 cortante 
+3 kg 
+A dos manos, gran alcance, pesada 
+ Cimitarra 
+25 po 
+1d6 cortante 
+1,5 kg 
+Ligera, sutil 
+ Espada corta 
+10 po 
+1d6 perforante 
+1 kg  
+Ligera, sutil 
+ Espada larga 
+15 po 
+1d8 cortante 
+1,5 kg 
+Versátil (1d10) 
+ Espadón 
+50 po 
+2d6 cortante 
+3 kg 
+A dos manos, pesado 
+ Estoque 
+25 po 
+1d8 perforante 
+1 kg 
+Sutil 
+ Guja 
+20 po 
+1d10 cortante 
+3 kg 
+A dos manos, gran alcance, pesada 
+ Hacha a dos manos 
+30 po 
+1d12 cortante 
+3,5 kg 
+A dos manos, pesada 
+ Hacha de guerra 
+10 po 
+1d8 cortante 
+2 kg 
+Versátil (1d10) 
+ Lanza de caballería 
+10 po 
+1d12 perforante 
+3 kg 
+Especial, gran alcance 
+ Látigo 
+2 po 
+1d4 cortante 
+1,5 kg 
+Gran alcance, sutil 
+ Lucero del alba 
+15 po 
+1d8 perforante 
+2 kg 
+— 
+ Mangual 
+10 po 
+1d8 contundente 
+1 kg 
+— 
+ Martillo de guerra 
+15 po 
+1d8 contundente 
+1 kg 
+Versátil (1d10) 
+ Maza a dos manos 
+10 po 
+2d6 contundente 
+5 kg 
+A dos manos, pesada 
+ Pica 
+5 po 
+1d10 perforante 
+9 kg 
+A dos manos, gran alcance, pesada 
+ Pico de guerra 
+5 po 
+1d8 perforante 
+1 kg 
+— 
+ Tridente 
+5 po 
+1d6 perforante 
+2 kg 
+Arrojadizo (alcance 6/18), versátil (1d8)
+
+Documento de referencia del sistema 5.1. 71 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Objeto 
+Precio 
+Peso 
+Canalizadores arcanos 
+ 
+ 
+ Bastón 
+5 po 
+2 kg 
+ Cristal 
+10 po 
+0,5 kg 
+ Orbe 
+20 po 
+1,5 kg 
+ Vara 
+10 po 
+1 kg 
+ Varita 
+10 po 
+0,5 kg 
+Canalizadores druídicos 
+ 
+ 
+ Bastón de madera 
+5 po 
+2 kg 
+ Rama de muérdago 
+1 po 
+— 
+ Tótem 
+1 po 
+— 
+ Varita de tejo 
+10 po 
+0,5 kg 
+Cantimplora 
+2 pp 
+2,5 kg (llena) 
+Catalejo 
+1000 po 
+0,5 kg 
+Cerradura 
+10 po 
+0,5 kg 
+Cesta 
+4 pp 
+1 kg 
+Cofre 
+5 po 
+12,5 kg 
+Cubo 
+5 pc 
+1 kg 
+Cuerda de cáñamo (15 m) 
+1 po 
+5 kg 
+Cuerda de seda (15 m) 
+10 po 
+2,5 kg 
+Escalera (3 m) 
+1 pp 
+12,5 kg 
+Espejito de acero 
+5 po 
+250 g 
+Esposas 
+2 po 
+3 kg 
+Estuche para mapa o pergamino 
+1 po 
+0,5 kg 
+Estuche para virotes de ballesta 
+1 po 
+0,5 kg 
+Frasco o jarra 
+2 pc 
+0,5 kg 
+Fuego de alquimista (frasco) 
+50 po 
+0,5 kg 
+Garfio de escalada 
+2 po 
+2 kg 
+Jabón 
+2 pc 
+— 
+Jarro o cántaro 
+2 pc 
+2 kg 
+Lacre 
+5 pp 
+— 
+Lámpara 
+5 pp 
+0,5 kg 
+Libro 
+25 po 
+2,5 kg 
+Libro de conjuros 
+50 po 
+1,5 kg 
+Linterna de ojo de buey 
+10 po 
+1 kg 
+Linterna sorda 
+5 po 
+1 kg 
+Lupa 
+100 po 
+— 
+Manta 
+5 pp 
+1,5 kg 
+Martillo 
+1 po 
+1,5 kg 
+Mazo 
+2 po 
+5 kg 
+Mochila 
+2 po 
+2,5 kg 
+Munición 
+ 
+ 
+ Balas de honda (20) 
+4 pc 
+0,75 kg 
+ Dardos de cerbatana (50) 
+1 po 
+0,5 kg 
+ Flechas (20) 
+1 po 
+0,5 kg 
+ Virotes de ballesta (20) 
+1 po 
+0,75 kg 
+Olla de hierro 
+2 po 
+5 kg 
+Pala 
+2 po 
+2,5 kg 
+Palanqueta 
+2 po 
+2,5 kg 
+Papel (una hoja) 
+2 pp 
+— 
+Perfume (un vial) 
+5 po 
+— 
+Pergamino (una hoja) 
+1 pp 
+— 
+Petate 
+1 po 
+3,5 kg 
+Pico de minero 
+2 po 
+5 kg 
+Piedra de afilar 
+1 pc 
+0,5 kg 
+Pinchos de hierro (10) 
+1 po 
+2,5 kg 
+Pitón 
+5 pc 
+125 g 
+Objeto 
+Precio 
+Peso 
+Pluma (para escribir) 
+2 pc 
+— 
+Poción de curación 
+50 po 
+250 g 
+Polipasto 
+1 po 
+2,5 kg 
+Raciones (1 día) 
+5 pp 
+1 kg 
+Reloj de arena 
+25 po 
+0,5 kg 
+Ropas comunes 
+5 pp 
+1,5 kg 
+Ropas de calidad 
+15 po 
+3 kg 
+Ropas de viaje 
+2 po 
+2 kg 
+Ropas, disfraz 
+5 po 
+2 kg 
+Saco 
+1 pc 
+250 g 
+Saquito de componentes 
+25 po 
+1 kg 
+Silbato de supervivencia 
+5 pc 
+— 
+Símbolos sagrados 
+ 
+ 
+ Amuleto 
+5 po 
+0,5 kg 
+ Emblema 
+5 po 
+— 
+ Relicario 
+5 po 
+1 kg 
+Tienda para dos personas 
+2 po 
+10 kg 
+Tinta (frasco de 30 ml) 
+10 po 
+— 
+Tiza (1 trozo) 
+1 pc 
+— 
+Trampa para cazar 
+5 po 
+12,5 kg 
+Túnica 
+1 po 
+2 kg 
+Utensilios de cocina 
+2 pp 
+0,5 kg 
+Útiles de escalada 
+25 po 
+6 kg 
+Útiles de sanador 
+5 po 
+1,5 kg 
+Vara (3 m) 
+5 pc 
+3,5 kg 
+Vela 
+1 pc 
+— 
+Veneno básico (vial) 
+100 po 
+— 
+Vial 
+1 po 
+— 
+Yesquero 
+5 pp 
+0,5 kg 
+ 
+Capacidad de los contenedores 
+Contenedor 
+Capacidad 
+Barril 
+160 l de líquido, 0,12 m3 de sólido 
+Bolsa 
+0,006 m3/3 kg de equipo 
+Botella 
+0,75 l de líquido 
+Cantimplora 
+2 l de líquido 
+Cesta 
+0,06 m3/20 kg de equipo 
+Cofre 
+0,3 m3/150 kg de equipo 
+Cubo 
+12 l de líquido, 0,015 m3 de sólido 
+Frasco o jarra 
+0,5 l de líquido 
+Jarro o cántaro 
+4 l de líquido 
+Mochila* 
+0,03 m3/15 kg de equipo 
+Olla de hierro 
+4 l de líquido 
+Saco 
+0,03 m3/15 kg de equipo 
+Vial 
+120 ml de líquido 
+* También puedes atar objetos, como un petate o un rollo 
+de cuerda, al exterior de una mochila. 
+ 
+Paquetes de equipo 
+El equipo inicial que obtienes gracias a tu clase incluye varios 
+elementos útiles de equipo de aventurero, agrupados en 
+un paquete. A continuación se muestra el contenido de estos 
+paquetes. Al comprar tu equipo inicial, puedes adquirir
+
+Documento de referencia del sistema 5.1. 73 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+herramientas de artesano requiere su propia 
+competencia independiente. 
+ Herramientas de ladrón. Este conjunto de 
+herramientas incluye una lima pequeña, un juego de 
+ganzúas, un espejito con un asa metálica, una serie 
+de tijeras de punta estrecha y unas tenazas. Si tienes 
+competencia con estas herramientas, podrás sumar 
+tu bonificador por competencia a las pruebas de 
+característica para desarmar trampas o forzar 
+cerraduras. 
+ Herramientas de navegante. Estos instrumentos 
+se utilizan para orientarse en el mar. Si eres 
+competente con ellos, podrás planear la ruta de 
+un barco e interpretar cartas náuticas, además de 
+sumar tu bonificador por competencia a cualquier 
+prueba de característica que hagas para evitar 
+perderte en el mar. 
+ Instrumentos musicales. La tabla muestra 
+ejemplos de los instrumentos musicales más 
+comunes. Si eres competente con uno en concreto, 
+puedes sumar tu bonificador por competencia 
+a las pruebas de característica que hagas para 
+tocar música con él. Los bardos pueden utilizar 
+un instrumento musical como canalizador mágico. 
+Cada tipo de instrumento requiere su propia 
+competencia independiente. 
+ Juegos. Esta categoría de objetos incluye varios 
+tipos de juegos de azar, normalmente basados 
+en dados o cartas (como la Apuesta de los Tres 
+Dragones). En la tabla “Herramientas” aparecen 
+algunos ejemplos comunes, pero existen otros. 
+Si eres competente con un juego, puedes sumar 
+tu bonificador por competencia a las pruebas de 
+característica que hagas para jugar con él. Cada 
+tipo de juego requiere su propia competencia 
+independiente. 
+ Útiles de envenenador. Los útiles de envenenador 
+incluyen viales, productos químicos y todo el equipo 
+necesario para crear venenos. La competencia con 
+estos útiles te permite sumar tu bonificador por 
+competencia a las pruebas de característica que 
+hagas para fabricar o usar venenos. 
+ Útiles de herborista. Este conjunto de objetos 
+incluye una gran variedad de herramientas 
+utilizadas por los herboristas para crear remedios 
+y pociones, como pueden ser unas cizallas, un 
+mortero, bolsas y viales. La competencia con estos 
+útiles te permite sumar tu bonificador por 
+competencia a las pruebas de característica que 
+hagas para identificar o aplicar hierbas. Además, 
+se necesita competencia con estos útiles para 
+elaborar antitoxinas y pociones de curación. 
+ Útiles para disfrazarse. Esta bolsa con productos 
+de maquillaje, tinte para el pelo y pequeños 
+accesorios te ayuda a disfrazarte y cambiar así 
+tu apariencia. La competencia con estos útiles te 
+permite sumar tu bonificador por competencia 
+a las pruebas de característica para crear un 
+disfraz que engañe a la vista. 
+ Útiles para falsificar. Esta cajita contiene varios 
+tipos de papeles y pergaminos, plumas y tintas, 
+sellos y lacres, y láminas de oro y plata, además 
+de otros materiales necesarios para crear 
+falsificaciones de documentos que resulten 
+convincentes. La competencia con estos útiles 
+te permite sumar tu bonificador por competencia 
+a las pruebas de característica que hagas para 
+falsificar un documento. 
+Monturas y vehículos 
+Una buena montura puede ayudarte a viajar con 
+mayor celeridad, pero su propósito principal 
+es cargar con el equipo que, de lo contrario, 
+te ralentizaría. La tabla “Monturas y otros animales” 
+muestra la velocidad y la capacidad de carga base 
+de cada animal. 
+ Un animal enganchado a una carreta, carro, carro 
+de guerra, carruaje o trineo puede tirar de hasta 
+cinco veces su capacidad de carga base, incluido 
+el peso del vehículo. Si varios animales tiran del 
+mismo vehículo, suma sus capacidades de carga. 
+ En los mundos fantásticos hay monturas que no 
+aparecen enumeradas aquí, pero son inusuales y no 
+suelen estar a la venta. Algunas pueden ser bestias 
+voladoras (pegasos, grifos, hipogrifos y animales 
+similares) e incluso monturas acuáticas (caballitos 
+de mar gigantes, por ejemplo). Hacerse con una 
+montura así suele implicar conseguir un huevo 
+y criar uno mismo a la criatura, forjar un pacto con 
+una entidad poderosa o negociar con la propia 
+montura. 
+ Barda. La barda es una armadura diseñada para 
+proteger la cabeza, el cuello, el pecho y el cuerpo de 
+un animal. Cualquier tipo de armadura de la tabla 
+“Armaduras” puede comprarse en forma de barda. 
+Su precio será cuatro veces el de la armadura 
+equivalente para humanoides y su peso será el doble. 
+ Sillas. Las sillas de montar militares afianzan bien 
+al jinete, por lo que te permitirán combatir sin caerte. 
+Además, te otorgan ventaja en cualquier prueba 
+realizada para permanecer sobre la montura. Se 
+necesita una silla exótica para montar en bestias 
+acuáticas o voladoras.
+
+Documento de referencia del sistema 5.1. 74 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+ Competencia con un vehículo. Si eres competente 
+con un vehículo concreto (terrestre o acuático), 
+podrás sumar tu bonificador por competencia 
+a cualquier prueba que hagas para controlarlo 
+en circunstancias difíciles. 
+ Barcos de remos. Los botes de remos y las 
+barcazas se utilizan en lagos y ríos. Si se desplazan 
+siguiendo la corriente, suma la velocidad de esta 
+(normalmente 4,5 km/h) a la del vehículo. 
+Sin embargo, estos barcos no pueden remar 
+a contracorriente si esta es significativa, aunque 
+podrían ser arrastrados río arriba por animales 
+de tiro desde la orilla. Un bote de remos pesa 50 kg, 
+por si los aventureros quieren cargar con uno en 
+tierra. 
+Monturas y otros animales 
+Elemento 
+Precio 
+Velocidad 
+Capacidad 
+de carga 
+Burro o mula 
+8 po 
+12 m 
+210 kg 
+Caballo de guerra 
+400 po 
+18 m 
+270 kg 
+Caballo de monta 
+75 po 
+18 m 
+240 kg 
+Caballo de tiro 
+50 po 
+12 m 
+270 kg 
+Camello 
+50 po 
+15 m 
+240 kg 
+Elefante 
+200 po 
+12 m 
+660 kg 
+Mastín 
+25 po 
+12 m 
+97,5 kg 
+Poni 
+30 po 
+12 m 
+112,5 kg 
+ 
+Arreos, arneses y vehículos tirados 
+por animales 
+Elemento 
+Precio 
+Peso 
+Alforjas 
+4 po 
+4 kg 
+Alimento (por día) 
+5 pc 
+5 kg 
+Barda 
+×4 
+×2 
+Bocado y bridas 
+2 po 
+0,5 kg 
+Carreta 
+15 po 
+100 kg 
+Carro 
+35 po 
+200 kg 
+Carro de guerra 
+250 po 
+50 kg 
+Carruaje 
+100 po 
+300 kg 
+Estabulado (por día) 
+5 pp 
+— 
+Silla 
+ 
+ 
+ De monta 
+10 po 
+12,5 kg 
+ De tiro 
+5 po 
+7,5 kg 
+ Exótica 
+60 po 
+20 kg 
+ Militar 
+20 po 
+15 kg 
+Trineo 
+20 po 
+150 kg 
+ 
+Vehículos acuáticos 
+Objeto 
+Precio 
+Velocidad 
+Barcaza 
+3000 po 
+1,5 km/h 
+Bote de remos 
+50 po 
+2,25 km/h 
+Drakkar 
+10 000 po 
+4,5 km/h 
+Galera 
+30 000 po 
+6 km/h 
+Navío de guerra 
+25 000 po 
+3,75 km/h 
+Velero 
+10 000 po 
+3 km/h 
+Mercancías 
+La mayor parte de la fortuna no se mide en monedas, 
+sino en ganado, grano, tierras y derechos de cobro 
+de impuestos o de acceso a recursos (como una mina 
+o un bosque). 
+ Los gremios, los nobles y la realeza regulan 
+el comercio. A las compañías privilegiadas se les 
+concede el derecho a comerciar en ciertas rutas, 
+enviar barcos de mercancías a determinados 
+puertos o comprar y vender productos concretos. 
+Los gremios fijan los precios de los bienes 
+y servicios que controlan, además de determinar 
+quién puede o no ofrecerlos. Por último, los 
+comerciantes acostumbran a intercambiar 
+mercancías directamente, sin recurrir a la moneda. 
+La tabla “Mercancías” muestra el precio de los 
+bienes que se intercambian con más frecuencia. 
+Mercancías 
+Precio 
+Bienes 
+1 pc 
+0,5 kg de trigo 
+2 pc 
+0,5 kg de harina o un pollo 
+5 pc 
+0,5 kg de sal 
+1 pp 
+0,5 kg de hierro o 0,8 m2 de lona 
+5 pp 
+0,5 kg de cobre o 0,8 m2 de tela de algodón 
+1 po 
+0,5 kg de jengibre o una cabra 
+2 po 
+0,5 kg de canela o pimienta, o una oveja 
+3 po 
+0,5 kg de clavo o un cerdo 
+5 po 
+0,5 kg de plata o 0,8 m2 de lino 
+10 po 
+0,8 m2 de seda o una vaca 
+15 po 
+0,5 kg de azafrán o un buey 
+50 po 
+0,5 kg de oro 
+500 po 
+0,5 kg de platino 
+Gastos 
+Cuando no están descendiendo hacia las 
+profundidades de la tierra, explorando ruinas en 
+busca de tesoros perdidos o haciendo la guerra 
+contra la oscuridad que se cierne sobre el mundo, 
+los aventureros también se ocupan de asuntos más 
+mundanos. Incluso en los mundos fantásticos, 
+la gente necesita cubrir sus necesidades básicas, 
+como son el sustento, la vestimenta y un lugar
+
+Documento de referencia del sistema 5.1. 76 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+buen barrio de la ciudad o una suite en una posada 
+de calidad. Es probable que tengas varios sirvientes. 
+ Aristocrático. Vives una existencia de abundancia 
+y comodidades. Te mueves en los mismos círculos 
+que los más poderosos de tu comunidad. Disfrutas 
+de un alojamiento excelente, quizá una mansión en 
+la mejor zona de la ciudad o varias habitaciones 
+en la posada más lujosa. Cenas en los mejores 
+restaurantes, vistes a la moda, con ropas hechas 
+por los sastres más hábiles, y posees sirvientes 
+que atienden todas tus necesidades. Recibes 
+invitaciones para asistir a los eventos sociales de los 
+ricos y los poderosos y pasas las tardes en compañía 
+de políticos, líderes gremiales, sumos sacerdotes 
+y nobles. A cambio, también lidias con la traición 
+y los engaños más ruines. Cuanta más riqueza 
+poseas, más probabilidad existe de que te arrastren 
+las intrigas políticas, ya sea como peón o como 
+participante. 
+Autosuficiencia 
+Los gastos y niveles de vida descritos aquí asumen que pasas 
+el tiempo entre aventuras en una población utilizando los 
+servicios que te puedes permitir: pagas la comida y el 
+alojamiento, remuneras a los lugareños para que afilen tu 
+espada y reparen tu armadura, etc. Sin embargo, algunos 
+personajes podrían preferir pasar el tiempo lejos de 
+la civilización, buscando su propio sustento (cazando 
+o forrajeando) y reparando su equipo ellos mismos. 
+ 
+Vivir así no cuesta dinero, pero exige mucho tiempo. 
+Si pasas el tiempo entre aventuras ejerciendo una profesión, 
+puedes subsistir como en el nivel de vida “pobre”. Si eres 
+competente en la habilidad Supervivencia, podrás vivir 
+como en el nivel de vida “cómodo”. 
+ 
+Comida, bebida y alojamiento 
+La tabla “Comida, bebida y alojamiento” contiene 
+los precios tanto de alimentos concretos como de 
+alojarse una noche en una posada. Estos precios se 
+incluyen en los gastos totales de tu nivel de vida. 
+Comida, bebida y alojamiento 
+Elemento 
+Precio 
+Banquete (por persona) 
+10 po 
+Carne, trozo 
+3 pp 
+Cerveza 
+ 
+ Barril 
+2 pp 
+ Jarra 
+4 pc 
+Comidas (por día) 
+ 
+ Miserables 
+3 pc 
+ Pobres 
+6 pc 
+ Modestas 
+3 pp 
+ Copiosas 
+5 pp 
+Elemento 
+Precio 
+ Lujosas 
+8 pp 
+ Aristocráticas 
+2 po 
+Estancia en posada (por día) 
+ 
+ Miserable 
+7 pc 
+ Pobre 
+1 pp 
+ Modesta 
+5 pp 
+ Cómoda 
+8 pp 
+ Lujosa 
+2 po 
+ Aristocrática 
+4 po 
+Pan, hogaza 
+2 pc 
+Queso, trozo 
+1 pp 
+Vino 
+ 
+ Común (jarra) 
+2 pp 
+ De calidad (botella) 
+10 po 
+ 
+Servicios 
+Los aventureros pueden pagar a determinados 
+personajes no jugadores para que les ayuden 
+o hagan algo en su lugar en diversas circunstancias. 
+La mayoría de asalariados de este tipo tienen 
+habilidades bastante comunes, aunque algunos son 
+maestros en un oficio o artesanía, y unos pocos son 
+expertos que poseen habilidades típicas de 
+un aventurero. 
+ Los tipos de asalariados más básicos aparecen 
+en la tabla “Servicios”. También puede contratarse 
+a cualquier persona de entre la enorme variedad de 
+gente que habita un pueblo o ciudad típicos para 
+que haga una tarea concreta. Por ejemplo, un mago 
+podría pagar a un carpintero para construir un cofre 
+elaborado (y una réplica en miniatura del mismo) 
+con el fin de usar ambos para lanzar el conjuro cofre 
+oculto. Un guerrero podría encargar a un herrero la 
+forja de una espada especial. Un bardo podría pedir 
+a un sastre que tejiera unos ropajes exquisitos para 
+su próxima actuación ante el duque. 
+ Otros asalariados pueden prestar servicios más 
+especializados o que impliquen peligro. Tanto unos 
+mercenarios contratados para ayudar a los 
+personajes a derrotar a un ejército hobgoblin como 
+unos eruditos a los que se les encomienda investigar 
+un saber antiguo o esotérico serán asalariados. 
+Si un aventurero de nivel alto se ha establecido en 
+una fortaleza de algún tipo, podría querer contratar 
+un equipo completo de sirvientes y agentes 
+para encargarse de gestionar el lugar: desde un 
+administrador o castellano hasta los mozos que 
+se ocupan de limpiar los establos. Estos asalariados 
+suelen disfrutar de un contrato de larga duración, 
+que incluye un lugar en el que vivir como parte de 
+su remuneración.
+
+Documento de referencia del sistema 5.1. 93 
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Entre aventuras 
+Entre sus incursiones en mazmorras y sus batallas 
+contra males ancestrales, los aventureros necesitan 
+tiempo para descansar, recuperarse y prepararse 
+para su siguiente aventura. Muchos también usan 
+este tiempo para realizar otras tareas, como fabricar 
+armas y armaduras, investigar o gastarse el oro que 
+tanto les ha costado ganar. 
+ En algunos casos, el paso del tiempo es algo que se 
+produce sin mucho bombo y platillo y que apenas se 
+describe. Al empezar una nueva aventura, tu GM 
+podría explicar sencillamente que ha transcurrido 
+cierta cantidad de tiempo y permitirte describir 
+a grandes rasgos lo que ha estado haciendo tu 
+personaje. Sin embargo, otras veces tu GM podría 
+querer controlar cuánto tiempo pasa, ya que se 
+siguen produciendo sucesos que tú desconoces. 
+Gastos relativos al nivel de vida 
+Entre aventuras, eliges un nivel de vida concreto 
+y pagas el coste de mantenerlo.  
+ Mantener un nivel de vida concreto no tiene 
+un gran efecto en tu personaje, pero puede afectar 
+a las reacciones de otras personas y grupos ante ti. 
+Por ejemplo, si tu nivel de vida es aristocrático, 
+podría resultarte más sencillo influir en los nobles 
+de la ciudad que si vives en la pobreza. 
+Actividades entre aventuras 
+Tu GM podría preguntar qué hace tu personaje entre 
+una aventura y otra. La duración de los periodos 
+entre aventuras puede variar, pero cada actividad 
+entre aventuras requiere un cierto número de días 
+para llevarla a cabo antes de obtener cualquier 
+beneficio y al menos hay que dedicarle 8 horas 
+al día a dicha actividad para que ese día cuente, 
+aunque esos días no tienen por qué ser consecutivos. 
+Si tienes más días que los mínimos para terminar 
+la actividad, puedes seguir haciendo lo mismo 
+durante más tiempo o cambiar a otra actividad 
+entre aventuras.  
+ Las actividades entre aventuras que se presentan 
+más abajo no son las únicas posibles. Si quieres 
+que tu personaje pase el tiempo entre aventuras 
+realizando una actividad que no se incluye aquí, 
+coméntalo con tu GM. 
+Ejercer una profesión 
+Entre aventuras, puedes trabajar, lo que te permitirá 
+mantener un nivel de vida modesto sin tener que 
+pagar 1 po al día. Este beneficio se mantendrá 
+mientras ejerzas tu profesión. 
+ Si perteneces a una organización que te pueda 
+proporcionar un empleo lucrativo, como un templo 
+o un gremio de ladrones, ganarás lo suficiente como 
+para poder llevar un nivel de vida cómodo. 
+ Si eres competente en la habilidad Interpretación 
+y la usas entre aventuras, ganarás bastante como 
+para mantener un nivel de vida lujoso. 
+Entrenarse 
+Puedes dedicar tiempo entre aventuras a aprender 
+un nuevo idioma o a entrenarte con un nuevo tipo 
+de herramientas, pero tu GM puede ofrecer otras 
+opciones. 
+ En primer lugar, tienes que encontrar a alguien 
+que quiera enseñarte. Tu GM decidirá cuánto tiempo 
+cuesta y si hacen falta una o más pruebas de 
+característica. 
+ El entrenamiento dura 250 días y cuesta 1 po al 
+día. Tras dedicar el tiempo y gastar el dinero que son 
+necesarios, aprenderás el nuevo idioma u obtendrás 
+competencia con la nueva herramienta. 
+Fabricar 
+Puedes fabricar objetos no mágicos, como equipo 
+de aventurero y obras de arte. Debes ser competente 
+con las herramientas relacionadas con el objeto que 
+quieras crear (por lo general, herramientas de 
+artesano). También es posible que necesites 
+materiales especiales o usar algún lugar concreto. 
+Por ejemplo, alguien que sea competente con 
+herramientas de herrero necesita una forja para 
+poder fabricar una espada o una armadura. 
+ Por cada día entre aventuras que dediques 
+a fabricar, puedes crear uno o más objetos cuyo 
+valor de mercado en conjunto no supere las 5 po 
+y debes gastar una cantidad de materias que valgan 
+la mitad de ese valor de mercado. Si algo que quieras 
+fabricar tiene un valor de mercado superior a 5 po, 
+cada día avanzas en incrementos de 5 po hasta 
+alcanzar el valor de mercado del objeto. Por ejemplo, 
+te llevará 300 días fabricar sin ayuda una armadura 
+de placas (valor de mercado de 1500 po). 
+ Varios personajes pueden unirse para fabricar 
+un solo objeto, siempre que todos ellos sean 
+competentes con las herramientas requeridas 
+y trabajen juntos en el mismo sitio. Cada personaje 
+contribuye con un esfuerzo equivalente a 5 po por 
+cada día dedicado a fabricar el objeto. Por ejemplo, 
+3 personajes con la competencia con herramientas 
+requerida y las instalaciones adecuadas pueden
+
+Documento de referencia del sistema 5.1. 221
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Objetos mágicos 
+Los objetos mágicos pueden encontrarse en 
+los tesoros de monstruos vencidos o descubrirse 
+en cámaras que hayan caído en el olvido. Estos 
+objetos dotan a los personajes de capacidades 
+que de otra manera les sería muy difícil conseguir 
+o complementan sus habilidades de maneras 
+asombrosas. 
+Sintonización 
+Algunos objetos mágicos requieren que su 
+propietario cree un vínculo con el objeto antes 
+de usar sus propiedades mágicas. Este vínculo 
+se denomina sintonización y en ciertos objetos 
+comporta determinados requisitos previos. Si 
+el requisito es una clase, la criatura deberá ser 
+miembro de esa clase para poder sintonizarse con 
+el objeto (si esa clase puede lanzar conjuros, un 
+monstruo cumplirá los requisitos si tiene espacios 
+de conjuro y utiliza la lista de conjuros de esa clase). 
+Si el requisito es ser un lanzador de conjuros, la 
+criatura lo cumplirá si puede lanzar al menos un 
+conjuro mediante sus atributos o rasgos, no con 
+un objeto mágico o similar. 
+ Si la criatura no se sintoniza con un objeto que 
+requiera sintonización, solo obtendrá sus beneficios 
+no mágicos, salvo que la descripción del objeto 
+indique algo diferente. Por ejemplo, un escudo 
+mágico que requiera sintonización proporcionará 
+los beneficios de un escudo normal a una criatura 
+que no esté sintonizada con él, pero no otorgará 
+ninguna de sus propiedades mágicas. 
+ Para sintonizarse con un objeto mágico, una 
+criatura tendrá que pasar un descanso corto 
+concentrándose solo en ese objeto mientras 
+está en contacto físico con él (no puede ser el 
+mismo descanso corto que use para conocer las 
+propiedades del objeto). Esta concentración puede 
+ser en forma de práctica con un arma (para un arma 
+mágica), meditación (para un objeto maravilloso) 
+u otro tipo de actividad adecuada a la naturaleza 
+del objeto. Si se interrumpe el descanso corto, el 
+intento de sintonización fallará. Si no es así, al final 
+del descanso corto, la criatura comprenderá 
+intuitivamente cómo activar cualquier propiedad 
+mágica del objeto, incluida cualquier palabra de 
+activación necesaria. 
+ Un objeto solo puede estar sintonizado con una 
+criatura en un momento dado y una criatura no 
+puede estar sintonizada con más de tres objetos 
+mágicos a la vez. Cualquier intento de sintonización 
+con un cuarto objeto resultará infructuoso: antes, la 
+criatura deberá poner fin a la sintonización con uno 
+de los otros objetos. Además, una criatura no podrá 
+sintonizarse con más de una copia del mismo objeto. 
+Por ejemplo, no podrá estar sintonizada con más de 
+un anillo de protección a la vez. 
+ La sintonización termina si en cualquier momento 
+la criatura deja de cumplir los requisitos, si el objeto 
+está durante 24 horas a más de 30 m de distancia 
+de ella, si la criatura muere o si otra criatura se 
+sintoniza con el objeto. La criatura también puede 
+poner fin voluntariamente a la sintonización si 
+dedica un descanso corto a concentrarse en el objeto, 
+salvo que este esté maldito. 
+Vestir y empuñar objetos 
+Utilizar las propiedades de un objeto mágico puede 
+implicar vestirlo o empuñarlo. Un objeto mágico 
+diseñado para vestirlo deberá llevarse puesto de 
+la forma adecuada: las botas se ponen en los pies; 
+los guantes, en las manos; los sombreros y cascos, 
+en la cabeza, y los anillos, en los dedos. Las 
+armaduras mágicas deben ponerse en el cuerpo, 
+los escudos hay que embrazarlos y las capas deben 
+abrocharse por encima de los hombros. Las armas 
+deben empuñarse. 
+ Normalmente, un objeto mágico diseñado para 
+vestirse le valdrá a cualquier criatura indepen-
+dientemente de su tamaño o complexión. Muchas 
+prendas mágicas se crean para que resulten fáciles 
+de ajustar o incluso se ajustan mágicamente por sí 
+solas a su portador. Existen excepciones, aunque son 
+raras. Si la historia plantea un buen motivo para que 
+un objeto solo valga a criaturas de un determinado 
+tamaño o forma, puedes decidir que la prenda 
+no sirva a quien no cumpla estos requisitos. Por 
+ejemplo, una armadura fabricada por drows podría 
+servirles solo a los elfos. De manera similar, los 
+enanos podrían fabricar objetos que solo puedan 
+usar criaturas que tengan el tamaño y la forma 
+de los enanos. 
+ Cuando un no humanoide trate de ponerse un 
+objeto, puedes decidir libremente si el objeto 
+funciona como debería o no. Un anillo colocado en 
+un tentáculo podría funcionar, pero un yuan-ti con 
+cola de serpiente en vez de piernas no podrá llevar 
+botas. 
+Varios objetos del mismo tipo 
+Utiliza el sentido común para determinar si se puede 
+llevar puesto más de un objeto mágico de un tipo 
+determinado. Normalmente, un personaje no puede
+
+Documento de referencia del sistema 5.1. 392
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Dian Cecht, dios de la medicina y la curación 
+LB 
+Vida 
+Ramas de roble y muérdago cruzadas 
+Dunatis, dios de las montañas y los picos 
+N 
+Naturaleza 
+Pico montañoso con un sol rojo en la 
+cima 
+Goibniu, dios de los herreros y la curación 
+NB 
+Conocimiento, Vida 
+Mazo gigante sobre una espada 
+Lug, dios de las artes, el viaje y el comercio 
+CN 
+Conocimiento, Vida 
+Par de manos alargadas 
+Manannán mac Lir, dios de los océanos y las 
+criaturas marinas 
+LN 
+Naturaleza, Tempestad 
+Olas de aguas blancas sobre verde 
+Math, hijo de Mathonwy, dios de la magia 
+NM 
+Conocimiento 
+Bastón 
+Morrigan, diosa de la batalla 
+CM 
+Guerra 
+Dos lanzas cruzadas 
+Nuada, dios de la guerra y los guerreros 
+N 
+Guerra 
+Mano plateada sobre fondo negro 
+Ogma, dios del habla y la escritura 
+NB 
+Conocimiento 
+Pergamino desenrollado 
+Sucellus, dios de la naturaleza y los bosques 
+N 
+Naturaleza 
+Roble en verano 
+ 
+Deidades egipcias 
+Deidad 
+Alineamiento 
+Dominios recomendados 
+Símbolo 
+Ra, dios del sol y soberano de los dioses 
+LB 
+Luz, Vida 
+Disco solar rodeado por una serpiente 
+Anubis, dios del juicio y la muerte 
+LN 
+Muerte 
+Chacal negro 
+Apofis, dios del mal, el fuego y las serpientes 
+NM 
+Engaño 
+Serpiente llameante 
+Bastet, diosa de los gatos y la venganza 
+CB 
+Guerra 
+Gato 
+Bes, dios de la suerte y la música 
+CN 
+Engaño 
+Imagen de la deidad deforme 
+Hathor, diosa del amor, la música 
+y la maternidad 
+NB 
+Luz, Vida 
+Cabeza de una vaca con cuernos 
+y disco lunar 
+Imhotep, dios de las artesanías y la medicina 
+NB 
+Conocimiento 
+Pirámide escalonada 
+Isis, diosa de la fertilidad y la magia 
+NB 
+Conocimiento, Vida 
+Anj y estrella 
+Neftis, diosa de la muerte y el luto 
+CB 
+Muerte 
+Cuernos alrededor de un disco lunar 
+Osiris, dios de la naturaleza y el inframundo 
+LB 
+Naturaleza, Vida 
+Cayado y mangual 
+Ptah, dios de las artesanías, el conocimiento 
+y los secretos 
+LN 
+Conocimiento 
+Toro 
+Set, dios de la oscuridad y las tormentas 
+del desierto 
+CM 
+Engaño, Muerte, 
+Tempestad 
+Cobra enroscada 
+Sobek, dios del agua y los cocodrilos 
+LM 
+Naturaleza, Tempestad 
+Cabeza de cocodrilo con cuernos 
+y plumas 
+Tot, dios del conocimiento y la sabiduría 
+N 
+Conocimiento 
+Ibis 
+ 
+Deidades griegas 
+Deidad 
+Alineamiento 
+Dominios recomendados 
+Símbolo 
+Zeus, dios del cielo y soberano de los dioses 
+N 
+Tempestad 
+Puño lleno de relámpagos 
+Afrodita, diosa del amor y la belleza 
+CB 
+Luz 
+Concha marina 
+Apolo, dios de la luz, la música y la curación 
+CB 
+Conocimiento, Luz, Vida 
+Lira 
+Ares, dios de la guerra y el conflicto 
+CM 
+Guerra 
+Lanza 
+Artemisa, diosa de la caza y de los partos 
+NB 
+Naturaleza, Vida 
+Arco y flecha sobre un disco lunar 
+Atenea, diosa de la sabiduría y la civilización 
+LB 
+Conocimiento, Guerra 
+Búho 
+Deméter, diosa de la agricultura 
+NB 
+Vida 
+Cabeza de una yegua 
+Dioniso, dios del júbilo y el vino 
+CN 
+Vida 
+Tirso (bastón con una piña en la 
+punta) 
+Hades, dios del inframundo 
+LM 
+Muerte 
+Carnero negro 
+Hécate, diosa de la magia y la luna 
+CM 
+Conocimiento, Engaño 
+Luna poniente 
+Hefesto, dios de la forja y la artesanía 
+NB 
+Conocimiento 
+Martillo y yunque 
+Hera, diosa del matrimonio y la intriga 
+CN 
+Engaño 
+Abanico de plumas de pavo real 
+Hércules, dios de la fuerza y la aventura 
+CB 
+Guerra, Tempestad 
+Cabeza de león 
+Hermes, dios del viaje y el comercio 
+CB 
+Engaño 
+Caduceo (bastón alado y serpientes) 
+Hestia, diosa del hogar y la familia 
+NB 
+Vida 
+Hogar (de lumbre) 
+Niké, diosa de la victoria 
+LN 
+Guerra 
+Mujer alada 
+Pan, dios de la naturaleza 
+CN 
+Naturaleza 
+Siringa (flauta de Pan)
+
+Documento de referencia del sistema 5.1. 393
+Prohibida la reventa. Tienes permiso para imprimir  
+o fotocopiar este documento solo para uso personal. 
+Deidad 
+Alineamiento 
+Dominios recomendados 
+Símbolo 
+Poseidón, dios del mar y los terremotos 
+CN 
+Tempestad 
+Tridente 
+Tique, diosa de la buena fortuna 
+N 
+Engaño 
+Pentagrama rojo 
+ 
+Deidades nórdicas 
+Deidad 
+Alineamiento 
+Dominios recomendados 
+Símbolo 
+Odín, dios del conocimiento y la guerra 
+NB 
+Conocimiento, Guerra 
+Ojo azul observante 
+Aegir, dios del mar y las tormentas 
+NM 
+Tempestad 
+Olas marinas agitadas 
+Balder, dios de la belleza y la poesía 
+NB 
+Luz, Vida 
+Cáliz de plata con gemas incrustadas 
+Forseti, dios de la justicia y la ley 
+N 
+Luz 
+Cabeza de un hombre barbudo 
+Frey, dios de la fertilidad y el sol 
+NB 
+Luz, Vida 
+Espadón de hielo azulado 
+Freyja, diosa de la fertilidad y el amor 
+NB 
+Vida 
+Halcón 
+Frigg, diosa del nacimiento y la fertilidad 
+N 
+Luz, Vida 
+Gato 
+Heimdall, dios de la vigilancia y la lealtad 
+LB 
+Guerra, Luz 
+Cuerno musical curvado 
+Hela, diosa del inframundo 
+NM 
+Muerte 
+Rostro de una mujer con una de sus 
+mitades pudriéndose 
+Hermod, dios de la suerte 
+CN 
+Engaño 
+Pergamino alado 
+Loki, dios de los ladrones y el engaño 
+CM 
+Engaño 
+Llama 
+Niord, dios del mar y el viento 
+NB 
+Naturaleza, Tempestad 
+Moneda de oro 
+Od, dios de la luz y el sol 
+CB 
+Luz 
+Disco solar 
+Sif, diosa de la guerra 
+CB 
+Guerra 
+Espada alzada 
+Skade, dios de la tierra y las montañas 
+N 
+Naturaleza 
+Pico montañoso 
+Surt, dios de los gigantes de fuego y la guerra 
+LM 
+Guerra 
+Espada llameante 
+Thor, dios de las tormentas y el trueno 
+CB 
+Guerra, Tempestad 
+Martillo 
+Thrym, dios de los gigantes de escarcha y el frío 
+CM 
+Guerra 
+Hacha de doble filo blanca 
+Tyr, dios del valor y la estrategia 
+LN 
+Conocimiento, Guerra 
+Espada 
+Ull, dios de la caza y el invierno 
+CN 
+Naturaleza 
+Arco largo
+

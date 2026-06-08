@@ -1,0 +1,63 @@
+{
+  "name": "D&D Data Cleanup",
+  "nodes": [
+    {
+      "id": "manual-trigger",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {}
+    },
+    {
+      "id": "schedule-trigger",
+      "name": "Schedule (Daily 3AM)",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [240, 480],
+      "parameters": {
+        "rule": {
+          "interval": [
+            { "field": "hours", "hoursInterval": 24 }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cleanup-api",
+      "name": "Data Cleanup",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [460, 300],
+      "parameters": {
+        "url": "http://127.0.0.1:8000/api/data/cleanup",
+        "method": "POST",
+        "sendBody": false,
+        "options": {}
+      }
+    },
+    {
+      "id": "done",
+      "name": "Done",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [660, 300],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [[{ "node": "Data Cleanup", "type": "main", "index": 0 }]]
+    },
+    "Schedule (Daily 3AM)": {
+      "main": [[{ "node": "Data Cleanup", "type": "main", "index": 0 }]]
+    },
+    "Data Cleanup": {
+      "main": [[{ "node": "Done", "type": "main", "index": 0 }]]
+    }
+  },
+  "pinData": {},
+  "versionId": "1.0.0",
+  "active": true,
+  "settings": {}
+}

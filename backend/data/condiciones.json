@@ -1,0 +1,100 @@
+[
+  {
+    "nombre": "Agarrado",
+    "descripcion": "Tu velocidad es 0. No puedes beneficiarte de bonificaciones a la velocidad. La condición termina si el agresor queda incapacitado o si algo te aleja de su alcance.",
+    "efectos": [
+      "Tu velocidad es 0. No puedes beneficiarte de bonificaciones a la velocidad. La condición termina si el agresor queda incapacitado o si algo te aleja de su alcance."
+    ]
+  },
+  {
+    "nombre": "Asustado",
+    "descripcion": "Tienes desventaja en pruebas de habilidad y tiradas de ataque mientras el origen del miedo esté en línea de visión. No puedes acercarte voluntariamente al origen.",
+    "efectos": [
+      "Tienes desventaja en pruebas de habilidad y tiradas de ataque mientras el origen del miedo esté en línea de visión. No puedes acercarte voluntariamente al origen."
+    ]
+  },
+  {
+    "nombre": "Aturdido",
+    "descripcion": "No puedes moverte. Hablas con dificultad. Fallas automáticamente las salvaciones de Fuerza y Destreza. Las tiradas de ataque contra ti tienen ventaja.",
+    "efectos": [
+      "No puedes moverte. Hablas con dificultad. Fallas automáticamente las salvaciones de Fuerza y Destreza. Las tiradas de ataque contra ti tienen ventaja."
+    ]
+  },
+  {
+    "nombre": "Cegado",
+    "descripcion": "No puedes ver. Fallas automáticamente pruebas que requieran vista. Las tiradas de ataque contra ti tienen ventaja y tus ataques tienen desventaja.",
+    "efectos": [
+      "No puedes ver. Fallas automáticamente pruebas que requieran vista. Las tiradas de ataque contra ti tienen ventaja y tus ataques tienen desventaja."
+    ]
+  },
+  {
+    "nombre": "Derribado",
+    "descripcion": "Tu única opción de movimiento es arrastrarte. Tienes desventaja en ataques. Los ataques cuerpo a cuerpo contra ti tienen ventaja. Los ataques a distancia tienen desventaja.",
+    "efectos": [
+      "Tu única opción de movimiento es arrastrarte. Tienes desventaja en ataques. Los ataques cuerpo a cuerpo contra ti tienen ventaja. Los ataques a distancia tienen desventaja."
+    ]
+  },
+  {
+    "nombre": "Envenenado",
+    "descripcion": "Tienes desventaja en tiradas de ataque y pruebas de habilidad.",
+    "efectos": [
+      "Tienes desventaja en tiradas de ataque y pruebas de habilidad."
+    ]
+  },
+  {
+    "nombre": "Ensordecido",
+    "descripcion": "No puedes oír. Fallas automáticamente pruebas que requieran oído.",
+    "efectos": [
+      "No puedes oír. Fallas automáticamente pruebas que requieran oído."
+    ]
+  },
+  {
+    "nombre": "Hechizado",
+    "descripcion": "No puedes atacar al hechizador. El hechizador tiene ventaja en pruebas sociales contra ti. Esta condición no impide que el hechizador te dañe con efectos area.",
+    "efectos": [
+      "No puedes atacar al hechizador. El hechizador tiene ventaja en pruebas sociales contra ti. Esta condición no impide que el hechizador te dañe con efectos area."
+    ]
+  },
+  {
+    "nombre": "Incapacitado",
+    "descripcion": "No puedes realizar acciones ni reacciones.",
+    "efectos": [
+      "No puedes realizar acciones ni reacciones."
+    ]
+  },
+  {
+    "nombre": "Inconsciente",
+    "descripcion": "Estás incapacitado. Sueltas lo que sostienes. Caes al suelo. Fallas salvaciones de Fuerza y Destreza. Los ataques contra ti tienen ventaja. Cualquier golpe a 5 pies es crítico.",
+    "efectos": [
+      "Estás incapacitado. Sueltas lo que sostienes. Caes al suelo. Fallas salvaciones de Fuerza y Destreza. Los ataques contra ti tienen ventaja. Cualquier golpe a 5 pies es crítico."
+    ]
+  },
+  {
+    "nombre": "Inmovilizado",
+    "descripcion": "Tu velocidad es 0. Tienes desventaja en salvaciones de Destreza. Las tiradas de ataque contra ti tienen ventaja.",
+    "efectos": [
+      "Tu velocidad es 0. Tienes desventaja en salvaciones de Destreza. Las tiradas de ataque contra ti tienen ventaja."
+    ]
+  },
+  {
+    "nombre": "Paralizado",
+    "descripcion": "Estás incapacitado. No puedes moverte ni hablar. Fallas salvaciones de Fuerza y Destreza. Los ataques contra ti tienen ventaja. Cualquier golpe a 5 pies es crítico.",
+    "efectos": [
+      "Estás incapacitado. No puedes moverte ni hablar. Fallas salvaciones de Fuerza y Destreza. Los ataques contra ti tienen ventaja. Cualquier golpe a 5 pies es crítico."
+    ]
+  },
+  {
+    "nombre": "Petrificado",
+    "descripcion": "Transformado en piedra. Estás incapacitado. No puedes moverte ni hablar. Eres resistente a todo daño. Ignoras efectos que requieran salvación de Fuerza.",
+    "efectos": [
+      "Transformado en piedra. Estás incapacitado. No puedes moverte ni hablar. Eres resistente a todo daño. Ignoras efectos que requieran salvación de Fuerza."
+    ]
+  },
+  {
+    "nombre": "Preso",
+    "descripcion": "Estás atrapado. No puedes moverte. Tienes desventaja en salvaciones de Destreza. Las tiradas de ataque contra ti tienen ventaja.",
+    "efectos": [
+      "Estás atrapado. No puedes moverte. Tienes desventaja en salvaciones de Destreza. Las tiradas de ataque contra ti tienen ventaja."
+    ]
+  }
+]

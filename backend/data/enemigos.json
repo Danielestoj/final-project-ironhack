@@ -1,0 +1,128 @@
+[
+  {
+    "nombre": "Goblin",
+    "descripcion": "Humanoide pequeño, verde, astuto y cobarde. Ataca en grupo. Prefiere trampas al combate directo. CA 15, PG 7 (2d6), Velocidad 30. Ataque: Espada corta (+4, 1d6+2) o Arco corto (+4, 1d6+2). Habilidades: Acción astuta (Esprintar/Retirarse/Esconderse como acción bonus).",
+    "ca": "15",
+    "pg": "7 (2d6)",
+    "velocidad": "30",
+    "ataques": [
+      "Espada corta (+4, 1d6+2) o Arco corto (+4, 1d6+2)"
+    ]
+  },
+  {
+    "nombre": "Lobo Huargo",
+    "descripcion": "Bestia grande y feroz, montura de goblins. Gran velocidad y mordisco poderoso. CA 13, PG 37 (5d10+10), Velocidad 50. Ataque: Mordisco (+5, 2d6+3) y derribo (CD 13 Fuerza). Ventaja en rastreo por olfato.",
+    "ca": "13",
+    "pg": "37 (5d10+10)",
+    "velocidad": "50",
+    "ataques": [
+      "Mordisco (+5, 2d6+3) y derribo (CD 13 Fuerza). Ventaja en rastreo por olfato"
+    ]
+  },
+  {
+    "nombre": "Esqueleto Animado",
+    "descripcion": "Restos óseos reanimados por nigromancia. Inmune a veneno y cansancio. Resistente a armas perforantes. CA 13, PG 13 (2d8+4), Velocidad 30. Ataque: Espada corta (+4, 1d6+2) o Arco corto (+4, 1d6+2). Vulnerable a contundente y radiante.",
+    "ca": "13",
+    "pg": "13 (2d8+4)",
+    "velocidad": "30",
+    "ataques": [
+      "Espada corta (+4, 1d6+2) o Arco corto (+4, 1d6+2). Vulnerable a contundente y radiante"
+    ]
+  },
+  {
+    "nombre": "Bandido Humano",
+    "descripcion": "Criminal oportunista que vive del robo. Se rinde si la batalla se vuelve en su contra. CA 12, PG 11 (2d8+2), Velocidad 30. Ataque: Cimitarra (+3, 1d6+1) o Ballesta ligera (+3, 1d8+1).",
+    "ca": "12",
+    "pg": "11 (2d8+2)",
+    "velocidad": "30",
+    "ataques": [
+      "Cimitarra (+3, 1d6+1) o Ballesta ligera (+3, 1d8+1)"
+    ]
+  },
+  {
+    "nombre": "Slime Verde",
+    "descripcion": "Masa gelatinosa que disuelve metal. Sigilosa en techos. CA 8, PG 15 (2d10+4), Velocidad 15. Disuelve armaduras y armas de metal al contacto.",
+    "ca": "8",
+    "pg": "15 (2d10+4)",
+    "velocidad": "15",
+    "ataques": []
+  },
+  {
+    "nombre": "Murciélago Gigante",
+    "descripcion": "Bestia voladora que ataca en cuevas. CA 13, PG 22 (4d10), Velocidad 10, vuelo 60. Ataque: Mordisco (+4, 1d8+2). Sentido de la vista a ciegas 60 pies.",
+    "ca": "13",
+    "pg": "22 (4d10)",
+    "velocidad": "10",
+    "ataques": [
+      "Mordisco (+4, 1d8+2). Sentido de la vista a ciegas 60 pies"
+    ]
+  },
+  {
+    "nombre": "Zombi",
+    "descripcion": "Muerto viviente lento pero resistente. CA 8, PG 22 (3d8+9), Velocidad 20. Ataque: Puñetazo (+3, 1d6+1). Fortaleza de los no-muertos: si el daño lo deja a 0 PG, tira CD 5, si pasa no muere.",
+    "ca": "8",
+    "pg": "22 (3d8+9)",
+    "velocidad": "20",
+    "ataques": [
+      "Puñetazo (+3, 1d6+1). Fortaleza de los no-muertos: si el daño lo deja a 0 PG, tira CD 5, si pasa no muere"
+    ]
+  },
+  {
+    "nombre": "Oso Café",
+    "descripcion": "Bestia grande y poderosa. CA 11, PG 34 (4d10+12), Velocidad 40. Ataque: Zarpa (+5, 1d8+4) y Mordisco (+5, 1d6+4). Si golpea con ambas zarpas, agarra y causa 2d6+4 por desgarrar.",
+    "ca": "11",
+    "pg": "34 (4d10+12)",
+    "velocidad": "40",
+    "ataques": [
+      "Zarpa (+5, 1d8+4) y Mordisco (+5, 1d6+4). Si golpea con ambas zarpas, agarra y causa 2d6+4 por desgarrar"
+    ]
+  },
+  {
+    "nombre": "Puntos de golpe",
+    "descripcion": "la mitad del máximo de su invocador",
+    "ca": "",
+    "pg": "",
+    "velocidad": "",
+    "ataques": []
+  },
+  {
+    "nombre": "Velocidad",
+    "descripcion": "18 m, volar 18 m (levitar)",
+    "ca": "",
+    "pg": "",
+    "velocidad": "",
+    "ataques": []
+  },
+  {
+    "nombre": "Inmunidad a daño",
+    "descripcion": "necrótico, veneno",
+    "ca": "",
+    "pg": "",
+    "velocidad": "",
+    "ataques": []
+  },
+  {
+    "nombre": "Inmunidad a estados",
+    "descripcion": "asustado, envenenado,",
+    "ca": "",
+    "pg": "",
+    "velocidad": "",
+    "ataques": []
+  },
+  {
+    "nombre": "Sentidos",
+    "descripcion": "visión en la oscuridad 18 m, visión verdadera",
+    "ca": "",
+    "pg": "",
+    "velocidad": "",
+    "ataques": []
+  },
+  {
+    "nombre": "Idiomas",
+    "descripcion": "todos los que conozca su invocador",
+    "ca": "",
+    "pg": "",
+    "velocidad": "",
+    "ataques": []
+  }
+]

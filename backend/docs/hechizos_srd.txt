@@ -1,0 +1,13 @@
+Título: Hechizos del SRD 5.1 (Resumen)
+
+Trucos (Nivel 0): Proyectil Arcano (Evocación, 120 pies, 1d10 daño). Luz (Evocación, toque, 1 hora). Rayo (Evocación, 100 pies, 1d8 daño). Mano de mago (Conjuración, 30 pies). Llamada a la muerte (Nigromancia, 60 pies, 1d8 daño contra no-muertos).
+
+Nivel 1: Armadura Mágica (Abjuración, toque, 8 horas, CA 13+Des). Curar Heridas (Abjuración, toque, 1d8+mod). Dormir (Encantamiento, 90 pies, 5d8 PG). Escudo (Abjuración, reacción, +5 CA). Rayo Ardiente (Evocación, 120 pies, 3 rayos de 1d6). Amistad (Encantamiento, 30 pies, ventaja en Carisma).
+
+Nivel 2: Telaraña (Conjuración, 60 pies, 1 hora, área difícil). Invisibilidad (Ilusión, toque, 1 hora, invisible). Fuerza Salvaje (Transmutación, 60 pies, Fuerza 19). Restablecimiento Menor (Abjuración, toque, cura condiciones). Nube de Dagas (Conjuración, 60 pies, 4d4 de daño).
+
+Nivel 3: Bola de Fuego (Evocación, 150 pies, 8d6 de fuego). Relámpago (Evocación, 100 pies, 8d6 de daño). Volar (Transmutación, toque, 10 minutos, velocidad 60). Disipar Magia (Abjuración, 120 pies). Resucitar (Nigromancia, toque, 1 hora, revivir).
+
+Nivel 4: Muro de Fuego (Evocación, 120 pies, concentración, 5d8 de daño). Invisibilidad Mayor (Ilusión, toque, 1 minuto). Puerta Dimensional (Conjuración, 500 pies). Bestia Polimorfa (Transmutación, 60 pies, transformar aliado).
+
+Nivel 5: Muro de Piedra (Evocación, 120 pies, concentración). Telequinesis (Transmutación, 60 pies, concentración, 10 min). Círculo de Teletransporte (Conjuración). Deseo (Conjuración, nivel 9, modificar realidad).
