@@ -1,24 +1,26 @@
 from typing import Annotated, List
 from fastapi import APIRouter, Depends, HTTPException, status
-
+from sqlalchemy.orm import Session
+from database import get_db
 from auth.jwt import obtener_usuario_actual
-from models.personaje import PersonajeCrear, PersonajeActualizar, PersonajeDB
+from models.personaje import PersonajeCrear, PersonajeActualizar, PersonajeOut
 from models.usuario import UsuarioDB
 from services.personaje_service import personaje_service
 
 router = APIRouter(prefix="/personajes", tags=["Personajes"])
 UsuarioActual = Annotated[UsuarioDB, Depends(obtener_usuario_actual)]
+DBSession = Annotated[Session, Depends(get_db)]
 
 
-@router.get("/", response_model=List[PersonajeDB])
-def listar_personajes(usuario: UsuarioActual):
-    return personaje_service.listar(usuario.id)
+@router.get("/", response_model=List[PersonajeOut])
+def listar_personajes(usuario: UsuarioActual, db: DBSession):
+    return personaje_service.listar(db, usuario.id)
 
 
-@router.get("/{personaje_id}", response_model=PersonajeDB)
-def obtener_personaje(personaje_id: int, usuario: UsuarioActual):
+@router.get("/{personaje_id}", response_model=PersonajeOut)
+def obtener_personaje(personaje_id: int, usuario: UsuarioActual, db: DBSession):
     try:
-        pj = personaje_service.obtener(personaje_id)
+        pj = personaje_service.obtener(db, personaje_id)
         if pj.usuario_id != usuario.id:
             raise HTTPException(status_code=403, detail="No tienes acceso a este personaje")
         return pj
@@ -26,15 +28,15 @@ def obtener_personaje(personaje_id: int, usuario: UsuarioActual):
         raise HTTPException(status_code=404, detail="Personaje no encontrado")
 
 
-@router.post("/", response_model=PersonajeDB, status_code=status.HTTP_201_CREATED)
-def crear_personaje(datos: PersonajeCrear, usuario: UsuarioActual):
-    return personaje_service.crear(datos, usuario.id)
+@router.post("/", response_model=PersonajeOut, status_code=status.HTTP_201_CREATED)
+def crear_personaje(datos: PersonajeCrear, usuario: UsuarioActual, db: DBSession):
+    return personaje_service.crear(db, datos, usuario.id)
 
 
-@router.put("/{personaje_id}", response_model=PersonajeDB)
-def actualizar_personaje(personaje_id: int, datos: PersonajeActualizar, usuario: UsuarioActual):
+@router.put("/{personaje_id}", response_model=PersonajeOut)
+def actualizar_personaje(personaje_id: int, datos: PersonajeActualizar, usuario: UsuarioActual, db: DBSession):
     try:
-        return personaje_service.actualizar(personaje_id, datos, usuario.id)
+        return personaje_service.actualizar(db, personaje_id, datos, usuario.id)
     except KeyError:
         raise HTTPException(status_code=404, detail="Personaje no encontrado")
     except ValueError as exc:
@@ -42,9 +44,9 @@ def actualizar_personaje(personaje_id: int, datos: PersonajeActualizar, usuario:
 
 
 @router.delete("/{personaje_id}", status_code=status.HTTP_204_NO_CONTENT)
-def eliminar_personaje(personaje_id: int, usuario: UsuarioActual):
+def eliminar_personaje(personaje_id: int, usuario: UsuarioActual, db: DBSession):
     try:
-        personaje_service.eliminar(personaje_id, usuario.id)
+        personaje_service.eliminar(db, personaje_id, usuario.id)
     except KeyError:
         raise HTTPException(status_code=404, detail="Personaje no encontrado")
     except ValueError as exc:

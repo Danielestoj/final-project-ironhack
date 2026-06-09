@@ -1,3 +1,6 @@
+# Abrir todo el proyecto
+En terminal: ./start.ps1
+
 # Backend
 cd backend
 python -m venv venv
@@ -10,3 +13,10 @@ uvicorn main:app --reload
 cd frontend
 npm install
 npm run dev
+
+# n8n
+docker run -d --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n n8nio/n8n
+
+
+# LLM Studio
+Instalar Qwen2.5-VL-3B-Instruct-GGUF

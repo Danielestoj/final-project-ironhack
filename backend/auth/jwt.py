@@ -2,8 +2,10 @@ from datetime import datetime, timedelta
 from fastapi import HTTPException, Depends
 from fastapi.security import OAuth2PasswordBearer
 from jose import JWTError, jwt
+from sqlalchemy.orm import Session
 
 from config import settings
+from database import get_db
 from auth.password import verificar_password
 from services.usuario_service import usuario_service
 
@@ -28,13 +30,16 @@ def decodificar_token(token: str) -> dict:
         raise HTTPException(status_code=401, detail="Token inválido o expirado")
 
 
-def obtener_usuario_actual(token: str = Depends(oauth2_scheme)):
+def obtener_usuario_actual(
+    token: str = Depends(oauth2_scheme),
+    db: Session = Depends(get_db),
+):
     payload = decodificar_token(token)
     email = payload.get("sub")
     if not email:
         raise HTTPException(status_code=401, detail="Token inválido")
     try:
-        usuario = usuario_service.obtener_por_email(email)
+        usuario = usuario_service.obtener_por_email(db, email)
     except KeyError:
         raise HTTPException(status_code=401, detail="Usuario no encontrado")
     return usuario

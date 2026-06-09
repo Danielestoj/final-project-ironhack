@@ -1,12 +1,25 @@
-from datetime import datetime, timezone
-from typing import Literal
+from datetime import datetime
 from pydantic import BaseModel, Field
+from sqlalchemy import Column, Integer, String, DateTime
+from sqlalchemy.orm import relationship
+from database import Base
+
+
+class UsuarioDB(Base):
+    __tablename__ = "usuarios"
+    id = Column(Integer, primary_key=True, index=True)
+    email = Column(String, unique=True, nullable=False, index=True)
+    nombre = Column(String, nullable=False)
+    password_hash = Column(String, nullable=False)
+    rol = Column(String, default="usuario")
+    fecha_registro = Column(DateTime, default=datetime.utcnow)
+    personajes = relationship("PersonajeDB", back_populates="usuario", cascade="all, delete-orphan")
 
 
 class UsuarioCrear(BaseModel):
-    email: str = Field(..., description="Email único del usuario")
-    password: str = Field(..., min_length=8, description="Contraseña (mínimo 8 caracteres)")
-    nombre: str = Field(..., min_length=2, max_length=100)
+    email: str = Field(..., max_length=255)
+    nombre: str = Field(..., min_length=1, max_length=100)
+    password: str = Field(..., min_length=6, max_length=128)
 
 
 class UsuarioLogin(BaseModel):
@@ -18,18 +31,11 @@ class UsuarioPublico(BaseModel):
     id: int
     email: str
     nombre: str
-    rol: str = "usuario"
+    rol: str
     fecha_registro: datetime
-
-    model_config = {"from_attributes": True}
-
-
-class UsuarioDB(UsuarioPublico):
-    password_hash: str
 
 
 class TokenRespuesta(BaseModel):
     access_token: str
-    token_type: str = "bearer"
-    expira_en_segundos: int = 3600
+    expira_en_segundos: int
     usuario: UsuarioPublico

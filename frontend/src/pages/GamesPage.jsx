@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useGames } from "../context/GameContext";
 import { useAuth } from "../context/AuthContext";
+import client from "../api/client";
 
 export function GamesPage() {
   const { games, fetchGames, selectGame } = useGames();
@@ -18,6 +19,17 @@ export function GamesPage() {
     navigate(`/games/${slug}/chat`);
   };
 
+  const handleDelete = async (e, slug, nombre) => {
+    e.stopPropagation();
+    if (!window.confirm(`¿Eliminar "${nombre}"? Se borrará todo su contenido permanentemente.`)) return;
+    try {
+      await client.delete(`/api/games/${slug}`);
+      await fetchGames();
+    } catch (err) {
+      alert(err.response?.data?.detail || "Error al eliminar el juego");
+    }
+  };
+
   return (
     <div className="page-games">
       <h2>Selecciona un juego</h2>
@@ -28,6 +40,11 @@ export function GamesPage() {
       <div className="games-grid">
         {games.map((g) => (
           <div key={g.slug} className="game-card" onClick={() => enterGame(g.slug)}>
+            {user?.rol === "admin" && (
+              <button className="game-delete-btn" onClick={(e) => handleDelete(e, g.slug, g.nombre)} title="Eliminar juego">
+                🗑️
+              </button>
+            )}
             <span className="game-icon">{g.icono}</span>
             <h3>{g.nombre}</h3>
             <p className="game-desc">{g.descripcion}</p>

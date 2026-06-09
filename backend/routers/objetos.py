@@ -9,18 +9,27 @@ UsuarioActual = Annotated[UsuarioDB, Depends(obtener_usuario_actual)]
 
 
 def _datos():
-    return cargar_datos("objetos_equipo.json")
+    raw = cargar_datos("objetos_equipo.json")
+    if isinstance(raw, dict):
+        items = []
+        for clave, lista in raw.items():
+            for item in lista:
+                if isinstance(item, dict):
+                    item["seccion"] = clave
+                    items.append(item)
+        return items
+    return raw if isinstance(raw, list) else []
 
 
 @router.get("/")
 def listar_objetos(
     usuario: UsuarioActual,
-    tipo: Optional[str] = None,
+    seccion: Optional[str] = None,
     q: Optional[str] = Query(None, min_length=1),
 ):
     data = _datos()
-    if tipo:
-        data = [o for o in data if o.get("tipo") == tipo]
+    if seccion:
+        data = [o for o in data if o.get("seccion") == seccion]
     if q:
         ql = q.lower()
         data = [o for o in data if ql in o.get("nombre", "").lower()]
