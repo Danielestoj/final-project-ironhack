@@ -1,11 +1,11 @@
-from typing import Annotated
+from typing import Annotated, Optional
 from fastapi import APIRouter, Depends, HTTPException
 from langchain_core.messages import HumanMessage
 from pydantic import BaseModel
 
 from auth.jwt import obtener_usuario_actual
 from models.usuario import UsuarioDB
-from agente import agente, agente_simple
+from agente import agente, agente_simple, get_collection_names
 
 router = APIRouter(prefix="/api", tags=["IA"])
 UsuarioActual = Annotated[UsuarioDB, Depends(obtener_usuario_actual)]
@@ -14,11 +14,13 @@ UsuarioActual = Annotated[UsuarioDB, Depends(obtener_usuario_actual)]
 class MensajeRequest(BaseModel):
     session_id: str
     message: str
+    game_slug: str = "dnd"
 
 
 class ChatInput(BaseModel):
     message: str
     session_id: str = "default"
+    game_slug: str = "dnd"
 
 
 class ChatResponse(BaseModel):
@@ -32,7 +34,7 @@ def chat(body: MensajeRequest, usuario: UsuarioActual):
     config = {"configurable": {"thread_id": body.session_id}}
     try:
         resultado = agente.invoke(
-            {"mensajes": [HumanMessage(content=body.message)]},
+            {"mensajes": [HumanMessage(content=body.message)], "game_slug": body.game_slug},
             config=config
         )
         return ChatResponse(
@@ -45,7 +47,11 @@ def chat(body: MensajeRequest, usuario: UsuarioActual):
 
 @router.post("/chat/simple")
 def chat_simple(body: ChatInput, usuario: UsuarioActual):
-    respuesta = agente_simple.chat(pregunta=body.message, session_id=body.session_id)
+    respuesta = agente_simple.chat(
+        pregunta=body.message,
+        session_id=body.session_id,
+        game_slug=body.game_slug,
+    )
     return ChatResponse(
         response=respuesta["respuesta"],
         session_id=body.session_id,

@@ -16,6 +16,10 @@ class ProcessRequest(BaseModel):
     filename: str
 
 
+class SyncRequest(BaseModel):
+    game_slug: str = "dnd"
+
+
 def cargar_log() -> dict:
     if LOG_FILE.exists():
         return json.loads(LOG_FILE.read_text(encoding="utf-8"))
@@ -66,3 +70,13 @@ def process_file(body: ProcessRequest):
         raise HTTPException(status_code=504, detail="Tiempo de espera agotado procesando el PDF")
     except json.JSONDecodeError:
         raise HTTPException(status_code=500, detail="Error al parsear la salida del script")
+
+
+@router.post("/sync-to-db")
+def sync_to_db(body: SyncRequest):
+    from ingestar import ingestar_game
+    try:
+        ingestar_game(body.game_slug)
+        return {"status": "ok", "game_slug": body.game_slug}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

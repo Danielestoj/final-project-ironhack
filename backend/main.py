@@ -1,7 +1,39 @@
+from contextlib import asynccontextmanager
 from fastapi import FastAPI
+from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
+from starlette.exceptions import HTTPException as StarletteHTTPException
 from dotenv import load_dotenv
 import os
+
+from database import engine, Base, SessionLocal
+from passlib.context import CryptContext
+
+
+def _init_db_and_seed():
+    import models.personaje  # noqa: F401 — register model for Base
+    import models.usuario  # noqa: F401
+    Base.metadata.create_all(bind=engine)
+    from models.usuario import UsuarioDB
+    db = SessionLocal()
+    try:
+        if not db.query(UsuarioDB).filter(UsuarioDB.email == "admin@admin.com").first():
+            pwd = CryptContext(schemes=["bcrypt"], deprecated="auto")
+            db.add(UsuarioDB(
+                id=1, email="admin@admin.com", nombre="Administrador",
+                password_hash=pwd.hash("12345678"), rol="admin",
+            ))
+            db.commit()
+    finally:
+        db.close()
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    _init_db_and_seed()
+    yield
+
 
 from routers import auth as auth_router
 from routers import personajes as personajes_router
@@ -9,7 +41,8 @@ from routers import hechizos as hechizos_router
 from routers import ia as ia_router
 from routers import pdf as pdf_router
 from routers import condiciones as condiciones_router
-from routers import clases_razas as clases_razas_router
+from routers import clases as clases_router
+from routers import razas as razas_router
 from routers import enemigos as enemigos_router
 from routers import objetos as objetos_router
 from routers import sync as sync_router
@@ -25,7 +58,37 @@ app = FastAPI(
     version="1.0.0",
     docs_url="/docs",
     redoc_url="/redoc",
+    lifespan=lifespan,
 )
+
+
+@app.exception_handler(StarletteHTTPException)
+async def http_exception_handler(request, exc):
+    return JSONResponse(
+        status_code=exc.status_code,
+        content={"error": exc.detail or "Error HTTP", "status_code": exc.status_code},
+    )
+
+
+@app.exception_handler(RequestValidationError)
+async def validation_exception_handler(request, exc):
+    errores = [
+        {"campo": " → ".join(str(x) for x in e["loc"]), "mensaje": e["msg"]}
+        for e in exc.errors()
+    ]
+    return JSONResponse(
+        status_code=422,
+        content={"error": "Error de validación", "detalle": errores},
+    )
+
+
+@app.exception_handler(Exception)
+async def global_exception_handler(request, exc):
+    return JSONResponse(
+        status_code=500,
+        content={"error": "Error interno del servidor", "detalle": str(exc)},
+    )
+
 
 ORIGINS = os.getenv("ALLOWED_ORIGINS", "http://localhost:5173").split(",")
 app.add_middleware(
@@ -42,7 +105,8 @@ app.include_router(hechizos_router.router)
 app.include_router(ia_router.router)
 app.include_router(pdf_router.router)
 app.include_router(condiciones_router.router)
-app.include_router(clases_razas_router.router)
+app.include_router(clases_router.router)
+app.include_router(razas_router.router)
 app.include_router(enemigos_router.router)
 app.include_router(objetos_router.router)
 app.include_router(sync_router.router)
@@ -62,7 +126,8 @@ def raiz():
             "personajes": "/personajes (GET, POST, PUT, DELETE)",
             "hechizos": "/hechizos (GET)",
             "condiciones": "/condiciones (GET)",
-            "clases_razas": "/clases-razas (GET)",
+            "clases": "/clases (GET)",
+            "razas": "/razas (GET)",
             "enemigos": "/enemigos (GET)",
             "objetos": "/objetos (GET)",
             "ia": "/api/chat | /api/chat/simple | /api/chat/history/{id}",

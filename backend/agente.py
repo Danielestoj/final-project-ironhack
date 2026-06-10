@@ -17,22 +17,26 @@ from config import settings
 import operator
 
 
-# ─── ChromaDB RAG ──────────────────────────────────────────────────────────
+# ─── ChromaDB RAG (game‑aware) ──────────────────────────────────────────────
 
 chroma_client = chromadb.PersistentClient(path="./chroma_db")
-try:
-    collection = chroma_client.get_collection(name="documentos")
-except Exception:
-    collection = None
-
 embedding_fn = embedding_functions.DefaultEmbeddingFunction()
 
 
-def recuperar_docs(pregunta: str, n: int = 3) -> str:
-    if collection is None:
-        return ""
+def _get_collection(slug: str = "dnd"):
+    name = f"doc_{slug}"
     try:
-        resultados = collection.query(query_texts=[pregunta], n_results=n)
+        return chroma_client.get_collection(name=name)
+    except Exception:
+        return chroma_client.get_or_create_collection(
+            name=name, embedding_function=embedding_fn,
+        )
+
+
+def recuperar_docs(pregunta: str, n: int = 3, game_slug: str = "dnd") -> str:
+    try:
+        coll = _get_collection(game_slug)
+        resultados = coll.query(query_texts=[pregunta], n_results=n)
         if not resultados["documents"] or not resultados["documents"][0]:
             return ""
         fragmentos = []
@@ -44,10 +48,15 @@ def recuperar_docs(pregunta: str, n: int = 3) -> str:
         return ""
 
 
+def get_collection_names():
+    return [c.name for c in chroma_client.list_collections() if c.name.startswith("doc_")]
+
+
 # ─── LangGraph Agent ───────────────────────────────────────────────────────
 
 class EstadoDnD(TypedDict):
     mensajes: Annotated[Sequence[BaseMessage], operator.add]
+    game_slug: str
 
 
 @tool
@@ -139,15 +148,17 @@ def nodo_llm(estado: EstadoDnD) -> dict:
         (m.content for m in reversed(estado["mensajes"]) if isinstance(m, HumanMessage)),
         ""
     )
-    contexto = recuperar_docs(ultimo_humano)
+    slug = estado.get("game_slug", "dnd")
+    contexto = recuperar_docs(ultimo_humano, game_slug=slug)
 
-    system = SystemMessage(content=f"""Eres un asistente experto en Dungeons & Dragons 5e (SRD 5.1).
-Responde preguntas sobre reglas, hechizos, condiciones, clases y enemigos usando el contexto proporcionado.
+    system = SystemMessage(content=f"""Eres un asistente experto en el juego de rol.
+Responde preguntas sobre reglas, contenido y mecánicas usando el contexto proporcionado.
 Usa las herramientas disponibles para tirar dados, buscar hechizos y consultar condiciones.
 
 Contexto de reglas:
 {contexto}
 
+IMPORTANTE: Cuando uses información del contexto, DEBES citar la fuente entre corchetes al final de la frase. Ejemplo: "Según las reglas de combate, una acción de ataque permite realizar un único ataque [PHB - Acciones de Combate]".
 Si no tienes información suficiente, dilo claramente. No inventes datos.""")
 
     mensajes_con_system = [system] + list(estado["mensajes"])
@@ -175,7 +186,7 @@ checkpointer = MemorySaver()
 agente = grafo.compile(checkpointer=checkpointer)
 
 
-# ─── Simple RAG Chatbot (fallback sin LLM local) ──────────────────────────────
+# ─── Simple RAG Chatbot (fallback) ────────────────────────────────────────
 
 from openai import OpenAI
 
@@ -187,11 +198,10 @@ client_openai = OpenAI(
 HISTORIAL = {}
 
 
-def recuperar_fragmentos(pregunta: str, n_resultados: int = 5):
-    if collection is None:
-        return [], []
+def recuperar_fragmentos(pregunta: str, n_resultados: int = 5, game_slug: str = "dnd"):
     try:
-        resultados = collection.query(query_texts=[pregunta], n_results=n_resultados)
+        coll = _get_collection(game_slug)
+        resultados = coll.query(query_texts=[pregunta], n_results=n_resultados)
         documentos = resultados["documents"][0] if resultados["documents"] else []
         metadatos = resultados["metadatas"][0] if resultados["metadatas"] else []
         return documentos, metadatos
@@ -200,8 +210,8 @@ def recuperar_fragmentos(pregunta: str, n_resultados: int = 5):
 
 
 class AgenteSimple:
-    def chat(self, pregunta: str, session_id: str) -> dict:
-        documentos, metadatos = recuperar_fragmentos(pregunta)
+    def chat(self, pregunta: str, session_id: str, game_slug: str = "dnd") -> dict:
+        documentos, metadatos = recuperar_fragmentos(pregunta, game_slug=game_slug)
         if not documentos:
             respuesta = "No tengo información sobre eso en mis documentos."
             HISTORIAL.setdefault(session_id, []).append({"rol": "user", "contenido": pregunta})
@@ -217,7 +227,7 @@ class AgenteSimple:
             fuentes.add(filename)
 
         hist_text = self._construir_historial(session_id)
-        system_prompt = "Eres un asistente experto en Dragones y Mazmorras. Responde EXCLUSIVAMENTE usando el contexto proporcionado. No inventes datos."
+        system_prompt = "Eres un asistente experto en juegos de rol. Responde EXCLUSIVAMENTE usando el contexto proporcionado. No inventes datos. IMPORTANTE: Cuando uses información del contexto, DEBES citar la fuente entre corchetes. Ejemplo: 'Según el manual [PHB], el ataque de oportunidad...'. " + (f"Fuentes disponibles: {', '.join(fuentes)}." if fuentes else "")
         messages = [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": f"Contexto:\n{contexto}\n\nHistorial:\n{hist_text}\n\nPregunta:\n{pregunta}"},

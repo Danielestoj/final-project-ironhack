@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import client from "../api/client";
 
-export function Chat({ sessionId = "default" }) {
+export function Chat({ sessionId = "default", gameSlug = "dnd" }) {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -22,12 +22,13 @@ export function Chat({ sessionId = "default" }) {
     setError("");
     setLoading(true);
 
-    client.post("/api/metrics/chat-query", { texto: userMessage.content, game_slug: "dnd" }).catch(() => {});
+    client.post("/api/metrics/chat-query", { texto: userMessage.content, game_slug: gameSlug }).catch(() => {});
 
     try {
       const res = await client.post("/api/chat", {
         message: userMessage.content,
         session_id: sessionId,
+        game_slug: gameSlug,
       });
       setMessages((prev) => [
         ...prev,
@@ -45,7 +46,7 @@ export function Chat({ sessionId = "default" }) {
       <div className="chat-messages">
         {messages.length === 0 && (
           <p className="chat-empty">
-            ¡Bienvenido, aventurero! Pregúntame sobre reglas de D&D, hechizos, condiciones, o haz una tirada de dados.
+            ¡Bienvenido, aventurero! Pregúntame sobre reglas del juego, contenido, o haz una tirada de dados.
           </p>
         )}
 

@@ -3,15 +3,10 @@ import hashlib
 import chromadb
 from chromadb.utils import embedding_functions
 
-RUTA_DOCS = "docs/"
 PERSIST_DIR = "./chroma_db"
+GAMES_DIR = "games"
 
-print("Conectando a ChromaDB...")
 chroma_client = chromadb.PersistentClient(path=PERSIST_DIR)
-collection = chroma_client.get_or_create_collection(
-    name="documentos",
-    embedding_function=embedding_functions.DefaultEmbeddingFunction(),
-)
 
 
 def chunk_text(texto, size=500):
@@ -33,37 +28,59 @@ def hash_texto(texto):
     return hashlib.md5(texto.encode()).hexdigest()
 
 
-print("Leyendo documentos de docs/ ...")
-documentos = []
-for filename in os.listdir(RUTA_DOCS):
-    if filename.endswith(".txt"):
-        filepath = os.path.join(RUTA_DOCS, filename)
-        with open(filepath, "r", encoding="utf-8") as f:
-            contenido = f.read()
-            documentos.append((filename, contenido))
-        print(f"  → {filename}")
+def ingestar_game(slug: str):
+    """Ingest docs from games/{slug}/docs/*.txt into ChromaDB collection doc_{slug}."""
+    docs_dir = os.path.join(GAMES_DIR, slug, "docs")
+    if not os.path.isdir(docs_dir):
+        print(f"  -> No docs dir for {slug}, skipping")
+        return
 
-print(f"Indexando {len(documentos)} documentos en ChromaDB...")
-total_chunks = 0
+    collection = chroma_client.get_or_create_collection(
+        name=f"doc_{slug}",
+        embedding_function=embedding_functions.DefaultEmbeddingFunction(),
+    )
 
-for filename, contenido in documentos:
-    chunks = chunk_text(contenido)
-    for i, chunk in enumerate(chunks):
-        chunk_id = f"{filename}_chunk_{i}"
-        h = hash_texto(chunk)
+    documentos = []
+    for filename in sorted(os.listdir(docs_dir)):
+        if filename.endswith(".txt") and not filename.startswith("processing"):
+            filepath = os.path.join(docs_dir, filename)
+            with open(filepath, "r", encoding="utf-8") as f:
+                contenido = f.read()
+                documentos.append((filename, contenido))
+            print(f"    -> {filename}")
 
-        existente = collection.get(ids=[chunk_id])
-        if existente["ids"]:
-            if existente["metadatas"][0].get("hash") == h:
-                continue
-            else:
-                collection.delete(ids=[chunk_id])
+    print(f"  Indexing {len(documentos)} documents for [{slug}]...")
+    total_chunks = 0
+    for filename, contenido in documentos:
+        chunks = chunk_text(contenido)
+        for i, chunk in enumerate(chunks):
+            chunk_id = f"{slug}_{filename}_chunk_{i}"
+            h = hash_texto(chunk)
 
-        collection.add(
-            ids=[chunk_id],
-            documents=[chunk],
-            metadatas=[{"filename": filename, "chunk_id": i, "hash": h}],
-        )
-        total_chunks += 1
+            existente = collection.get(ids=[chunk_id])
+            if existente["ids"]:
+                if existente["metadatas"][0].get("hash") == h:
+                    continue
+                else:
+                    collection.delete(ids=[chunk_id])
 
-print(f"Indexación completada: {total_chunks} chunks en {len(documentos)} documentos")
+            collection.add(
+                ids=[chunk_id],
+                documents=[chunk],
+                metadatas=[{"filename": filename, "chunk_id": i, "hash": h, "game_slug": slug}],
+            )
+            total_chunks += 1
+    print(f"  -> {total_chunks} chunks indexed for [{slug}]")
+
+
+def ingestar_todo():
+    """Legacy: ingest docs/ into doc_dnd collection for backward compat."""
+    ingestar_game("dnd")
+
+
+if __name__ == "__main__":
+    print("Ingesting all games...")
+    for entry in os.listdir(GAMES_DIR):
+        if os.path.isdir(os.path.join(GAMES_DIR, entry)):
+            print(f"  Game: {entry}")
+            ingestar_game(entry)

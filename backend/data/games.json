@@ -27,9 +27,14 @@
         "icono": "⚡"
       },
       {
-        "path": "clases-razas",
-        "label": "Clases y Razas",
+        "path": "clases",
+        "label": "Clases",
         "icono": "📚"
+      },
+      {
+        "path": "razas",
+        "label": "Razas",
+        "icono": "🧬"
       },
       {
         "path": "enemigos",

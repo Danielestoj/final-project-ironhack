@@ -1,0 +1,485 @@
+[
+  {
+    "nombre": "Elfo",
+    "tipo": "raza",
+    "descripcion": "Tu personaje elfo posee una gran variedad de\ncapacidades innatas, que son el fruto de miles\nde años de sofisticación élfica.\nMejora de Característica. Tu puntuación de\nDestreza aumenta en 2.\nAlineamiento. Los elfos aman la libertad, la\nvariedad y la expresión personal, por lo que tienden\nhacia los aspectos más benéficos del caos. Valoran\ny protegen la libertad, tanto la suya como la de los\ndemás, y la mayoría suelen ser buenos.\nEdad. Aunque los elfos alcanzan la madurez\naproximadamente a la misma edad que los humanos,\nla concepción de la mayoría de edad de los elfos va\nmás allá del crecimiento e incluye la experiencia\nvital. Los elfos suelen llegar a la edad adulta y recibir\nsu nuevo nombre tras unos cien años y pueden\nllegar a vivir hasta setecientos cincuenta.\nTamaño. Los elfos miden entre poco menos de\n1,5 m y algo más de 1,8 m de altura y son esbeltos.\nEres de tamaño Mediano.\nVelocidad. Tu velocidad base caminando\nes de 9 m.\nVisión en la Oscuridad. Acostumbrado a la\npenumbra de los bosques y el cielo nocturno, puedes\nver bien en la oscuridad o con poca luz. Puedes ver\ncon luz tenue a 18 m o menos de ti como si hubiera\nluz brillante y, en la oscuridad, como si hubiera luz\ntenue. Eso sí, no puedes distinguir colores en la\noscuridad, solo tonos de gris.\nSentidos Agudos. Eres competente en la habilidad\nPercepción.\nLinaje Feérico. Tienes ventaja en las tiradas de\nsalvación para evitar que te hechicen y la magia\nno puede dormirte.\nTrance. Los elfos no necesitan dormir. Meditan\nprofundamente, en un estado semiconsciente,\ndurante 4 horas al día. La palabra en común para\nreferirse a esta meditación es “trance”. Mientras\nmeditas, experimentas algo parecido a los sueños,\npero en realidad son ejercicios mentales que se han\nvuelto automáticos tras años de práctica. Este trance\nes suficiente para obtener los mismos beneficios que\nun humano recibe tras 8 horas de sueño.\nIdiomas. Puedes hablar, leer y escribir en común\ny elfo. El idioma elfo es fluido, con entonaciones\nsutiles y una gramática compleja. La literatura élfica\nes rica y variada, y sus canciones y poemas son\nfamosos entre el resto de razas. Muchos bardos\naprenden este idioma para poder añadir baladas\nélficas a sus repertorios.\nComo alto elfo, posees una mente aguda y un\ndominio de, como mínimo, los rudimentos de la\nmagia. En muchos de los mundos fantásticos hay\ndos tipos de altos elfos. Los del primer tipo son\norgullosos y retraídos, pues se creen superiores\na las razas no élficas e incluso a otros elfos. Los del\notro tipo se dejan ver y son más amables. De hecho,\nes habitual encontrarlos junto a humanos\ne individuos de otras razas.\nMejora de Característica. Tu puntuación\nde Inteligencia aumenta en 1.\nEntrenamiento con Armas Élficas. Eres\ncompetente con espadas cortas, espadas largas,\narcos cortos y arcos largos.\nTruco. Conoces un truco de tu elección escogido\nde entre los de la lista de conjuros de mago.\nLa Inteligencia es tu aptitud mágica para lanzarlo.\nIdioma Adicional. Puedes hablar, leer y escribir\nun idioma adicional de tu elección.",
+    "atributos": [
+      {
+        "nombre": "Mejora de Característica",
+        "descripcion": "Tu puntuación de Destreza aumenta en 2."
+      },
+      {
+        "nombre": "Alineamiento",
+        "descripcion": "Los elfos aman la libertad, la variedad y la expresión personal, por lo que tienden hacia los aspectos más benéficos del caos. Valoran y protegen la libertad, tanto la suya como la de los demás, y la mayoría suelen ser buenos."
+      },
+      {
+        "nombre": "Edad",
+        "descripcion": "Aunque los elfos alcanzan la madurez aproximadamente a la misma edad que los humanos, la concepción de la mayoría de edad de los elfos va más allá del crecimiento e incluye la experiencia vital. Los elfos suelen llegar a la edad adulta y recibir su nuevo nombre tras unos cien años y pueden llegar a vivir hasta setecientos cincuenta."
+      },
+      {
+        "nombre": "Tamaño",
+        "descripcion": "Los elfos miden entre poco menos de 1,5 m y algo más de 1,8 m de altura y son esbeltos."
+      },
+      {
+        "nombre": "Eres de tamaño Mediano",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Velocidad",
+        "descripcion": "Tu velocidad base caminando es de 9 m."
+      },
+      {
+        "nombre": "Visión en la Oscuridad",
+        "descripcion": "Acostumbrado a la penumbra de los bosques y el cielo nocturno, puedes ver bien en la oscuridad o con poca luz. Puedes ver con luz tenue a 18 m o menos de ti como si hubiera luz brillante y, en la oscuridad, como si hubiera luz tenue. Eso sí, no puedes distinguir colores en la oscuridad, solo tonos de gris."
+      },
+      {
+        "nombre": "Sentidos Agudos",
+        "descripcion": "Eres competente en la habilidad"
+      },
+      {
+        "nombre": "Percepción",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Linaje Feérico",
+        "descripcion": "Tienes ventaja en las tiradas de salvación para evitar que te hechicen y la magia no puede dormirte."
+      },
+      {
+        "nombre": "Trance",
+        "descripcion": "Los elfos no necesitan dormir. Meditan profundamente, en un estado semiconsciente, durante 4 horas al día. La palabra en común para referirse a esta meditación es “trance”. Mientras meditas, experimentas algo parecido a los sueños, pero en realidad son ejercicios mentales que se han vuelto automáticos tras años de práctica. Este trance es suficiente para obtener los mismos beneficios que un humano recibe tras 8 horas de sueño."
+      },
+      {
+        "nombre": "Idiomas",
+        "descripcion": "Puedes hablar, leer y escribir en común y elfo. El idioma elfo es fluido, con entonaciones sutiles y una gramática compleja. La literatura élfica es rica y variada, y sus canciones y poemas son famosos entre el resto de razas. Muchos bardos aprenden este idioma para poder añadir baladas élficas a sus repertorios."
+      },
+      {
+        "nombre": "Mejora de Característica",
+        "descripcion": "Tu puntuación de Inteligencia aumenta en 1."
+      },
+      {
+        "nombre": "Entrenamiento con Armas Élficas",
+        "descripcion": "Eres competente con espadas cortas, espadas largas, arcos cortos y arcos largos."
+      },
+      {
+        "nombre": "Truco",
+        "descripcion": "Conoces un truco de tu elección escogido de entre los de la lista de conjuros de mago."
+      },
+      {
+        "nombre": "La Inteligencia es tu aptitud mágica para lanzarlo",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Idioma Adicional",
+        "descripcion": "Puedes hablar, leer y escribir un idioma adicional de tu elección. Enano Atributos de los enanos Tu personaje enano tiene una serie de características innatas, que son una parte indisoluble de la naturaleza de su raza."
+      }
+    ]
+  },
+  {
+    "nombre": "Enano",
+    "tipo": "raza",
+    "descripcion": "Tu personaje enano tiene una serie de\ncaracterísticas innatas, que son una parte\nindisoluble de la naturaleza de su raza.\nMejora de Característica. Tu puntuación\nde Constitución aumenta en 2.\nAlineamiento. La mayoría de los enanos son\nlegales, pues creen firmemente en las ventajas de\nuna sociedad bien estructurada. Además, tienden\na ser buenos, ya que poseen un fuerte sentido del\njuego limpio y creen que todos merecen compartir\nlos frutos de un orden justo.\nEdad. Los enanos alcanzan la madurez a la misma\nedad que los humanos, pero se les considera jóvenes\nhasta los cincuenta años. Viven, de media, unos\ntrescientos cincuenta años.\nTamaño. Los enanos miden entre 1,2 y 1,5 m de\naltura y pesan unos 75 kg de media. Eres de tamaño\nMediano.\nVelocidad. Tu velocidad base caminando es de\n7,5 m. Tu velocidad no se reduce por llevar una\narmadura pesada.\nVisión en la Oscuridad. Acostumbrado a la vida\nbajo tierra, puedes ver bien en la oscuridad o con\npoca luz. Puedes ver con luz tenue a 18 m o menos\nde ti como si hubiera luz brillante y, en la oscuridad,\ncomo si hubiera luz tenue. Eso sí, no puedes\ndistinguir colores en la oscuridad, solo tonos de gris.\nResistencia Enana. Tienes ventaja en las tiradas\nde salvación contra veneno y posees resistencia\nal daño de veneno.\nEntrenamiento de Combate Enano. Eres\ncompetente con hachas de guerra, hachas de\nmano, martillos de guerra y martillos ligeros.\nCompetencia con Herramientas. Eres\ncompetente con las herramientas de artesano que\nelijas de entre las siguientes: herramientas de albañil,\nherramientas de herrero o suministros de cervecero.\nAfinidad con la Piedra. Cuando hagas una prueba\nde Inteligencia (Historia) que tenga relación con el\norigen de un trabajo en piedra, se te considerará\ncompetente en la habilidad Historia y sumarás el\ndoble de tu bonificador por competencia a la tirada,\nen lugar del bonificador normal.\nIdiomas. Puedes hablar, leer y escribir en común\ny enano. El enano está lleno de consonantes duras\ny sonidos guturales, y esas características se\nextienden a cualquier otro idioma que un enano\npueda hablar.\nEnano de las colinas\nComo enano de las colinas, posees sentidos agudos,\nuna profunda intuición y una resistencia\nextraordinaria.\nMejora de Característica. Tu puntuación de\nSabiduría aumenta en 1.\nAguante Enano. Tus puntos de golpe máximos se\nincrementan en 1 y aumentarán en 1 más cada vez\nque subas un nivel.",
+    "atributos": [
+      {
+        "nombre": "Mejora de Característica",
+        "descripcion": "Tu puntuación de Inteligencia aumenta en 1."
+      },
+      {
+        "nombre": "Alineamiento",
+        "descripcion": "La mayoría de los enanos son legales, pues creen firmemente en las ventajas de una sociedad bien estructurada. Además, tienden a ser buenos, ya que poseen un fuerte sentido del juego limpio y creen que todos merecen compartir los frutos de un orden justo."
+      },
+      {
+        "nombre": "Edad",
+        "descripcion": "Los enanos alcanzan la madurez a la misma edad que los humanos, pero se les considera jóvenes hasta los cincuenta años. Viven, de media, unos trescientos cincuenta años."
+      },
+      {
+        "nombre": "Tamaño",
+        "descripcion": "Los enanos miden entre 1,2 y 1,5 m de altura y pesan unos 75 kg de media. Eres de tamaño"
+      },
+      {
+        "nombre": "Mediano",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Velocidad",
+        "descripcion": "Tu velocidad base caminando es de 7,5 m. Tu velocidad no se reduce por llevar una armadura pesada."
+      },
+      {
+        "nombre": "Visión en la Oscuridad",
+        "descripcion": "Acostumbrado a la vida bajo tierra, puedes ver bien en la oscuridad o con poca luz. Puedes ver con luz tenue a 18 m o menos de ti como si hubiera luz brillante y, en la oscuridad, como si hubiera luz tenue. Eso sí, no puedes distinguir colores en la oscuridad, solo tonos de gris."
+      },
+      {
+        "nombre": "Resistencia Enana",
+        "descripcion": "Tienes ventaja en las tiradas de salvación contra veneno y posees resistencia al daño de veneno."
+      },
+      {
+        "nombre": "Entrenamiento de Combate Enano",
+        "descripcion": "Eres competente con hachas de guerra, hachas de mano, martillos de guerra y martillos ligeros."
+      },
+      {
+        "nombre": "Competencia con Herramientas",
+        "descripcion": "Eres competente con las herramientas de artesano que elijas de entre las siguientes: herramientas de albañil, herramientas de herrero o suministros de cervecero."
+      },
+      {
+        "nombre": "Afinidad con la Piedra",
+        "descripcion": "Cuando hagas una prueba de Inteligencia (Historia) que tenga relación con el origen de un trabajo en piedra, se te considerará competente en la habilidad Historia y sumarás el doble de tu bonificador por competencia a la tirada, en lugar del bonificador normal."
+      },
+      {
+        "nombre": "Idiomas",
+        "descripcion": "Puedes hablar, leer y escribir en común y elfo. El idioma elfo es fluido, con entonaciones sutiles y una gramática compleja. La literatura élfica es rica y variada, y sus canciones y poemas son famosos entre el resto de razas. Muchos bardos aprenden este idioma para poder añadir baladas élficas a sus repertorios."
+      },
+      {
+        "nombre": "Mejora de Característica",
+        "descripcion": "Tu puntuación de Destreza aumenta en 2."
+      },
+      {
+        "nombre": "Aguante Enano",
+        "descripcion": "Tus puntos de golpe máximos se incrementan en 1 y aumentarán en 1 más cada vez que subas un nivel. Humano Atributos de los humanos Es difícil generalizar en lo que a la humanidad respecta, pero tu personaje humano posee los siguientes atributos."
+      }
+    ]
+  },
+  {
+    "nombre": "Humano",
+    "tipo": "raza",
+    "descripcion": "Es difícil generalizar en lo que a la humanidad\nrespecta, pero tu personaje humano posee los\nsiguientes atributos.\nMejora de Característica. Todas tus puntuaciones\nde característica aumentan en 1.\nAlineamiento. Los humanos no tienen tendencia\na ningún alineamiento en particular. Entre ellos\npuede encontrarse tanto lo mejor como lo peor\nde cada casa.\nEdad. Los humanos alcanzan la madurez poco\nantes de los veinte años y viven menos de un siglo.\nTamaño. La altura y complexión de los humanos\nvarían enormemente de un individuo a otro. Los hay\nque apenas alcanzan los 1,5 m de altura y quienes\nsuperan los 1,8 m. Independientemente de cuál sea\ntu altura concreta, tu tamaño es Mediano.\nVelocidad. Tu velocidad base caminando es\nde 9 m.\nIdiomas. Puedes hablar, leer y escribir común\ny un idioma adicional de tu elección. Los humanos\nnormalmente aprenden los idiomas de aquellos con\nlos que se relacionan, aunque sean dialectos poco\nconocidos. Les gusta adornar su habla con palabras\ntomadas de otras lenguas: maldiciones orcas,\nexpresiones musicales élficas, términos militares\nenanos, etc.",
+    "atributos": [
+      {
+        "nombre": "Mejora de Característica",
+        "descripcion": "Todas tus puntuaciones de característica aumentan en 1."
+      },
+      {
+        "nombre": "Alineamiento",
+        "descripcion": "Los humanos no tienen tendencia a ningún alineamiento en particular. Entre ellos puede encontrarse tanto lo mejor como lo peor de cada casa."
+      },
+      {
+        "nombre": "Edad",
+        "descripcion": "Los humanos alcanzan la madurez poco antes de los veinte años y viven menos de un siglo."
+      },
+      {
+        "nombre": "Tamaño",
+        "descripcion": "La altura y complexión de los humanos varían enormemente de un individuo a otro. Los hay que apenas alcanzan los 1,5 m de altura y quienes superan los 1,8 m. Independientemente de cuál sea tu altura concreta, tu tamaño es Mediano."
+      },
+      {
+        "nombre": "Velocidad",
+        "descripcion": "Tu velocidad base caminando es de 9 m."
+      },
+      {
+        "nombre": "Idiomas",
+        "descripcion": "Puedes hablar, leer y escribir común y un idioma adicional de tu elección. Los humanos normalmente aprenden los idiomas de aquellos con los que se relacionan, aunque sean dialectos poco conocidos. Les gusta adornar su habla con palabras tomadas de otras lenguas: maldiciones orcas, expresiones musicales élficas, términos militares enanos, etc. Mediano Atributos de los medianos Tu personaje mediano tiene una serie de atributos que comparte con los otros miembros de su raza."
+      }
+    ]
+  },
+  {
+    "nombre": "Mediano",
+    "tipo": "raza",
+    "descripcion": "Tu personaje mediano tiene una serie de atributos\nque comparte con los otros miembros de su raza.\nMejora de Característica. Tu puntuación de\nDestreza aumenta en 2.\nAlineamiento. La mayoría de los medianos son\nlegales buenos. Lo normal es que sean amables y de\nbuen corazón, odien ver sufrir a otros y no toleren\nla opresión. También son muy ordenados\ny tradicionales, se apoyan en su comunidad\ny en la comodidad que les proporcionan las viejas\ncostumbres.\nEdad. Los medianos alcanzan la edad adulta\na los veinte años y suelen vivir hasta mediados\nde su segundo siglo.\nTamaño. Los medianos miden unos 90 cm de\naltura y pesan unos 20 kg. Eres de tamaño Pequeño.\nVelocidad. Tu velocidad base caminando es\nde 7,5 m.\nAfortunado. Cuando saques un 1 en el d20 al\nhacer una tirada de ataque, prueba de característica\no tirada de salvación, puedes volver a tirar el dado,\npero tendrás que utilizar el resultado nuevo.\nValiente. Tienes ventaja en las tiradas de\nsalvación para evitar que te asusten.\nAgilidad de Mediano. Puedes moverte a través del\nespacio ocupado por una criatura cuyo tamaño sea,\nal menos, una categoría superior al tuyo.\nIdiomas. Puedes hablar, leer y escribir en común\ny mediano. El idioma de los medianos no es secreto,\npero estos son reticentes a compartirlo con otros.\nEscriben poco, así que no tienen una gran\nproducción literaria. No obstante, su tradición oral\nes muy rica. Prácticamente todos los medianos\nhablan común para poder comunicarse con los que\nviven junto a ellos o en los lugares por los que viajan.\nPiesligeros\nComo mediano piesligeros, puedes esconderte con\nfacilidad, incluso tras otras personas. Tienes\ntendencia a ser afable y llevarte bien con los demás.\nLos piesligeros son más propensos a viajar que\notros medianos, por lo que suelen habitar junto\na otras razas o llevar una vida nómada.\nMejora de Característica. Tu puntuación\nde Carisma aumenta en 1.\nSigiloso por Naturaleza. Puedes intentar\nesconderte incluso tras una criatura cuyo tamaño\nsea, al menos, una categoría superior al tuyo.",
+    "atributos": [
+      {
+        "nombre": "Mejora de Característica",
+        "descripcion": "Tu puntuación de Destreza aumenta en 2."
+      },
+      {
+        "nombre": "Alineamiento",
+        "descripcion": "La mayoría de los medianos son legales buenos. Lo normal es que sean amables y de buen corazón, odien ver sufrir a otros y no toleren la opresión. También son muy ordenados y tradicionales, se apoyan en su comunidad y en la comodidad que les proporcionan las viejas costumbres."
+      },
+      {
+        "nombre": "Edad",
+        "descripcion": "Los medianos alcanzan la edad adulta a los veinte años y suelen vivir hasta mediados de su segundo siglo."
+      },
+      {
+        "nombre": "Tamaño",
+        "descripcion": "Los medianos miden unos 90 cm de altura y pesan unos 20 kg. Eres de tamaño Pequeño."
+      },
+      {
+        "nombre": "Velocidad",
+        "descripcion": "Tu velocidad base caminando es de 9 m."
+      },
+      {
+        "nombre": "Afortunado",
+        "descripcion": "Cuando saques un 1 en el d20 al hacer una tirada de ataque, prueba de característica o tirada de salvación, puedes volver a tirar el dado, pero tendrás que utilizar el resultado nuevo."
+      },
+      {
+        "nombre": "Valiente",
+        "descripcion": "Tienes ventaja en las tiradas de salvación para evitar que te asusten."
+      },
+      {
+        "nombre": "Agilidad de Mediano",
+        "descripcion": "Puedes moverte a través del espacio ocupado por una criatura cuyo tamaño sea, al menos, una categoría superior al tuyo."
+      },
+      {
+        "nombre": "Idiomas",
+        "descripcion": "Puedes hablar, leer y escribir en común y elfo. El idioma elfo es fluido, con entonaciones sutiles y una gramática compleja. La literatura élfica es rica y variada, y sus canciones y poemas son famosos entre el resto de razas. Muchos bardos aprenden este idioma para poder añadir baladas élficas a sus repertorios."
+      },
+      {
+        "nombre": "Mejora de Característica",
+        "descripcion": "Tu puntuación de Inteligencia aumenta en 1."
+      },
+      {
+        "nombre": "Sigiloso por Naturaleza",
+        "descripcion": "Puedes intentar esconderte incluso tras una criatura cuyo tamaño sea, al menos, una categoría superior al tuyo. Dracónido Atributos de los dracónidos Tu herencia dracónica se manifiesta a través de una serie de atributos que compartes con el resto de dracónidos."
+      }
+    ]
+  },
+  {
+    "nombre": "Dracónido",
+    "tipo": "raza",
+    "descripcion": "Tu herencia dracónica se manifiesta a través de\nuna serie de atributos que compartes con el resto\nde dracónidos.\nMejora de Característica. Tu puntuación de\nFuerza aumenta en 2 y tu puntuación de Carisma\naumenta en 1.\nAlineamiento. Los dracónidos tienden hacia los\nextremos, por lo que deciden de forma consciente\na qué bando servir en la guerra cósmica entre el bien\ny el mal. La mayoría son buenos, pero aquellos que\nse alían con el mal pueden ser villanos terribles.\nEdad. Los dracónidos crecen con celeridad.\nPueden caminar horas después de salir del huevo\ny alcanzan el tamaño y desarrollo intelectual de un\nniño humano de diez años al llegar a los tres. Ya son\nadultos con quince años y viven hasta los ochenta.\nTamaño. Los dracónidos son más altos y más\npesados que los humanos. Sobrepasan los 1,8 m\nde altura y pesan de media casi 125 kg. Eres de\ntamaño Mediano.\nVelocidad. Tu velocidad base caminando es\nde 9 m.\nLinaje Dracónico\nDragón Tipo de daño Ataque de Aliento\nAzul Relámpago Línea de 1,5 por 9 m (salvación Des)\nBlanco Frío Cono de 4,5 m (salvación Con)\nBronce Relámpago Línea de 1,5 por 9 m (salvación Des)\nCobre Ácido Línea de 1,5 por 9 m (salvación Des)\nNegro Ácido Línea de 1,5 por 9 m (salvación Des)\nOro Fuego Cono de 4,5 m (salvación Des)\nOropel Fuego Línea de 1,5 por 9 m (salvación Des)\nPlata Frío Cono de 4,5 m (salvación Con)\nRojo Fuego Cono de 4,5 m (salvación Des)\nVerde Veneno Cono de 4,5 m (salvación Con)\nLinaje Dracónico. Posees la sangre de los\ndragones. Elige un tipo de dragón de la tabla “Linaje\nDracónico”. Tu Ataque de Aliento y Resistencia al\nDaño vendrán determinados por el tipo de dragón,\ntal y como se indica en la tabla.\nAtaque de Aliento. Puedes emplear tu acción para\nexhalar energía destructora. Tu Linaje Dracónico\ndetermina el tamaño, la forma y el tipo de daño de\nla exhalación.\nCuando uses tu Ataque de Aliento, todas las\ncriaturas que se encuentren en la zona cubierta por\neste deberán realizar una tirada de salvación, cuyo\ntipo viene definido por tu Linaje Dracónico. La CD\nde esta tirada de salvación es 8 + tu modificador\npor Constitución + tu bonificador por competencia.\nSufrirán 2d6 de daño si la fallan o la mitad del daño\nsi la superan. El daño aumenta a 3d6 cuando\nalcanzas el nivel 6, a 4d6 a nivel 11 y a 5d6 a nivel 16.\nTras utilizar el Ataque de Aliento, no podrás\nvolver a emplearlo hasta que finalices un descanso\ncorto o largo.\nResistencia al Daño. Posees resistencia al tipo\nde daño asociado a tu Linaje Dracónico.\nIdiomas. Puedes hablar, leer y escribir en común\ny dracónico. Se piensa que el dracónico es uno de\nlos idiomas más antiguos y suele emplearse en el\nestudio de la magia. Resulta áspero a oídos de la\nmayoría de criaturas y utiliza muchas consonantes\nduras y sibilantes.",
+    "atributos": [
+      {
+        "nombre": "Mejora de Característica",
+        "descripcion": "Tu puntuación de Destreza aumenta en 2."
+      },
+      {
+        "nombre": "Alineamiento",
+        "descripcion": "Los dracónidos tienden hacia los extremos, por lo que deciden de forma consciente"
+      },
+      {
+        "nombre": "Edad",
+        "descripcion": "Los dracónidos crecen con celeridad. Pueden caminar horas después de salir del huevo y alcanzan el tamaño y desarrollo intelectual de un niño humano de diez años al llegar a los tres. Ya son adultos con quince años y viven hasta los ochenta."
+      },
+      {
+        "nombre": "Tamaño",
+        "descripcion": "Los dracónidos son más altos y más pesados que los humanos. Sobrepasan los 1,8 m de altura y pesan de media casi 125 kg. Eres de tamaño Mediano."
+      },
+      {
+        "nombre": "Velocidad",
+        "descripcion": "Tu velocidad base caminando es de 9 m."
+      },
+      {
+        "nombre": "Linaje Dracónico",
+        "descripcion": "Posees la sangre de los dragones. Elige un tipo de dragón de la tabla “Linaje Dracónico”. Tu Ataque de Aliento y Resistencia al Daño vendrán determinados por el tipo de dragón, tal y como se indica en la tabla."
+      },
+      {
+        "nombre": "Ataque de Aliento",
+        "descripcion": "Puedes emplear tu acción para exhalar energía destructora. Tu Linaje Dracónico determina el tamaño, la forma y el tipo de daño de la exhalación. Cuando uses tu Ataque de Aliento, todas las criaturas que se encuentren en la zona cubierta por este deberán realizar una tirada de salvación, cuyo tipo viene definido por tu Linaje Dracónico. La CD de esta tirada de salvación es 8 + tu modificador por Constitución + tu bonificador por competencia. Sufrirán 2d6 de daño si la fallan o la mitad del daño si la superan. El daño aumenta a 3d6 cuando alcanzas el nivel 6, a 4d6 a nivel 11 y a 5d6 a nivel 16. Tras utilizar el Ataque de Aliento, no podrás volver a emplearlo hasta que finalices un descanso corto o largo."
+      },
+      {
+        "nombre": "Resistencia al Daño",
+        "descripcion": "Posees resistencia al tipo de daño asociado a tu Linaje Dracónico."
+      },
+      {
+        "nombre": "Idiomas",
+        "descripcion": "Puedes hablar, leer y escribir en común y elfo. El idioma elfo es fluido, con entonaciones sutiles y una gramática compleja. La literatura élfica es rica y variada, y sus canciones y poemas son famosos entre el resto de razas. Muchos bardos aprenden este idioma para poder añadir baladas élficas a sus repertorios."
+      }
+    ]
+  },
+  {
+    "nombre": "Gnomo",
+    "tipo": "raza",
+    "descripcion": "Tu personaje gnomo posee una serie de atributos\nen común con el resto de gnomos.\nMejora de Característica. Tu puntuación\nde Inteligencia aumenta en 2.\nAlineamiento. Los gnomos suelen ser buenos.\nAquellos que tienden hacia la ley se convierten\nen sabios, ingenieros, investigadores, eruditos,\ndetectives o inventores. Por su parte, los que\nprefieren alinearse con el caos acaban siendo\njuglares, embaucadores, vagabundos o joyeros\nimaginativos. Los gnomos tienen buen corazón\ne incluso los que se dedican al engaño tienden\na ser más juguetones que maliciosos.\nEdad. Los gnomos alcanzan la madurez al mismo\nritmo que los humanos y se espera que la mayoría\nde ellos se asiente y se comporte como un adulto\nen torno a los cuarenta años. Pueden vivir entre\ntrescientos cincuenta y casi quinientos años.\nTamaño. Los gnomos miden entre 90 cm\ny 1,2 m de altura y pesan unos 20 kg. Eres de\ntamaño Pequeño.\nVelocidad. Tu velocidad base caminando\nes de 7,5 m.\nVisión en la Oscuridad. Acostumbrado a la vida\nbajo tierra, puedes ver bien en la oscuridad o con\npoca luz. Puedes ver con luz tenue a 18 m o menos\nde ti como si hubiera luz brillante y, en la oscuridad,\ncomo si hubiera luz tenue. Eso sí, no puedes\ndistinguir colores en la oscuridad, solo tonos de gris.\nAstucia Gnoma. Tienes ventaja en todas las\ntiradas de salvación de Inteligencia, Sabiduría\ny Carisma contra magia.\nIdiomas. Puedes hablar, leer y escribir en común\ny gnomo. El idioma gnomo, que se escribe con el\nalfabeto enano, es famoso por la cantidad de\ntratados técnicos y catálogos de conocimientos\nsobre el mundo natural escritos en él.\nGnomo de las rocas\nComo gnomo de las rocas, posees un ingenio natural\ny eres más resistente que otros gnomos.\nMejora de Característica. Tu puntuación de\nConstitución aumenta en 1.\nSaber del Artífice. Cuando hagas una prueba\nde Inteligencia (Historia) que tenga relación con\nobjetos mágicos, alquímicos o tecnológicos, podrás\nsumar dos veces tu bonificador por competencia\na la tirada, en lugar del bonificador por competencia\nque normalmente apliques.\nManitas. Eres competente con las siguientes\nherramientas de artesano: herramientas de manitas.\nAl usar estas herramientas, puedes invertir 1 hora\ny materiales valorados en 10 po en construir\nun dispositivo mecánico Diminuto (CA 5, 1 pg).\nEste dispositivo deja de funcionar pasadas 24 horas\n(salvo si dedicas 1 hora a repararlo para mantenerlo\na punto) o si usas una acción para desmantelarlo.\nEn ese momento, podrás recuperar los materiales\nque usaste para construirlo. Puedes tener hasta\ntres dispositivos de este tipo en funcionamiento\nal mismo tiempo.\nCuando crees un dispositivo, elige una de las\nsiguientes opciones:\nCaja de música. Al abrirse, esta caja de música\nreproduce una única canción a un volumen\nmoderado. La caja deja de sonar cuando\nla canción se acaba o cuando se cierra.\nEncendedor. Este dispositivo produce una llama\nen miniatura que puedes utilizar para encender\nuna vela, una antorcha o una hoguera. Usar el\ndispositivo requiere tu acción.\nJuguete mecánico. Este juguete mecánico posee\nforma de animal, monstruo o persona, como\npor ejemplo, de una rana, ratón, pájaro, dragón\no soldado. Cuando se coloca en el suelo, el juguete\nse mueve 1,5 m en una dirección aleatoria en\ncada uno de tus turnos. Hace los ruidos que\ncorresponden a la criatura que representa.",
+    "atributos": [
+      {
+        "nombre": "Mejora de Característica",
+        "descripcion": "Tu puntuación de Inteligencia aumenta en 1."
+      },
+      {
+        "nombre": "Alineamiento",
+        "descripcion": "Los gnomos suelen ser buenos. Aquellos que tienden hacia la ley se convierten en sabios, ingenieros, investigadores, eruditos, detectives o inventores. Por su parte, los que prefieren alinearse con el caos acaban siendo juglares, embaucadores, vagabundos o joyeros imaginativos. Los gnomos tienen buen corazón e incluso los que se dedican al engaño tienden a ser más juguetones que maliciosos."
+      },
+      {
+        "nombre": "Edad",
+        "descripcion": "Los gnomos alcanzan la madurez al mismo ritmo que los humanos y se espera que la mayoría de ellos se asiente y se comporte como un adulto en torno a los cuarenta años. Pueden vivir entre trescientos cincuenta y casi quinientos años."
+      },
+      {
+        "nombre": "Tamaño",
+        "descripcion": "Los gnomos miden entre 90 cm y 1,2 m de altura y pesan unos 20 kg. Eres de tamaño Pequeño."
+      },
+      {
+        "nombre": "Velocidad",
+        "descripcion": "Tu velocidad base caminando es de 9 m."
+      },
+      {
+        "nombre": "Visión en la Oscuridad",
+        "descripcion": "Acostumbrado a la vida bajo tierra, puedes ver bien en la oscuridad o con poca luz. Puedes ver con luz tenue a 18 m o menos de ti como si hubiera luz brillante y, en la oscuridad, como si hubiera luz tenue. Eso sí, no puedes distinguir colores en la oscuridad, solo tonos de gris."
+      },
+      {
+        "nombre": "Astucia Gnoma",
+        "descripcion": "Tienes ventaja en todas las tiradas de salvación de Inteligencia, Sabiduría y Carisma contra magia."
+      },
+      {
+        "nombre": "Idiomas",
+        "descripcion": "Puedes hablar, leer y escribir en común y elfo. El idioma elfo es fluido, con entonaciones sutiles y una gramática compleja. La literatura élfica es rica y variada, y sus canciones y poemas son famosos entre el resto de razas. Muchos bardos aprenden este idioma para poder añadir baladas élficas a sus repertorios."
+      },
+      {
+        "nombre": "Mejora de Característica",
+        "descripcion": "Tu puntuación de Destreza aumenta en 2."
+      },
+      {
+        "nombre": "Saber del Artífice",
+        "descripcion": "Cuando hagas una prueba de Inteligencia (Historia) que tenga relación con"
+      },
+      {
+        "nombre": "Manitas",
+        "descripcion": "Eres competente con las siguientes herramientas de artesano: herramientas de manitas. Al usar estas herramientas, puedes invertir 1 hora y materiales valorados en 10 po en construir un dispositivo mecánico Diminuto (CA 5, 1 pg). Este dispositivo deja de funcionar pasadas 24 horas (salvo si dedicas 1 hora a repararlo para mantenerlo a punto) o si usas una acción para desmantelarlo. En ese momento, podrás recuperar los materiales que usaste para construirlo. Puedes tener hasta tres dispositivos de este tipo en funcionamiento al mismo tiempo. Cuando crees un dispositivo, elige una de las siguientes opciones:"
+      },
+      {
+        "nombre": "Caja de música",
+        "descripcion": "Al abrirse, esta caja de música reproduce una única canción a un volumen moderado. La caja deja de sonar cuando la canción se acaba o cuando se cierra."
+      },
+      {
+        "nombre": "Encendedor",
+        "descripcion": "Este dispositivo produce una llama en miniatura que puedes utilizar para encender una vela, una antorcha o una hoguera. Usar el dispositivo requiere tu acción."
+      },
+      {
+        "nombre": "Juguete mecánico",
+        "descripcion": "Este juguete mecánico posee forma de animal, monstruo o persona, como por ejemplo, de una rana, ratón, pájaro, dragón o soldado. Cuando se coloca en el suelo, el juguete se mueve 1,5 m en una dirección aleatoria en cada uno de tus turnos. Hace los ruidos que corresponden a la criatura que representa. Semielfo Atributos de los semielfos Tu personaje semielfo tiene una serie de aptitudes en común con los elfos, además de algunas exclusivas de los semielfos."
+      }
+    ]
+  },
+  {
+    "nombre": "Semielfo",
+    "tipo": "raza",
+    "descripcion": "Tu personaje semielfo tiene una serie de aptitudes\nen común con los elfos, además de algunas\nexclusivas de los semielfos.\nMejora de Característica. Tu puntuación de\nCarisma aumenta en 2 y otras dos puntuaciones\nde característica de tu elección aumentan en 1.\nAlineamiento. Los semielfos tienen la propensión\nal caos propia de su linaje élfico. Valoran tanto\nla libertad individual como la creatividad y no\ndemuestran aprecio por los líderes ni desean\nseguidores. Les irritan las normas, se molestan\ncon las órdenes de otros y, a veces, pueden no ser\nfiables o, como mínimo, resultar impredecibles.\nEdad. Los semielfos maduran al mismo ritmo que\nlos humanos y alcanzan la edad adulta en torno\na los veinte años. No obstante, viven mucho más\nque los humanos: a menudo, superan los ciento\nochenta años.\nTamaño. Los semielfos miden más o menos\nlo mismo que los humanos, entre 1,5 y 1,8 m de alto.\nEres de tamaño Mediano.\nVelocidad. Tu velocidad base caminando\nes de 9 m.\nVisión en la Oscuridad. Debido a tu sangre élfica,\npuedes ver bien en la oscuridad o con poca luz.\nPuedes ver con luz tenue a 18 m o menos de ti como\nsi hubiera luz brillante y, en la oscuridad, como si\nhubiera luz tenue. Eso sí, no puedes distinguir\ncolores en la oscuridad, solo tonos de gris.\nLinaje Feérico. Tienes ventaja en las tiradas de\nsalvación para evitar que te hechicen y la magia\nno puede dormirte.\nVersátil con Habilidades. Ganas competencia\nen dos habilidades de tu elección.\nIdiomas. Puedes hablar, leer y escribir común,\nelfo y un idioma adicional de tu elección.",
+    "atributos": [
+      {
+        "nombre": "Mejora de Característica",
+        "descripcion": "Tu puntuación de Destreza aumenta en 2."
+      },
+      {
+        "nombre": "Alineamiento",
+        "descripcion": "Los semielfos tienen la propensión al caos propia de su linaje élfico. Valoran tanto la libertad individual como la creatividad y no demuestran aprecio por los líderes ni desean seguidores. Les irritan las normas, se molestan con las órdenes de otros y, a veces, pueden no ser fiables o, como mínimo, resultar impredecibles."
+      },
+      {
+        "nombre": "Edad",
+        "descripcion": "Los semielfos maduran al mismo ritmo que los humanos y alcanzan la edad adulta en torno a los veinte años. No obstante, viven mucho más que los humanos: a menudo, superan los ciento ochenta años."
+      },
+      {
+        "nombre": "Tamaño",
+        "descripcion": "Los semielfos miden más o menos lo mismo que los humanos, entre 1,5 y 1,8 m de alto."
+      },
+      {
+        "nombre": "Eres de tamaño Mediano",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Velocidad",
+        "descripcion": "Tu velocidad base caminando es de 9 m."
+      },
+      {
+        "nombre": "Visión en la Oscuridad",
+        "descripcion": "Debido a tu sangre élfica, puedes ver bien en la oscuridad o con poca luz. Puedes ver con luz tenue a 18 m o menos de ti como si hubiera luz brillante y, en la oscuridad, como si hubiera luz tenue. Eso sí, no puedes distinguir colores en la oscuridad, solo tonos de gris."
+      },
+      {
+        "nombre": "Linaje Feérico",
+        "descripcion": "Tienes ventaja en las tiradas de salvación para evitar que te hechicen y la magia no puede dormirte."
+      },
+      {
+        "nombre": "Versátil con Habilidades",
+        "descripcion": "Ganas competencia en dos habilidades de tu elección."
+      },
+      {
+        "nombre": "Idiomas",
+        "descripcion": "Puedes hablar, leer y escribir común, elfo y un idioma adicional de tu elección. Semiorco Atributos de los semiorcos Tu personaje semiorco posee ciertos atributos derivados de su linaje orco."
+      }
+    ]
+  },
+  {
+    "nombre": "Semiorco",
+    "tipo": "raza",
+    "descripcion": "Tu personaje semiorco posee ciertos atributos\nderivados de su linaje orco.\nMejora de Característica. Tu puntuación\nde Fuerza aumenta en 2 y tu puntuación\nde Constitución aumenta en 1.\nAlineamiento. Los semiorcos han heredado la\ntendencia hacia el caos de su progenitor orco y\nno sienten una inclinación especial hacia el bien.\nLos que se crían entre orcos y aspiran a vivir junto\na ellos suelen ser malvados.\nEdad. Los semiorcos maduran un poco más rápido\nque los humanos y llegan a la edad adulta en torno\na los catorce años. También envejecen visiblemente\nmás deprisa y rara vez viven más de setenta\ny cinco años.\nTamaño. Los semiorcos son ligeramente más altos\ny corpulentos que los humanos. Miden entre 1,5 m\ny bastante por encima de 1,8 m de altura. Eres\nde tamaño Mediano.\nVelocidad. Tu velocidad base caminando\nes de 9 m.\nVisión en la Oscuridad. Gracias a tu sangre orca,\npuedes ver bien en la oscuridad o con poca luz.\nPuedes ver con luz tenue a 18 m o menos de ti como\nsi hubiera luz brillante y, en la oscuridad, como si\nhubiera luz tenue. Eso sí, no puedes distinguir\ncolores en la oscuridad, solo tonos de gris.\nAmenazador. Eres competente en la habilidad\nIntimidación.\nAguante Incansable. Cuando tus puntos de golpe\nse reducen a 0 pero no mueres inmediatamente,\npuedes recuperar 1 punto de golpe. No podrás\nvolver a utilizar este atributo hasta que finalices\nun descanso largo.\nAtaques Salvajes. Cuando causes un crítico con\nun ataque con arma cuerpo a cuerpo, podrás tirar\nuno de los dados de daño del arma una vez más\ny sumar el resultado al daño adicional causado\npor el crítico.\nIdiomas. Puedes hablar, leer y escribir en común\ny orco. El orco es un idioma áspero y chirriante, con\nconsonantes duras. No tiene escritura propia, pero\npara transcribirlo se usa el alfabeto enano.",
+    "atributos": [
+      {
+        "nombre": "Mejora de Característica",
+        "descripcion": "Tu puntuación de Inteligencia aumenta en 1."
+      },
+      {
+        "nombre": "Alineamiento",
+        "descripcion": "Los semiorcos han heredado la tendencia hacia el caos de su progenitor orco y no sienten una inclinación especial hacia el bien. Los que se crían entre orcos y aspiran a vivir junto a ellos suelen ser malvados."
+      },
+      {
+        "nombre": "Edad",
+        "descripcion": "Los semiorcos maduran un poco más rápido que los humanos y llegan a la edad adulta en torno a los catorce años. También envejecen visiblemente más deprisa y rara vez viven más de setenta y cinco años."
+      },
+      {
+        "nombre": "Tamaño",
+        "descripcion": "Los semiorcos son ligeramente más altos y corpulentos que los humanos. Miden entre 1,5 m y bastante por encima de 1,8 m de altura. Eres de tamaño Mediano."
+      },
+      {
+        "nombre": "Velocidad",
+        "descripcion": "Tu velocidad base caminando es de 9 m."
+      },
+      {
+        "nombre": "Visión en la Oscuridad",
+        "descripcion": "Gracias a tu sangre orca, puedes ver bien en la oscuridad o con poca luz. Puedes ver con luz tenue a 18 m o menos de ti como si hubiera luz brillante y, en la oscuridad, como si hubiera luz tenue. Eso sí, no puedes distinguir colores en la oscuridad, solo tonos de gris."
+      },
+      {
+        "nombre": "Amenazador",
+        "descripcion": "Eres competente en la habilidad"
+      },
+      {
+        "nombre": "Intimidación",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Aguante Incansable",
+        "descripcion": "Cuando tus puntos de golpe se reducen a 0 pero no mueres inmediatamente, puedes recuperar 1 punto de golpe. No podrás volver a utilizar este atributo hasta que finalices un descanso largo."
+      },
+      {
+        "nombre": "Ataques Salvajes",
+        "descripcion": "Cuando causes un crítico con un ataque con arma cuerpo a cuerpo, podrás tirar uno de los dados de daño del arma una vez más y sumar el resultado al daño adicional causado por el crítico."
+      },
+      {
+        "nombre": "Idiomas",
+        "descripcion": "Puedes hablar, leer y escribir en común y elfo. El idioma elfo es fluido, con entonaciones sutiles y una gramática compleja. La literatura élfica es rica y variada, y sus canciones y poemas son famosos entre el resto de razas. Muchos bardos aprenden este idioma para poder añadir baladas élficas a sus repertorios."
+      }
+    ]
+  },
+  {
+    "nombre": "Tiefling",
+    "tipo": "raza",
+    "descripcion": "Todos los tieflings comparten ciertos atributos\nraciales, fruto de su ascendencia infernal.\nMejora de Característica. Tu puntuación\nde Inteligencia aumenta en 1 y tu puntuación\nde Carisma aumenta en 2.\nAlineamiento. Los tieflings no poseen una\ntendencia innata hacia el mal, aunque muchos\nacaban abrazándolo. Malvados o no, su naturaleza\nindependiente les hace ser proclives a los\nalineamientos caóticos.\nEdad. Los tieflings alcanzan la madurez al mismo\nritmo que los humanos, pero viven unos cuantos\naños más.\nTamaño. Los tieflings son de aproximadamente\nla misma altura y constitución que los humanos.\nEres de tamaño Mediano.\nVelocidad. Tu velocidad base caminando\nes de 9 m.\nVisión en la Oscuridad. Debido a tu sangre\ninfernal, puedes ver bien en la oscuridad o con poca\nluz. Puedes ver con luz tenue a 18 m o menos de\nti como si hubiera luz brillante y, en la oscuridad,\ncomo si hubiera luz tenue. Eso sí, no puedes\ndistinguir colores en la oscuridad, solo tonos de gris.\nResistencia Infernal. Tienes resistencia al daño\nde fuego.\nLinaje Infernal. Conoces el truco taumaturgia.\nCuando llegas al nivel 3, puedes lanzar el conjuro\nreprensión infernal como conjuro de nivel 2 una vez\ncon este atributo y recuperas la capacidad para\nhacerlo tras realizar un descanso largo. Cuando\nalcanzas el nivel 5, puedes lanzar el conjuro\noscuridad una vez con este atributo y recuperas la\ncapacidad para hacerlo tras realizar un descanso\nlargo. El Carisma es tu aptitud mágica para estos\nconjuros.\nIdiomas. Puedes hablar, leer y escribir en común\ne infernal.\nBárbaro\nRasgos de clase\nComo bárbaro, obtienes los siguientes rasgos\nde clase.\nPuntos de golpe\nDados de Golpe: 1d12 por nivel de bárbaro.\nPuntos de golpe a nivel 1: 12 + tu modificador\npor Constitución.\nPuntos de golpe a niveles superiores: 1d12 (o 7) +\ntu modificador por Constitución por cada nivel\nde bárbaro por encima del primero.\nCompetencias\nArmadura: armaduras ligeras y medias, escudos.\nArmas: armas sencillas y marciales.\nHerramientas: ninguna.\nTiradas de salvación: Fuerza, Constitución.\nHabilidades: escoge dos de entre Atletismo,\nIntimidación, Naturaleza, Percepción,\nSupervivencia y Trato con Animales.\nEquipo\nAdemás del que obtengas por tu trasfondo, empiezas\ncon el siguiente equipo:\n• (a) un hacha a dos manos o (b) cualquier arma\ncuerpo a cuerpo marcial;\n• (a) dos hachas de mano o (b) cualquier arma\nsencilla;\n• un paquete de explorador y cuatro jabalinas.\nEl bárbaro\nNivel\nBon. por\ncompetencia Rasgos\nN.º de\nfurias\nDaño por\nfuria\n1 +2 Furia, Defensa\nsin Armadura\n2 +2\n2 +2 Ataque\nTemerario,\nSentir el Peligro\n2 +2\n3 +2 Senda\nPrimordial\n3 +2\n4 +2 Mejora de\nCaracterística\n3 +2\n5 +3 Ataque\nAdicional,\nMovimiento\nRápido\n3 +2\n6 +3 Rasgo de Senda 4 +2\n7 +3 Instinto Salvaje 4 +2\nNivel\nBon. por\ncompetencia Rasgos\nN.º de\nfurias\nDaño por\nfuria\n8 +3 Mejora de\nCaracterística\n4 +2\n9 +4 Crítico Brutal\n(1 dado)\n4 +3\n10 +4 Rasgo de Senda 4 +3\n11 +4 Furia Implacable 4 +3\n12 +4 Mejora de\nCaracterística\n5 +3\n13 +5 Crítico Brutal\n(2 dados)\n5 +3\n14 +5 Rasgo de Senda 5 +3\n15 +5 Furia Persistente 5 +3\n16 +5 Mejora de\nCaracterística\n5 +4\n17 +6 Crítico Brutal\n(3 dados)\n6 +4\n18 +6 Poderío\nIndómito\n6 +4\n19 +6 Mejora de\nCaracterística\n6 +4\n20 +6 Campeón\nPrimordial\nIlimitadas +4\nFuria\nCuando estás en medio de un combate, luchas con\nferocidad primordial. Durante tu turno, puedes usar\ntu acción adicional para dejarte llevar por la furia.\nMientras estás enfurecido, obtienes los siguientes\nbeneficios, siempre y cuando no lleves armadura\npesada:\n• Tienes ventaja en las pruebas de Fuerza y en las\ntiradas de salvación de Fuerza.\n• Cuando llevas a cabo un ataque con arma cuerpo\na cuerpo mediante Fuerza, ganas un bonificador\na la tirada de daño que aumenta a medida que\nsubes de nivel como bárbaro, tal y como se indica\nen la columna “Daño por furia” de la tabla\n“El bárbaro”.\n• Tienes resistencia al daño contundente, cortante\ny perforante.\nSi normalmente eres capaz de lanzar conjuros, no\npodrás lanzarlos ni concentrarte en ellos mientras\nestés enfurecido.\nTu furia dura 1 minuto, aunque acabará antes de\neste tiempo si quedas inconsciente, o si terminas tu\nturno sin haber atacado a una criatura hostil o sin\nhaber recibido daño desde tu turno anterior.\nTambién puedes finalizar tu furia como acción\nadicional en tu turno.",
+    "atributos": [
+      {
+        "nombre": "Mejora de Característica",
+        "descripcion": "Tu puntuación de Inteligencia aumenta en 1."
+      },
+      {
+        "nombre": "Alineamiento",
+        "descripcion": "Los tieflings no poseen una tendencia innata hacia el mal, aunque muchos acaban abrazándolo. Malvados o no, su naturaleza independiente les hace ser proclives a los alineamientos caóticos."
+      },
+      {
+        "nombre": "Edad",
+        "descripcion": "Los tieflings alcanzan la madurez al mismo ritmo que los humanos, pero viven unos cuantos años más."
+      },
+      {
+        "nombre": "Tamaño",
+        "descripcion": "Los tieflings son de aproximadamente la misma altura y constitución que los humanos."
+      },
+      {
+        "nombre": "Eres de tamaño Mediano",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Velocidad",
+        "descripcion": "Tu velocidad base caminando es de 9 m."
+      },
+      {
+        "nombre": "Visión en la Oscuridad",
+        "descripcion": "Debido a tu sangre infernal, puedes ver bien en la oscuridad o con poca luz. Puedes ver con luz tenue a 18 m o menos de ti como si hubiera luz brillante y, en la oscuridad, como si hubiera luz tenue. Eso sí, no puedes distinguir colores en la oscuridad, solo tonos de gris."
+      },
+      {
+        "nombre": "Resistencia Infernal",
+        "descripcion": "Tienes resistencia al daño de fuego."
+      },
+      {
+        "nombre": "Linaje Infernal",
+        "descripcion": "Conoces el truco taumaturgia. Cuando llegas al nivel 3, puedes lanzar el conjuro reprensión infernal como conjuro de nivel 2 una vez con este atributo y recuperas la capacidad para hacerlo tras realizar un descanso largo. Cuando alcanzas el nivel 5, puedes lanzar el conjuro oscuridad una vez con este atributo y recuperas la capacidad para hacerlo tras realizar un descanso largo. El Carisma es tu aptitud mágica para estos conjuros."
+      },
+      {
+        "nombre": "Idiomas",
+        "descripcion": "Puedes hablar, leer y escribir en común y elfo. El idioma elfo es fluido, con entonaciones sutiles y una gramática compleja. La literatura élfica es rica y variada, y sus canciones y poemas son famosos entre el resto de razas. Muchos bardos aprenden este idioma para poder añadir baladas élficas a sus repertorios."
+      },
+      {
+        "nombre": "Supervivencia y Trato con Animales",
+        "descripcion": " Equipo Además del que obtengas por tu trasfondo, empiezas con el siguiente equipo: • (a) un hacha a dos manos o (b) cualquier arma cuerpo a cuerpo marcial; • (a) dos hachas de mano o (b) cualquier arma sencilla; • un paquete de explorador y cuatro jabalinas."
+      },
+      {
+        "nombre": "Bon",
+        "descripcion": "por competencia Rasgos N.º de furias Daño por furia 1 +2 Furia, Defensa sin Armadura 2 +2 2 +2 Ataque Temerario, Sentir el Peligro 2 +2 3 +2 Senda Primordial 3 +2 4 +2 Mejora de Característica 3 +2 5 +3 Ataque Adicional, Movimiento Rápido 3 +2 6 +3 Rasgo de Senda 4 +2 7 +3 Instinto Salvaje 4 +2 Nivel"
+      },
+      {
+        "nombre": "Bon",
+        "descripcion": "por competencia Rasgos N.º de furias Daño por furia 1 +2 Furia, Defensa sin Armadura 2 +2 2 +2 Ataque Temerario, Sentir el Peligro 2 +2 3 +2 Senda Primordial 3 +2 4 +2 Mejora de Característica 3 +2 5 +3 Ataque Adicional, Movimiento Rápido 3 +2 6 +3 Rasgo de Senda 4 +2 7 +3 Instinto Salvaje 4 +2 Nivel"
+      }
+    ]
+  }
+]

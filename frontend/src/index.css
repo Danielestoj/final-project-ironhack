@@ -76,6 +76,8 @@ body {
 .auth-form button:disabled { opacity: 0.6; cursor: not-allowed; }
 .auth-link { text-align: center; font-size: 0.9rem; color: var(--text-muted); }
 .auth-link a { color: var(--accent); text-decoration: none; }
+.field-group { display: flex; flex-direction: column; gap: 4px; }
+.field-error { color: var(--accent); font-size: 0.8rem; }
 
 /* ── Chat ── */
 .chat-container { display: flex; flex-direction: column; height: calc(100vh - 110px); }
@@ -130,6 +132,15 @@ body {
   max-width: 600px; width: 100%; max-height: 80vh; overflow-y: auto;
   position: relative;
 }
+.modal-content--wide { max-width: 800px; }
+.desc-section { margin-top: 16px; }
+.desc-section-title { color: var(--text-h); font-size: 1.1rem; margin: 0 0 8px; border-bottom: 1px solid var(--border); padding-bottom: 4px; }
+.class-desc-full { width: 100%; line-height: 1.6; }
+.class-desc-full p { margin: 2px 0; }
+.desc-text { text-indent: 0; }
+.desc-header { margin-top: 12px !important; }
+.desc-header strong { color: var(--text-h); font-size: 1rem; }
+.desc-bullet { padding-left: 20px; text-indent: -12px; margin-top: 4px !important; }
 
 .modal-content h2 { color: var(--text-h); margin: 0 0 4px; font-size: 1.4rem; }
 .modal-content .hechizo-meta { margin-bottom: 12px; }

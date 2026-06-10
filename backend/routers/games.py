@@ -1,6 +1,7 @@
 import json
 import re
 import shutil
+from datetime import datetime
 from pathlib import Path
 from fastapi import APIRouter, Depends, HTTPException, UploadFile, File, Form
 from auth.jwt import obtener_usuario_actual
@@ -362,6 +363,29 @@ async def crear_juego(
     _guardar_juegos(juegos)
 
     (game_dir / "config.json").write_text(json.dumps(nuevo, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    # ── Indexar en ChromaDB (colección específica del juego) ──
+    try:
+        from ingestar import ingestar_game
+        ingestar_game(slug)
+    except Exception as exc:
+        print(f"[N8N] Error indexando ChromaDB para {slug}: {exc}")
+
+    # ── Notificar a N8N ──
+    try:
+        import httpx
+        httpx.post(
+            "http://localhost:5678/webhook/dnd-game-created",
+            json={
+                "slug": slug,
+                "nombre": nombre,
+                "categorias": categorias_final,
+                "timestamp": datetime.utcnow().isoformat(),
+            },
+            timeout=5,
+        )
+    except Exception:
+        pass  # N8N no crítico
 
     return nuevo
 

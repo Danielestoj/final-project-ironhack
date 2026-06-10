@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import client from "../api/client";
 
-export function EnemigosPage() {
+export function RazasPage() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -14,10 +14,10 @@ export function EnemigosPage() {
     try {
       const params = {};
       if (q) params.q = q;
-      const res = await client.get("/enemigos/", { params });
+      const res = await client.get("/razas/", { params });
       setData(res.data);
     } catch {
-      setError("Error al cargar enemigos");
+      setError("Error al cargar datos");
     } finally {
       setLoading(false);
     }
@@ -28,12 +28,10 @@ export function EnemigosPage() {
   const handleSearch = (e) => {
     e.preventDefault();
     fetchData();
-    client.post("/api/metrics/search", { q, game_slug: "dnd" }).catch(() => {});
   };
 
   const openModal = (item) => {
     setSelected(item);
-    client.post("/api/metrics/spell-view", { nombre: item.nombre, game_slug: "dnd" }).catch(() => {});
   };
 
   const closeModal = useCallback(() => setSelected(null), []);
@@ -46,15 +44,21 @@ export function EnemigosPage() {
   }, [selected, closeModal]);
 
   const renderDetail = (label, value) => {
-    if (!value || value === "—") return null;
-    return <p><strong>{label}:</strong> {value}</p>;
+    if (!value || (Array.isArray(value) && value.length === 0)) return null;
+    const display = Array.isArray(value) ? value.join("\n") : value;
+    return (
+      <p>
+        <strong>{label}:</strong>{" "}
+        {display}
+      </p>
+    );
   };
 
   return (
     <div className="page-list">
-      <h2>Enemigos</h2>
+      <h2>Razas</h2>
       <form className="search-bar" onSubmit={handleSearch}>
-        <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Buscar enemigo..." />
+        <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Buscar raza..." />
         <button type="submit">Buscar</button>
       </form>
       {loading && <p className="loading">Cargando...</p>}
@@ -64,31 +68,21 @@ export function EnemigosPage() {
         {data.map((item, i) => (
           <div key={i} className="list-card" onClick={() => openModal(item)}>
             <h3>{item.nombre}</h3>
-            <p className="list-meta">{item.tipo}</p>
-            <p className="list-meta">CA: {item.clase_de_armadura || "-"} · PG: {item.puntos_de_golpe || "-"}</p>
-            <p className="list-meta">Desafío: {item.desafio || "-"}</p>
+            <p className="list-meta">{item.atributos?.length || 0} atributos raciales</p>
           </div>
         ))}
       </div>
       {selected && (
         <div className="modal-backdrop" onClick={closeModal}>
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+          <div className="modal-content modal-content--wide" onClick={(e) => e.stopPropagation()}>
             <button className="modal-close" onClick={closeModal}>&times;</button>
             <h2>{selected.nombre}</h2>
-            <p className="list-meta">{selected.tipo}</p>
             <div className="hechizo-detail">
-              {renderDetail("CA", selected.clase_de_armadura)}
-              {renderDetail("PG", selected.puntos_de_golpe)}
-              {renderDetail("Velocidad", selected.velocidad)}
-              {renderDetail("Tiradas de salvación", selected.tiradas_de_salvación)}
-              {renderDetail("Habilidades", selected.habilidades)}
-              {renderDetail("Resistencia a daño", selected.resistencia_a_daño)}
-              {renderDetail("Inmunidad a daño", selected.inmunidad_a_daño)}
-              {renderDetail("Inmunidad a estados", selected.inmunidad_a_estados)}
-              {renderDetail("Sentidos", selected.sentidos)}
-              {renderDetail("Idiomas", selected.idiomas)}
-              {renderDetail("Desafío", selected.desafio)}
-              {selected.acciones && renderDetail("Acciones", selected.acciones)}
+              {selected.atributos?.map((a, i) => (
+                <p key={i}>
+                  <strong>{a.nombre}:</strong> {a.descripcion}
+                </p>
+              ))}
             </div>
           </div>
         </div>

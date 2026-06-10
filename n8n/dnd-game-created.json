@@ -1,0 +1,96 @@
+{
+  "name": "D&D Game Created",
+  "nodes": [
+    {
+      "id": "webhook-trigger",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "dnd-game-created",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "webhookId": "dnd-game-created"
+    },
+    {
+      "id": "has-categories",
+      "name": "Has Categories?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [460, 300],
+      "parameters": {
+        "conditions": {
+          "number": [],
+          "string": [
+            {
+              "value1": "={{ $json.categorias.length }}",
+              "operation": "larger",
+              "value2": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sync-to-db",
+      "name": "Sync to DB",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [640, 200],
+      "parameters": {
+        "url": "http://127.0.0.1:8000/api/pdf/sync-to-db",
+        "method": "POST",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "game_slug",
+              "value": "={{ $json.slug }}"
+            }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "no-categories-log",
+      "name": "Skip — No Categories",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [640, 400],
+      "parameters": {}
+    },
+    {
+      "id": "done",
+      "name": "Done",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [840, 300],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [[{ "node": "Has Categories?", "type": "main", "index": 0 }]]
+    },
+    "Has Categories?": {
+      "main": [
+        [{ "node": "Sync to DB", "type": "main", "index": 0 }],
+        [{ "node": "Skip — No Categories", "type": "main", "index": 0 }]
+      ]
+    },
+    "Sync to DB": {
+      "main": [[{ "node": "Done", "type": "main", "index": 0 }]]
+    },
+    "Skip — No Categories": {
+      "main": [[{ "node": "Done", "type": "main", "index": 0 }]]
+    }
+  },
+  "pinData": {},
+  "versionId": "1.1.0",
+  "active": true,
+  "settings": {}
+}
