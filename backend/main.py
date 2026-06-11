@@ -38,6 +38,20 @@ def _init_db_and_seed():
     from seed_db import seed_all
     seed_all()
 
+    # Auto-ingestar documentos RAG si la tabla está vacía
+    try:
+        from models.documento import DocumentoChunk
+        db2 = SessionLocal()
+        try:
+            if not db2.query(DocumentoChunk).filter(DocumentoChunk.game_slug == "dnd").first():
+                from ingestar import ingestar_game
+                print("  -> Ingestando documentos RAG para game dnd...")
+                ingestar_game("dnd")
+        finally:
+            db2.close()
+    except Exception as e:
+        print(f"  -> Skip auto-ingest (pgvector no disponible): {e}")
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
