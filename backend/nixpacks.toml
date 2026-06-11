@@ -1,0 +1,8 @@
+[providers]
+python = true
+
+[phases.setup]
+nixPkgs = ["python3", "python311Packages.pip", "gcc", "gfortran", "openblas"]
+
+[phases.install]
+cmds = ["pip install --no-cache-dir -r requirements.txt"]

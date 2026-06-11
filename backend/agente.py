@@ -6,53 +6,84 @@ from datetime import datetime
 from typing import TypedDict, Annotated, Sequence, Optional
 
 from langchain_core.messages import BaseMessage, HumanMessage, SystemMessage
-from langchain_openai import ChatOpenAI
+from langchain_groq import ChatGroq
 from langchain_core.tools import tool
 from langgraph.graph import StateGraph, END
 from langgraph.prebuilt import ToolNode
 from langgraph.checkpoint.memory import MemorySaver
-import chromadb
-from chromadb.utils import embedding_functions
 from config import settings
+from database import SessionLocal
+from models.documento import DocumentoChunk
+from sqlalchemy import text
 import operator
 
 
-# ─── ChromaDB RAG (game‑aware) ──────────────────────────────────────────────
+# ─── pgvector RAG (game‑aware) ────────────────────────────────────────────
 
-chroma_client = chromadb.PersistentClient(path="./chroma_db")
-embedding_fn = embedding_functions.DefaultEmbeddingFunction()
+EMBED_DIM = 384  # all-MiniLM-L6-v2
+
+# Lazy embedder init
+_embedder = None
 
 
-def _get_collection(slug: str = "dnd"):
-    name = f"doc_{slug}"
-    try:
-        return chroma_client.get_collection(name=name)
-    except Exception:
-        return chroma_client.get_or_create_collection(
-            name=name, embedding_function=embedding_fn,
-        )
+def _get_embedder():
+    global _embedder
+    if _embedder is None:
+        from fastembed import TextEmbedding
+        _embedder = TextEmbedding(model_name="all-MiniLM-L6-v2")
+    return _embedder
+
+
+def _embed_text(texto: str) -> list[float]:
+    emb = list(_get_embedder().embed([texto]))[0]
+    return list(emb)
+
+
+def _embed_texts(textos: list[str]) -> list[list[float]]:
+    return [list(e) for e in _get_embedder().embed(textos)]
 
 
 def recuperar_docs(pregunta: str, n: int = 3, game_slug: str = "dnd") -> str:
     try:
-        coll = _get_collection(game_slug)
-        resultados = coll.query(query_texts=[pregunta], n_results=n)
-        if not resultados["documents"] or not resultados["documents"][0]:
-            return ""
-        fragmentos = []
-        for doc, meta in zip(resultados["documents"][0], resultados["metadatas"][0]):
-            source = meta.get("filename", "desconocido") if meta else "desconocido"
-            fragmentos.append(f"[{source}]\n{doc}")
-        return "\n\n".join(fragmentos)
+        query_vec = _embed_text(pregunta)
+        db = SessionLocal()
+        try:
+            rows = db.execute(
+                text("""
+                    SELECT content, filename
+                    FROM document_chunks
+                    WHERE game_slug = :slug
+                    ORDER BY embedding <=> :query_vec
+                    LIMIT :n
+                """),
+                {"slug": game_slug, "query_vec": str(query_vec), "n": n},
+            ).fetchall()
+            if not rows:
+                return ""
+            fragmentos = []
+            for row in rows:
+                fragmentos.append(f"[{row.filename}]\n{row.content}")
+            return "\n\n".join(fragmentos)
+        finally:
+            db.close()
     except Exception:
         return ""
 
 
-def get_collection_names():
-    return [c.name for c in chroma_client.list_collections() if c.name.startswith("doc_")]
+def get_collection_names() -> list[str]:
+    db = SessionLocal()
+    try:
+        rows = db.execute(
+            text("SELECT DISTINCT game_slug FROM document_chunks ORDER BY game_slug")
+        ).fetchall()
+        return [f"doc_{r[0]}" for r in rows]
+    except Exception:
+        return []
+    finally:
+        db.close()
 
 
-# ─── LangGraph Agent ───────────────────────────────────────────────────────
+# ─── LangGraph Agent ─────────────────────────────────────────────────────
 
 class EstadoDnD(TypedDict):
     mensajes: Annotated[Sequence[BaseMessage], operator.add]
@@ -82,7 +113,6 @@ def tirar_dado(formula: str) -> str:
             total += mod
         else:
             total -= mod
-        # Track the roll
         try:
             from services.metrics_service import metrics_service
             metrics_service.track_dice_roll(formula, tiradas, total)
@@ -145,11 +175,10 @@ def buscar_condicion(nombre: str) -> str:
 
 tools = [tirar_dado, buscar_hechizo, buscar_condicion]
 
-modelo = ChatOpenAI(
+modelo = ChatGroq(
     model=settings.LLM_MODEL,
-    base_url=settings.LLM_BASE_URL,
     api_key=settings.LLM_API_KEY,
-    temperature=0
+    temperature=0,
 )
 modelo_con_tools = modelo.bind_tools(tools)
 
@@ -203,7 +232,7 @@ from openai import OpenAI
 
 client_openai = OpenAI(
     base_url=settings.LLM_BASE_URL,
-    api_key=settings.LLM_API_KEY
+    api_key=settings.LLM_API_KEY,
 )
 
 HISTORIAL = {}
@@ -211,11 +240,24 @@ HISTORIAL = {}
 
 def recuperar_fragmentos(pregunta: str, n_resultados: int = 5, game_slug: str = "dnd"):
     try:
-        coll = _get_collection(game_slug)
-        resultados = coll.query(query_texts=[pregunta], n_results=n_resultados)
-        documentos = resultados["documents"][0] if resultados["documents"] else []
-        metadatos = resultados["metadatas"][0] if resultados["metadatas"] else []
-        return documentos, metadatos
+        query_vec = _embed_text(pregunta)
+        db = SessionLocal()
+        try:
+            rows = db.execute(
+                text("""
+                    SELECT content, filename, chunk_id
+                    FROM document_chunks
+                    WHERE game_slug = :slug
+                    ORDER BY embedding <=> :query_vec
+                    LIMIT :n
+                """),
+                {"slug": game_slug, "query_vec": str(query_vec), "n": n_resultados},
+            ).fetchall()
+            documentos = [r.content for r in rows]
+            metadatos = [{"filename": r.filename, "chunk_id": r.chunk_id} for r in rows]
+            return documentos, metadatos
+        finally:
+            db.close()
     except Exception:
         return [], []
 

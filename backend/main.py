@@ -17,6 +17,11 @@ def _init_db_and_seed():
     import models.combate  # noqa: F401
     import models.hechizo  # noqa: F401
     import models.objeto  # noqa: F401
+    import models.documento  # noqa: F401
+    from sqlalchemy import text
+    with engine.connect() as conn:
+        conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector"))
+        conn.commit()
     Base.metadata.create_all(bind=engine)
     from models.usuario import UsuarioDB
     db = SessionLocal()

@@ -1,12 +1,10 @@
 import os
 import hashlib
-import chromadb
-from chromadb.utils import embedding_functions
+from database import SessionLocal
+from models.documento import DocumentoChunk
+from sqlalchemy import text
 
-PERSIST_DIR = "./chroma_db"
 GAMES_DIR = "games"
-
-chroma_client = chromadb.PersistentClient(path=PERSIST_DIR)
 
 
 def chunk_text(texto, size=500):
@@ -28,49 +26,83 @@ def hash_texto(texto):
     return hashlib.md5(texto.encode()).hexdigest()
 
 
+_embedder = None
+
+
+def _get_embedder():
+    global _embedder
+    if _embedder is None:
+        from fastembed import TextEmbedding
+        _embedder = TextEmbedding(model_name="all-MiniLM-L6-v2")
+    return _embedder
+
+
+def _embed_texts(textos: list[str]) -> list[list[float]]:
+    return [list(e) for e in _get_embedder().embed(textos)]
+
+
 def ingestar_game(slug: str):
-    """Ingest docs from games/{slug}/docs/*.txt into ChromaDB collection doc_{slug}."""
+    """Ingest docs from games/{slug}/docs/*.txt into pgvector (document_chunks)."""
     docs_dir = os.path.join(GAMES_DIR, slug, "docs")
     if not os.path.isdir(docs_dir):
         print(f"  -> No docs dir for {slug}, skipping")
         return
 
-    collection = chroma_client.get_or_create_collection(
-        name=f"doc_{slug}",
-        embedding_function=embedding_functions.DefaultEmbeddingFunction(),
-    )
+    db = SessionLocal()
+    try:
+        documentos = []
+        for filename in sorted(os.listdir(docs_dir)):
+            if filename.endswith(".txt") and not filename.startswith("processing"):
+                filepath = os.path.join(docs_dir, filename)
+                with open(filepath, "r", encoding="utf-8") as f:
+                    contenido = f.read()
+                    documentos.append((filename, contenido))
+                print(f"    -> {filename}")
 
-    documentos = []
-    for filename in sorted(os.listdir(docs_dir)):
-        if filename.endswith(".txt") and not filename.startswith("processing"):
-            filepath = os.path.join(docs_dir, filename)
-            with open(filepath, "r", encoding="utf-8") as f:
-                contenido = f.read()
-                documentos.append((filename, contenido))
-            print(f"    -> {filename}")
+        print(f"  Indexing {len(documentos)} documents for [{slug}]...")
+        total_chunks = 0
+        new_chunks = []
+        for filename, contenido in documentos:
+            chunks = chunk_text(contenido)
+            for i, chunk_text in enumerate(chunks):
+                chunk_id = f"{slug}_{filename}_chunk_{i}"
+                h = hash_texto(chunk_text)
 
-    print(f"  Indexing {len(documentos)} documents for [{slug}]...")
-    total_chunks = 0
-    for filename, contenido in documentos:
-        chunks = chunk_text(contenido)
-        for i, chunk in enumerate(chunks):
-            chunk_id = f"{slug}_{filename}_chunk_{i}"
-            h = hash_texto(chunk)
+                existing = db.query(DocumentoChunk).filter(
+                    DocumentoChunk.chunk_id == chunk_id
+                ).first()
+                if existing:
+                    if existing.hash == h:
+                        continue
+                    else:
+                        db.delete(existing)
 
-            existente = collection.get(ids=[chunk_id])
-            if existente["ids"]:
-                if existente["metadatas"][0].get("hash") == h:
-                    continue
-                else:
-                    collection.delete(ids=[chunk_id])
+                new_chunks.append({
+                    "chunk_id": chunk_id,
+                    "game_slug": slug,
+                    "filename": filename,
+                    "content": chunk_text,
+                    "hash": h,
+                })
+                total_chunks += 1
 
-            collection.add(
-                ids=[chunk_id],
-                documents=[chunk],
-                metadatas=[{"filename": filename, "chunk_id": i, "hash": h, "game_slug": slug}],
-            )
-            total_chunks += 1
-    print(f"  -> {total_chunks} chunks indexed for [{slug}]")
+        if new_chunks:
+            texts = [c["content"] for c in new_chunks]
+            embeddings = _embed_texts(texts)
+            for chunk_data, emb in zip(new_chunks, embeddings):
+                db.add(DocumentoChunk(
+                    chunk_id=chunk_data["chunk_id"],
+                    game_slug=chunk_data["game_slug"],
+                    filename=chunk_data["filename"],
+                    content=chunk_data["content"],
+                    hash=chunk_data["hash"],
+                    embedding=emb,
+                ))
+            db.commit()
+
+        print(f"  -> {total_chunks} chunks indexed for [{slug}]")
+    finally:
+        db.close()
 
 
 def ingestar_todo():

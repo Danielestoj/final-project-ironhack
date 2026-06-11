@@ -10,11 +10,23 @@ from fastapi.testclient import TestClient
 from database import engine, Base
 from sqlalchemy import text
 
-# Ensure fresh schema for hechizos/objetos (column type may have changed)
+# Try to register vector extension (may not be available locally)
+vector_available = False
 with engine.connect() as conn:
+    try:
+        conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector"))
+        conn.commit()
+        vector_available = True
+    except Exception:
+        conn.rollback()
     conn.execute(text("DROP TABLE IF EXISTS hechizos CASCADE"))
     conn.execute(text("DROP TABLE IF EXISTS objetos CASCADE"))
+    if vector_available:
+        conn.execute(text("DROP TABLE IF EXISTS document_chunks CASCADE"))
     conn.commit()
+
+if vector_available:
+    import models.documento  # noqa: F401
 Base.metadata.create_all(bind=engine)
 
 from seed_db import seed_all

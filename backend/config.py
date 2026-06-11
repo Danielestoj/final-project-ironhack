@@ -12,10 +12,12 @@ class Settings(BaseSettings):
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60
     CORS_ORIGINS: list[str] = ["http://localhost:5173", "http://localhost:3000"]
-    LLM_MODEL: str = "qwen2.5-vl-3b-instruct"
-    LLM_BASE_URL: str = "http://localhost:1234/v1"
-    LLM_API_KEY: str = "lm-studio"
     ALLOWED_ORIGINS: str = "http://localhost:5173"
+
+    # LLM — Groq (compatible con OpenAI)
+    LLM_MODEL: str = "llama-3.3-70b-versatile"
+    LLM_BASE_URL: str = "https://api.groq.com/openai/v1"
+    LLM_API_KEY: str = ""
 
     model_config = SettingsConfigDict(
         env_file=".env",
