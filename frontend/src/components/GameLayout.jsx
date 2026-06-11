@@ -2,6 +2,11 @@ import { useEffect } from "react";
 import { Outlet, useParams, useNavigate, useLocation } from "react-router-dom";
 import { useGames } from "../context/GameContext";
 
+const EXTRA_NAV = [
+  { path: "encuentros", icono: "⚔", label: "Encuentros" },
+  { path: "combate", icono: "⚡", label: "Combate" },
+];
+
 export function GameLayout() {
   const { slug } = useParams();
   const { games, selectGame, currentGame, clearGame } = useGames();
@@ -20,13 +25,26 @@ export function GameLayout() {
 
   if (!currentGame) return null;
 
+  const isActive = (path) => location.pathname === `/games/${slug}/${path}`;
+
   return (
     <div className="game-layout">
       <nav className="game-nav">
         {currentGame.nav.map((item) => (
           <button
             key={item.path}
-            className={`game-nav-btn ${location.pathname === `/games/${slug}/${item.path}` ? "active" : ""}`}
+            className={`game-nav-btn ${isActive(item.path) ? "active" : ""}`}
+            onClick={() => navigate(`/games/${slug}/${item.path}`)}
+          >
+            <span className="game-nav-icon">{item.icono}</span>
+            {item.label}
+          </button>
+        ))}
+        <div className="game-nav-separator" />
+        {EXTRA_NAV.map((item) => (
+          <button
+            key={item.path}
+            className={`game-nav-btn ${isActive(item.path) ? "active" : ""}`}
             onClick={() => navigate(`/games/${slug}/${item.path}`)}
           >
             <span className="game-nav-icon">{item.icono}</span>

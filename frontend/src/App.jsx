@@ -9,6 +9,7 @@ import { RegisterPage } from "./pages/RegisterPage";
 import { ChatPage } from "./pages/ChatPage";
 import { HechizosPage } from "./pages/HechizosPage";
 import { PersonajesPage } from "./pages/PersonajesPage";
+import { FichaPersonajePage } from "./pages/FichaPersonajePage";
 import { PerfilPage } from "./pages/PerfilPage";
 import { GamesPage } from "./pages/GamesPage";
 import { AddGamePage } from "./pages/AddGamePage";
@@ -18,6 +19,8 @@ import { RazasPage } from "./pages/RazasPage";
 import { EnemigosPage } from "./pages/EnemigosPage";
 import { ObjetosPage } from "./pages/ObjetosPage";
 import { MetricsPage } from "./pages/MetricsPage";
+import { EncuentrosPage } from "./pages/EncuentrosPage";
+import { InitiativeTracker } from "./components/InitiativeTracker";
 
 export default function App() {
   return (
@@ -38,11 +41,14 @@ export default function App() {
                   <Route path="chat" element={<ChatPage />} />
                   <Route path="hechizos" element={<HechizosPage />} />
                   <Route path="personajes" element={<PersonajesPage />} />
+                  <Route path="personajes/:id" element={<FichaPersonajePage />} />
                   <Route path="condiciones" element={<CondicionesPage />} />
                   <Route path="clases" element={<ClasesPage />} />
                   <Route path="razas" element={<RazasPage />} />
                   <Route path="enemigos" element={<EnemigosPage />} />
                   <Route path="objetos" element={<ObjetosPage />} />
+                  <Route path="encuentros" element={<EncuentrosPage />} />
+                  <Route path="combate" element={<InitiativeTracker />} />
                   <Route path="perfil" element={<PerfilPage />} />
                 </Route>
                 <Route path="*" element={<Navigate to="/games" replace />} />

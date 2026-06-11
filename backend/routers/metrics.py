@@ -41,6 +41,11 @@ def track_search(data: SearchEvent, user: dict = Depends(get_current_user)):
     return {"ok": True}
 
 
+@router.get("/dice-last-10")
+def get_dice_rolls(user: dict = Depends(get_current_user)):
+    return {"rolls": metrics_service.get_recent_dice_rolls(10)}
+
+
 @router.get("/dashboard")
 def get_dashboard(user: dict = Depends(get_current_user)):
     if user.rol != "admin":

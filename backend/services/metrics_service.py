@@ -12,6 +12,7 @@ class MetricsService:
         self.spell_views = Counter()
         self.chat_queries = []
         self.searches = []
+        self.dice_rolls = []
         self.game_activity = defaultdict(lambda: {"spell_views": 0, "chat_queries": 0, "searches": 0})
 
     def track_spell_view(self, nombre: str, game_slug: str = "dnd"):
@@ -34,6 +35,20 @@ class MetricsService:
         })
         self.game_activity[game_slug]["searches"] += 1
 
+    def track_dice_roll(self, formula: str, resultados: list, total: int, usuario: str = ""):
+        self.dice_rolls.append({
+            "formula": formula,
+            "resultados": resultados,
+            "total": total,
+            "usuario": usuario,
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+        })
+        if len(self.dice_rolls) > 100:
+            self.dice_rolls = self.dice_rolls[-100:]
+
+    def get_recent_dice_rolls(self, n: int = 10):
+        return self.dice_rolls[-n:][::-1]
+
     def get_dashboard(self) -> dict:
         top_spells = self.spell_views.most_common(20)
         recent_chat = self.chat_queries[-50:][::-1]
@@ -48,8 +63,10 @@ class MetricsService:
             "top_spells": [{"nombre": n, "visitas": c} for n, c in top_spells],
             "total_chat_queries": len(self.chat_queries),
             "total_searches": len(self.searches),
+            "total_dice_rolls": len(self.dice_rolls),
             "recent_chat": recent_chat,
             "recent_searches": recent_searches,
+            "recent_dice_rolls": self.get_recent_dice_rolls(10),
             "top_search_terms": [{"termino": t, "count": c} for t, c in search_q_counter.most_common(10)],
             "game_activity": dict(self.game_activity),
         }
@@ -59,6 +76,7 @@ class MetricsService:
             "spell_views": dict(self.spell_views),
             "chat_queries": self.chat_queries,
             "searches": self.searches,
+            "dice_rolls": self.dice_rolls,
             "game_activity": dict(self.game_activity),
             "saved_at": datetime.now(timezone.utc).isoformat(),
         }

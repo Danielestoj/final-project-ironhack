@@ -14,6 +14,9 @@ from passlib.context import CryptContext
 def _init_db_and_seed():
     import models.personaje  # noqa: F401 — register model for Base
     import models.usuario  # noqa: F401
+    import models.combate  # noqa: F401
+    import models.hechizo  # noqa: F401
+    import models.objeto  # noqa: F401
     Base.metadata.create_all(bind=engine)
     from models.usuario import UsuarioDB
     db = SessionLocal()
@@ -27,6 +30,8 @@ def _init_db_and_seed():
             db.commit()
     finally:
         db.close()
+    from seed_db import seed_all
+    seed_all()
 
 
 @asynccontextmanager
@@ -47,6 +52,8 @@ from routers import enemigos as enemigos_router
 from routers import objetos as objetos_router
 from routers import sync as sync_router
 from routers import games as games_router
+from routers import encuentros as encuentros_router
+from routers import combate as combate_router
 from routers import cleanup as cleanup_router
 from routers import metrics as metrics_router
 
@@ -113,6 +120,8 @@ app.include_router(sync_router.router)
 app.include_router(games_router.router)
 app.include_router(cleanup_router.router)
 app.include_router(metrics_router.router)
+app.include_router(encuentros_router.router)
+app.include_router(combate_router.router)
 
 
 @app.get("/")

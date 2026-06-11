@@ -8,7 +8,13 @@ export function HechizosPage() {
   const [q, setQ] = useState("");
   const [nivel, setNivel] = useState("");
   const [escuela, setEscuela] = useState("");
+  const [clase, setClase] = useState("");
   const [selected, setSelected] = useState(null);
+
+  const CLASES_LIST = [
+    "Bárbaro", "Bardo", "Brujo", "Clérigo", "Druida", "Explorador",
+    "Guerrero", "Hechicero", "Mago", "Monje", "Paladín", "Pícaro",
+  ];
 
   const fetchHechizos = async () => {
     setLoading(true);
@@ -18,6 +24,7 @@ export function HechizosPage() {
       if (q) params.q = q;
       if (nivel !== "") params.nivel = parseInt(nivel);
       if (escuela) params.escuela = escuela;
+      if (clase) params.clase = clase;
       const res = await client.get("/hechizos/", { params });
       setHechizos(res.data);
     } catch (err) {
@@ -32,7 +39,7 @@ export function HechizosPage() {
   const handleSearch = (e) => {
     e.preventDefault();
     fetchHechizos();
-    client.post("/api/metrics/search", { q, nivel, escuela, game_slug: "dnd" }).catch(() => {});
+    client.post("/api/metrics/search", { q, nivel, escuela, clase, game_slug: "dnd" }).catch(() => {});
   };
 
   const ESCUELAS = [
@@ -66,6 +73,10 @@ export function HechizosPage() {
         <select value={escuela} onChange={(e) => setEscuela(e.target.value)}>
           <option value="">Todas las escuelas</option>
           {ESCUELAS.map(e => <option key={e} value={e}>{e}</option>)}
+        </select>
+        <select value={clase} onChange={(e) => setClase(e.target.value)}>
+          <option value="">Todas las clases</option>
+          {CLASES_LIST.map(c => <option key={c} value={c}>{c}</option>)}
         </select>
         <button type="submit">Buscar</button>
       </form>

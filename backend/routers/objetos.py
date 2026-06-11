@@ -1,44 +1,55 @@
+import json
 from typing import Annotated, Optional
 from fastapi import APIRouter, Depends, Query, HTTPException
+from sqlalchemy.orm import Session
 from auth.jwt import obtener_usuario_actual
 from models.usuario import UsuarioDB
-from .data_loader import cargar_datos
+from models.objeto import ObjetoDB
+from database import get_db
 
 router = APIRouter(prefix="/objetos", tags=["Objetos y Equipo"])
 UsuarioActual = Annotated[UsuarioDB, Depends(obtener_usuario_actual)]
+DbSession = Annotated[Session, Depends(get_db)]
+
+SECCION_LABELS = {
+    "armaduras": "Armaduras",
+    "armas": "Armas",
+    "equipo": "Equipo",
+    "herramientas": "Herramientas",
+    "objetos_magicos": "Objetos Mágicos",
+}
 
 
-def _datos():
-    raw = cargar_datos("objetos_equipo.json")
-    if isinstance(raw, dict):
-        items = []
-        for clave, lista in raw.items():
-            for item in lista:
-                if isinstance(item, dict):
-                    item["seccion"] = clave
-                    items.append(item)
-        return items
-    return raw if isinstance(raw, list) else []
+def _objeto_to_dict(o: ObjetoDB) -> dict:
+    datos = json.loads(o.datos or "{}")
+    return {
+        "id": o.id,
+        "nombre": o.nombre,
+        "seccion": o.seccion,
+        **datos,
+    }
 
 
 @router.get("/")
 def listar_objetos(
     usuario: UsuarioActual,
+    db: DbSession,
     seccion: Optional[str] = None,
     q: Optional[str] = Query(None, min_length=1),
 ):
-    data = _datos()
+    query = db.query(ObjetoDB)
     if seccion:
-        data = [o for o in data if o.get("seccion") == seccion]
+        query = query.filter(ObjetoDB.seccion == seccion)
     if q:
-        ql = q.lower()
-        data = [o for o in data if ql in o.get("nombre", "").lower()]
-    return data
+        ql = f"%{q.lower()}%"
+        query = query.filter(ObjetoDB.nombre.ilike(ql))
+    data = query.order_by(ObjetoDB.nombre).all()
+    return [_objeto_to_dict(o) for o in data]
 
 
-@router.get("/{idx}")
-def obtener_objeto(idx: int, usuario: UsuarioActual):
-    data = _datos()
-    if 0 <= idx < len(data):
-        return data[idx]
-    raise HTTPException(status_code=404, detail="Objeto no encontrado")
+@router.get("/{objeto_id}")
+def obtener_objeto(objeto_id: int, usuario: UsuarioActual, db: DbSession):
+    o = db.query(ObjetoDB).filter(ObjetoDB.id == objeto_id).first()
+    if not o:
+        raise HTTPException(status_code=404, detail="Objeto no encontrado")
+    return _objeto_to_dict(o)

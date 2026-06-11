@@ -82,7 +82,18 @@ def tirar_dado(formula: str) -> str:
             total += mod
         else:
             total -= mod
+        # Track the roll
+        try:
+            from services.metrics_service import metrics_service
+            metrics_service.track_dice_roll(formula, tiradas, total)
+        except Exception:
+            pass
         return f"Resultados: {tiradas} {'+' if match.group(3) == '+' else '-'} {mod} = **{total}**"
+    try:
+        from services.metrics_service import metrics_service
+        metrics_service.track_dice_roll(formula, tiradas, total)
+    except Exception:
+        pass
     return f"Resultados: {tiradas} = **{total}**"
 
 

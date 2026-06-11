@@ -71,7 +71,7 @@ export function ObjetosPage() {
       <form className="search-form" onSubmit={handleSearch}>
         <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Buscar objeto..." />
         <select value={seccion} onChange={(e) => setSeccion(e.target.value)}>
-          <option value="">Todas las secciones</option>
+          <option value="">Todos los tipos</option>
           {Object.entries(LABELS).map(([key, label]) => (
             <option key={key} value={key}>
               {label}
