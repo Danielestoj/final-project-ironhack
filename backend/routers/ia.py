@@ -1,3 +1,4 @@
+import traceback
 from typing import Annotated, Optional
 from fastapi import APIRouter, Depends, HTTPException
 from langchain_core.messages import HumanMessage
@@ -42,7 +43,9 @@ def chat(body: MensajeRequest, usuario: UsuarioActual):
             session_id=body.session_id,
         )
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Error del agente: {str(e)}")
+        tb = traceback.format_exc()
+        print(f"ERROR en chat agent:\n{tb}")
+        raise HTTPException(status_code=500, detail=f"Error del agente: {str(e)}\n{tb}")
 
 
 @router.post("/chat/simple")
