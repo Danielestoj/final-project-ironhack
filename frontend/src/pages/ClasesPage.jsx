@@ -72,6 +72,16 @@ export function ClasesPage() {
     );
   };
 
+  const formatBold = (text) => {
+    const parts = text.split(/(\*\*[^*]+\*\*)/);
+    return parts.map((part, i) => {
+      if (part.startsWith("**") && part.endsWith("**")) {
+        return <strong key={i}>{part.slice(2, -2)}</strong>;
+      }
+      return part;
+    });
+  };
+
   const renderDescripcion = (text) => {
     if (!text) return null;
     const rawLines = text.split("\n");
@@ -93,9 +103,9 @@ export function ClasesPage() {
     return (
       <div className="class-desc-full">
         {blocks.map((b, i) => {
-          if (b.type === "header") return <p key={i} className="desc-header"><strong>{b.lines[0]}</strong></p>;
-          if (b.type === "bullet") return <p key={i} className="desc-bullet">{b.lines[0]}</p>;
-          return <p key={i} className="desc-text">{b.lines.map((l, j) => <span key={j}>{l}{j < b.lines.length - 1 ? <br/> : null}</span>)}</p>;
+          if (b.type === "header") return <p key={i} className="desc-header"><strong>{formatBold(b.lines[0])}</strong></p>;
+          if (b.type === "bullet") return <p key={i} className="desc-bullet">{formatBold(b.lines[0])}</p>;
+          return <p key={i} className="desc-text">{b.lines.map((l, j) => <span key={j}>{formatBold(l)}{j < b.lines.length - 1 ? <br/> : null}</span>)}</p>;
         })}
       </div>
     );
