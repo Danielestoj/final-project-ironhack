@@ -9,7 +9,7 @@ UsuarioActual = Annotated[UsuarioDB, Depends(obtener_usuario_actual)]
 
 
 def _datos():
-    return cargar_datos("clases.json")
+    return cargar_datos("clases_razas.json")
 
 
 @router.get("/")

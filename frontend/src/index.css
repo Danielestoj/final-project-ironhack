@@ -142,6 +142,12 @@ body {
 .desc-header strong { color: var(--text-h); font-size: 1rem; }
 .desc-bullet { padding-left: 20px; text-indent: -12px; margin-top: 4px !important; }
 
+.class-table-section { margin-top: 16px; }
+.class-table-wrapper { overflow-x: auto; }
+.class-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.class-table th, .class-table td { border: 1px solid var(--border); padding: 4px 8px; text-align: left; white-space: nowrap; }
+.class-table th { background: var(--bg-hover); color: var(--text-h); font-weight: 600; }
+
 .modal-content h2 { color: var(--text-h); margin: 0 0 4px; font-size: 1.4rem; }
 .modal-content .hechizo-meta { margin-bottom: 12px; }
 .modal-content .hechizo-detail { margin-top: 0; }

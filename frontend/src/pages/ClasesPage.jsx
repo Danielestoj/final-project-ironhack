@@ -51,6 +51,27 @@ export function ClasesPage() {
     );
   };
 
+  const renderTabla = (tabla) => {
+    if (!tabla?.columnas || !tabla?.filas) return null;
+    return (
+      <div className="class-table-section">
+        <h3 className="desc-section-title">Tabla de progresión</h3>
+        <div className="class-table-wrapper">
+          <table className="class-table">
+            <thead>
+              <tr>{tabla.columnas.map((col, i) => <th key={i}>{col}</th>)}</tr>
+            </thead>
+            <tbody>
+              {tabla.filas.map((fila, i) => (
+                <tr key={i}>{fila.map((celda, j) => <td key={j}>{celda}</td>)}</tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    );
+  };
+
   const renderDescripcion = (text) => {
     if (!text) return null;
     const rawLines = text.split("\n");
@@ -110,6 +131,7 @@ export function ClasesPage() {
               {selected.armadura && <p><strong>Armadura:</strong> {selected.armadura}</p>}
               {selected.armas && <p><strong>Armas:</strong> {selected.armas}</p>}
               {selected.equipo && <p><strong>Equipo inicial:</strong> {selected.equipo}</p>}
+              {renderTabla(selected.tabla)}
               <div className="desc-section">
                 <h3 className="desc-section-title">Descripción</h3>
                 {renderDescripcion(selected.descripcion)}
