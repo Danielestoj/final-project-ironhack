@@ -145,8 +145,9 @@ body {
 .class-table-section { margin-top: 16px; }
 .class-table-wrapper { overflow-x: auto; }
 .class-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-.class-table th, .class-table td { border: 1px solid var(--border); padding: 4px 8px; text-align: left; white-space: nowrap; }
-.class-table th { background: var(--bg-hover); color: var(--text-h); font-weight: 600; }
+.class-table th, .class-table td { border: 1px solid var(--border); padding: 3px 6px; text-align: left; }
+.class-table th { background: var(--bg-hover); color: var(--text-h); font-weight: 600; white-space: normal; word-break: break-word; }
+.class-table td { white-space: nowrap; }
 
 .modal-content h2 { color: var(--text-h); margin: 0 0 4px; font-size: 1.4rem; }
 .modal-content .hechizo-meta { margin-bottom: 12px; }
