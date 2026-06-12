@@ -1,0 +1,132 @@
+{
+  "name": "D&D Event Workflow (Local)",
+  "nodes": [
+    {
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [250, 300],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "dnd-event",
+        "options": {}
+      }
+    },
+    {
+      "name": "IF",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [450, 300],
+      "parameters": {
+        "conditions": {
+          "string": [
+            {
+              "value1": "={{ $json.tipo }}",
+              "operation": "equal",
+              "value2": "personaje_creado"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Log Personaje",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 1,
+      "position": [650, 200],
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "evento",
+              "value": "personaje_creado"
+            },
+            {
+              "name": "usuario_email",
+              "value": "={{ $json.usuario_email }}"
+            },
+            {
+              "name": "personaje_nombre",
+              "value": "={{ $json.personaje_nombre }}"
+            },
+            {
+              "name": "clase",
+              "value": "={{ $json.clase }}"
+            },
+            {
+              "name": "nivel",
+              "value": "={{ $json.nivel }}"
+            },
+            {
+              "name": "timestamp",
+              "value": "={{ $json.timestamp }}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Log Hechizo",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 1,
+      "position": [650, 400],
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "evento",
+              "value": "hechizo_favorito"
+            },
+            {
+              "name": "usuario_email",
+              "value": "={{ $json.usuario_email }}"
+            },
+            {
+              "name": "hechizo_nombre",
+              "value": "={{ $json.hechizo_nombre }}"
+            },
+            {
+              "name": "escuela",
+              "value": "={{ $json.escuela }}"
+            },
+            {
+              "name": "timestamp",
+              "value": "={{ $json.timestamp }}"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "IF",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "IF": {
+      "main": [
+        [
+          {
+            "node": "Log Personaje",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Log Hechizo",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

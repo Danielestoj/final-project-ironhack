@@ -1,5 +1,5 @@
 {
-  "name": "D&D Data Cleanup",
+  "name": "D&D Data Cleanup (Local)",
   "nodes": [
     {
       "id": "manual-trigger",
@@ -30,7 +30,7 @@
       "typeVersion": 4.2,
       "position": [460, 300],
       "parameters": {
-        "url": "https://lively-clarity-production-2458.up.railway.app/api/data/cleanup",
+        "url": "http://127.0.0.1:8000/api/data/cleanup",
         "method": "POST",
         "sendBody": false,
         "options": {}

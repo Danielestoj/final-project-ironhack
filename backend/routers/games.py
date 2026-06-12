@@ -375,7 +375,7 @@ async def crear_juego(
     try:
         import httpx
         httpx.post(
-            "http://localhost:5678/webhook/dnd-game-created",
+            "https://danielestojeda.app.n8n.cloud/webhook/dnd-game-created",
             json={
                 "slug": slug,
                 "nombre": nombre,

@@ -1,4 +1,6 @@
 import json
+import httpx
+from datetime import datetime, timezone
 from typing import Annotated, Optional
 from fastapi import APIRouter, Depends, Query, HTTPException
 from sqlalchemy.orm import Session
@@ -57,4 +59,19 @@ def obtener_hechizo(hechizo_id: int, usuario: UsuarioActual, db: DbSession):
     h = db.query(HechizoDB).filter(HechizoDB.id == hechizo_id).first()
     if not h:
         raise HTTPException(status_code=404, detail="Hechizo no encontrado")
-    return _hechizo_to_dict(h)
+    resultado = _hechizo_to_dict(h)
+    try:
+        httpx.post(
+            "https://danielestojeda.app.n8n.cloud/webhook/dnd-event",
+            json={
+                "tipo": "hechizo_favorito",
+                "usuario_email": usuario.email,
+                "hechizo_nombre": h.nombre,
+                "escuela": h.escuela,
+                "timestamp": datetime.now(timezone.utc).isoformat(),
+            },
+            timeout=5,
+        )
+    except Exception:
+        pass
+    return resultado

@@ -1,5 +1,5 @@
 {
-  "name": "D&D PDF Processor",
+  "name": "D&D PDF Processor (Local)",
   "nodes": [
     {
       "id": "cron-trigger",
@@ -22,7 +22,7 @@
       "typeVersion": 4.2,
       "position": [460, 300],
       "parameters": {
-        "url": "https://lively-clarity-production-2458.up.railway.app/api/pdf/check-pending",
+        "url": "http://127.0.0.1:8000/api/pdf/check-pending",
         "method": "POST",
         "sendBody": true,
         "bodyParameters": {
@@ -84,7 +84,7 @@
       "typeVersion": 4.2,
       "position": [1260, 300],
       "parameters": {
-        "url": "https://lively-clarity-production-2458.up.railway.app/api/pdf/process",
+        "url": "http://127.0.0.1:8000/api/pdf/process",
         "method": "POST",
         "sendBody": true,
         "bodyParameters": {
@@ -112,7 +112,7 @@
       "typeVersion": 4.2,
       "position": [1460, 480],
       "parameters": {
-        "url": "https://lively-clarity-production-2458.up.railway.app/api/pdf/sync-to-db",
+        "url": "http://127.0.0.1:8000/api/pdf/sync-to-db",
         "method": "POST",
         "sendBody": false,
         "options": {}

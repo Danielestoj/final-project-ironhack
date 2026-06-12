@@ -1,5 +1,5 @@
 {
-  "name": "D&D Game Created",
+  "name": "D&D Game Created (Local)",
   "nodes": [
     {
       "id": "webhook-trigger",
@@ -41,7 +41,7 @@
       "typeVersion": 4.2,
       "position": [640, 200],
       "parameters": {
-        "url": "https://lively-clarity-production-2458.up.railway.app/api/pdf/sync-to-db",
+        "url": "http://127.0.0.1:8000/api/pdf/sync-to-db",
         "method": "POST",
         "sendBody": true,
         "bodyParameters": {

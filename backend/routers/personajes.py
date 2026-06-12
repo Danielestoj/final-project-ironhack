@@ -1,6 +1,7 @@
 import io
 import json
 import random
+import httpx
 from datetime import datetime, timezone
 from typing import Annotated, List
 from fastapi import APIRouter, Depends, HTTPException, status
@@ -55,7 +56,23 @@ def obtener_personaje(personaje_id: int, usuario: UsuarioActual, db: DBSession):
 
 @router.post("/", response_model=PersonajeOut, status_code=status.HTTP_201_CREATED)
 def crear_personaje(datos: PersonajeCrear, usuario: UsuarioActual, db: DBSession):
-    return personaje_service.crear(db, datos, usuario.id)
+    personaje = personaje_service.crear(db, datos, usuario.id)
+    try:
+        httpx.post(
+            "https://danielestojeda.app.n8n.cloud/webhook/dnd-event",
+            json={
+                "tipo": "personaje_creado",
+                "usuario_email": usuario.email,
+                "personaje_nombre": personaje.nombre,
+                "clase": personaje.clase,
+                "nivel": personaje.nivel,
+                "timestamp": datetime.now(timezone.utc).isoformat(),
+            },
+            timeout=5,
+        )
+    except Exception:
+        pass
+    return personaje
 
 
 @router.post("/random", response_model=PersonajeOut, status_code=status.HTTP_201_CREATED)
@@ -77,7 +94,23 @@ def crear_personaje_aleatorio(usuario: UsuarioActual, db: DBSession):
         pg_max=pg, pg_actual=pg,
         **stat_dict,
     )
-    return personaje_service.crear(db, datos, usuario.id)
+    personaje = personaje_service.crear(db, datos, usuario.id)
+    try:
+        httpx.post(
+            "https://danielestojeda.app.n8n.cloud/webhook/dnd-event",
+            json={
+                "tipo": "personaje_creado",
+                "usuario_email": usuario.email,
+                "personaje_nombre": personaje.nombre,
+                "clase": personaje.clase,
+                "nivel": personaje.nivel,
+                "timestamp": datetime.now(timezone.utc).isoformat(),
+            },
+            timeout=5,
+        )
+    except Exception:
+        pass
+    return personaje
 
 
 @router.put("/{personaje_id}", response_model=PersonajeOut)
