@@ -95,7 +95,7 @@ export function ClasesPage() {
         {blocks.map((b, i) => {
           if (b.type === "header") return <p key={i} className="desc-header"><strong>{b.lines[0]}</strong></p>;
           if (b.type === "bullet") return <p key={i} className="desc-bullet">{b.lines[0]}</p>;
-          return <p key={i} className="desc-text">{b.lines.join(" ")}</p>;
+          return <p key={i} className="desc-text">{b.lines.map((l, j) => <span key={j}>{l}{j < b.lines.length - 1 ? <br/> : null}</span>)}</p>;
         })}
       </div>
     );
