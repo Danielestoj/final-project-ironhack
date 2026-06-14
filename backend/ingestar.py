@@ -64,9 +64,9 @@ def ingestar_game(slug: str):
         new_chunks = []
         for filename, contenido in documentos:
             chunks = chunk_text(contenido)
-            for i, chunk_text in enumerate(chunks):
+            for i, ct in enumerate(chunks):
                 chunk_id = f"{slug}_{filename}_chunk_{i}"
-                h = hash_texto(chunk_text)
+                h = hash_texto(ct)
 
                 existing = db.query(DocumentoChunk).filter(
                     DocumentoChunk.chunk_id == chunk_id
@@ -81,7 +81,7 @@ def ingestar_game(slug: str):
                     "chunk_id": chunk_id,
                     "game_slug": slug,
                     "filename": filename,
-                    "content": chunk_text,
+                    "content": ct,
                     "hash": h,
                 })
                 total_chunks += 1

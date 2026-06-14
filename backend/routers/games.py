@@ -364,12 +364,14 @@ async def crear_juego(
 
     (game_dir / "config.json").write_text(json.dumps(nuevo, indent=2, ensure_ascii=False), encoding="utf-8")
 
-    # ── Indexar en ChromaDB (colección específica del juego) ──
+    # ── Indexar en pgvector (colección específica del juego) ──
     try:
         from ingestar import ingestar_game
         ingestar_game(slug)
     except Exception as exc:
-        print(f"[N8N] Error indexando ChromaDB para {slug}: {exc}")
+        import traceback
+        print(f"[ERROR] ingestar_game({slug}): {exc}")
+        traceback.print_exc()
 
     # ── Notificar a N8N ──
     try:
@@ -388,6 +390,20 @@ async def crear_juego(
         pass  # N8N no crítico
 
     return nuevo
+
+
+@router.post("/{slug}/reindex")
+def reindex_game(slug: str, usuario: UsuarioDB = Depends(obtener_usuario_actual)):
+    if usuario.rol != "admin":
+        raise HTTPException(status_code=403, detail="Solo administradores pueden reindexar juegos")
+    from ingestar import ingestar_game
+    try:
+        ingestar_game(slug)
+        return {"ok": True, "mensaje": f"Juego '{slug}' reindexado correctamente"}
+    except Exception as exc:
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=f"Error al reindexar: {exc}")
 
 
 @router.delete("/{slug}")
