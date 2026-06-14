@@ -348,7 +348,7 @@ async def crear_juego(
             manuales = []
     except json.JSONDecodeError:
         manuales = []
-    categorias_final = list(dict.fromkeys(detectadas + manuales))
+    categorias_final = manuales
     nav = _generar_nav(categorias_final)
 
     nuevo = {

@@ -81,7 +81,7 @@ export function AddGamePage() {
         headers: { "Content-Type": "multipart/form-data" },
       });
       await fetchGames();
-      selectGame(res.data.slug);
+      selectGame(res.data.slug, res.data);
       navigate(`/games/${res.data.slug}/chat`);
     } catch (err) {
       setError(err.response?.data?.detail || "Error al crear el juego");

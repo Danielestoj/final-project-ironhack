@@ -20,7 +20,11 @@ export function GameProvider({ children }) {
     }
   }, []);
 
-  const selectGame = useCallback((slug) => {
+  const selectGame = useCallback((slug, gameData) => {
+    if (gameData) {
+      setCurrentGame(gameData);
+      return gameData;
+    }
     const game = games.find((g) => g.slug === slug);
     if (game) setCurrentGame(game);
     return game;
